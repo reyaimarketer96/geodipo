@@ -115,18 +115,22 @@ def process_item(engine: GeodipoRAGEngine, item: dict) -> bool:
     slug = item["slug"]
     title = item["title"]
 
-    # 1. Fetch current content
+    # 1. Fetch current content with retry
     tool_get = "wp_get_post" if item_type == "post" else "wp_get_page"
     arg_get = {"post_id": item_id} if item_type == "post" else {"page_id": item_id}
     
-    data = call_mcp_tool(tool_get, arg_get)
-    if not data or not isinstance(data, dict):
-        logger.error(f"Failed to fetch {item_type} ID {item_id} ({slug})")
-        return False
+    data = None
+    content = ""
+    for attempt in range(3):
+        data = call_mcp_tool(tool_get, arg_get)
+        if data and isinstance(data, dict):
+            content = data.get("content", "")
+            if content:
+                break
+        time.sleep(1.5 * (attempt + 1))
 
-    content = data.get("content", "")
     if not content:
-        logger.warning(f"Empty content in {item_type} ID {item_id} ({slug})")
+        logger.warning(f"Empty content in {item_type} ID {item_id} ({slug}) after 3 attempts")
         return False
 
     # 2. Check if already enriched

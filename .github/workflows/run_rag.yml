@@ -33,6 +33,6 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action Cloud Deployer"
-          git add checkpoint.json worker.log
+          git add -f checkpoint.json
           git commit -m "Auto: Update RAG deployment checkpoint [skip ci]" || echo "No changes to commit"
           git push
