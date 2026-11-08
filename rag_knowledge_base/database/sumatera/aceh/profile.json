@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Pantai dan Lembah Krueng Aceh [Qa] yang diapit Patahan Aktif Sesar Besar Sumatera (Sesar Seulimeum).",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Banda Aceh."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Aceh."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Lepas Jenuh Air (Zona Tsunami Purba)",
+        "8 - 25 kg/cm²",
+        "2 - 6",
+        "Sangat rawan likuifaksi gempa bumi; dilarang fondasi telapak"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Aluvial Krueng Aceh",
+        "35 - 75 kg/cm²",
+        "8 - 18",
+        "Tiang strauss pile / mini pile ruko niaga & gedung kampus USK"
+      ],
+      [
+        "12 - 20 m",
+        "Pasir Kasar Berkerikil Kuarsa Padat Terkompaksi",
+        "110 - 200 kg/cm²",
+        "20 - 35",
+        "Tiang pancang spun pile rumah sakit & hotel"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras & Konglomerat Formasi Seulimeum",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile Pelabuhan Ulee Lheue & jembatan"
+      ]
+    ],
+    "hazard": "Percepatan puncak gempa (PGA) tinggi jalur subduksi megathrust Aceh dan risiko likuifaksi pesisir Meuraxa."
+  }
+}

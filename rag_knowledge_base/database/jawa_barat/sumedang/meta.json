@@ -1,0 +1,13 @@
+{
+  "region_id": "sumedang",
+  "name": "Kabupaten Sumedang",
+  "province": "Jawa Barat",
+  "cat_esdm": "CAT Sumedang (CAT Jawa Barat)",
+  "bbws": "BBWS Citarum & Ciliwung Cisadane / Balai ESDM Jawa Barat",
+  "geological_sheet": "Peta Geologi Lembar Sumedang Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

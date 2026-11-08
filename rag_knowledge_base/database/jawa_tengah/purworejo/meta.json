@@ -1,0 +1,13 @@
+{
+  "region_id": "purworejo",
+  "name": "Wilayah Purworejo",
+  "province": "Jawa Tengah",
+  "cat_esdm": "CAT Purworejo (CAT Jawa Tengah)",
+  "bbws": "BBWS Pemali Juana & Bengawan Solo / Balai ESDM Jawa Tengah",
+  "geological_sheet": "Peta Geologi Lembar Purworejo Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Gunungapi Gamalama [Qvg] di Ternate dan Kompleks Ofiolit Ultrabasa Penghasil Nikel Laterit di Weda Bay/Obi.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Ternate & Halmahera (Weda Bay / IWIP)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Maluku Utara."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Tanah Merah Laterit Limonit Residu Nikel (Weda Bay)",
+        "16 - 38 kg/cm²",
+        "3 - 8",
+        "Perbaikan tanah dasar timbunan padat untuk jalan angkut berat"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lempung Saprolit Berfragmen Serpentinit Padat Sedang",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Tiang pancang mini pile workshop smelter & mess karyawan"
+      ],
+      [
+        "10 - 18 m",
+        "Batuan Serpentinit Keras Terkekarkan Rapat",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tumpuan tiang spun pile rotary kiln electric furnace (RKEF) smelter IWIP"
+      ],
+      [
+        "> 18 m",
+        "Batuan Beku Peridotit Masif Utuh Segar",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50 (Rock)",
+        "Hard bearing stratum tiang bor pile PLTU captive batubara & dermaga curah IWIP"
+      ]
+    ],
+    "hazard": "Beban dinamis ekstrem mesin smelter nikel dan letusan abu vulkanik aktif Gunung Gamalama di Ternate."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Pantai dan Delta Sungai Cimanuk [Qa] (lempung marin sangat tebal) dan Formasi Citalang di selatan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Indramayu (Kilang Balongan)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lempung Marin Lunak Jenuh Air (Muka Air Tanah 0.8 m)",
+        "6 - 20 kg/cm²",
+        "1 - 5",
+        "Dilarang keras fondasi telapak dangkal tanpa perbaikan tanah"
+      ],
+      [
+        "4.5 - 16 m",
+        "Lempung Lanauan Sangat Lunak Kelabu Gelap",
+        "12 - 30 kg/cm²",
+        "2 - 7",
+        "Rentan penurunan konsolidasi diferensial di bawah tangki BBM"
+      ],
+      [
+        "16 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm²",
+        "14 - 28",
+        "Memberikan friksi selimut tiang pancang spun pile"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Keras & Lempung Kompak Formasi Citalang",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang pipa baja kilang Pertamina Balongan"
+      ]
+    ],
+    "hazard": "Banjir rob pasang surut air laut dan tanah lempung marin super lunak yang sangat kompresibel."
+  }
+}

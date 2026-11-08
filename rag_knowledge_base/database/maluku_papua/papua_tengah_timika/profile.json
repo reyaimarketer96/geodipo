@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Glasiofluvial & Aluvium Pantai Dataran Rendah Mimika [Qa] bersumber dari erosi Pegunungan Tengah Cartenz.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 12 m",
+      "water_quality": "Sangat melimpah, air tawar permukaan tinggi, rentan keasaman tanah gambut rawa."
+    },
+    "aquifer_confined": {
+      "depth": "45 - 95 m",
+      "lithology": "Kerikil kuarsaan kasar dan batupasir konglomeratik berpermeabilitas sangat tinggi",
+      "recommended_casing": "Pipa PVC AW Heavy Duty 6 - 8 inch dengan screen 1.5 mm, gravel pack 2-4 mm.",
+      "safe_yield": "15 - 35 Liter/detik",
+      "sipa_advice": "Potensi debit air tanah tertinggi di Indonesia timur; izin melalui Dinas ESDM Papua Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lapukan Lanau Lempungan Permukaan",
+        "15 - 40 kg/cm²",
+        "3 - 8",
+        "Footplate rumah 1-2 lantai"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang",
+        "45 - 90 kg/cm²",
+        "10 - 20",
+        "Mini pile / strauss pile ruko"
+      ],
+      [
+        "12 - 20 m",
+        "Pasir Padat Berselingan Tuf",
+        "120 - 220 kg/cm²",
+        "25 - 40",
+        "Tiang pancang spun pile gudang & pabrik"
+      ],
+      [
+        "> 20 m",
+        "Lapisan Batuan Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Hard bearing stratum bor pile"
+      ]
+    ],
+    "hazard": "Potensi fluktuasi muka air tanah musiman dan penurunan konsolidasi lempung pada beban dinamis."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Pitap [Kup] dan Formasi Tanjung [Tet] berselingan aluvium pesisir Selat Laut dan endapan delta rawa.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Tanah Bumbu (Batulicin)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Selatan."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lumpur Lempung Pesisir Pasang Surut Lunak",
+        "6 - 20 kg/cm²",
+        "1 - 5",
+        "Dilarang fondasi telapak tanpa perbaikan tanah"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran dan Lempung Kaku Sedang",
+        "30 - 70 kg/cm²",
+        "7 - 16",
+        "Memberikan daya dukung friksi tiang pancang mini pile"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras Formasi Tanjung",
+        "130 - 230 kg/cm²",
+        "24 - 38",
+        "Tumpuan tiang spun pile pabrik kelapa sawit & gudang pelabuhan"
+      ],
+      [
+        "> 20 m",
+        "Batuan Sedimen Keras Masif Formasi Pitap",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 42",
+        "Hard bearing stratum tiang pipa baja jetty dermaga batubara Batulicin"
+      ]
+    ],
+    "hazard": "Penurunan diferensial pelat lantai pelabuhan di atas lempung lunak dan abrasi pantai Satui."
+  }
+}

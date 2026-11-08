@@ -1,0 +1,16 @@
+{
+  "region_id": "batang",
+  "name": "Kabupaten Batang",
+  "province": "Jawa Tengah",
+  "cat_esdm": "CAT Pekalongan - Pemalang (Kawasan Terpadu Batang)",
+  "bbws": "BBWS Pemali Juana & Citanduy/Pekalongan",
+  "geological_sheet": "Lembar Pekalongan (1409-1) Skala 1:100.000 (Candi dkk., 1996)",
+  "coordinates": {
+    "lat": -6.9145,
+    "lng": 109.7314
+  },
+  "industrial_zones": [
+    "Kawasan Industri Terpadu Batang (KITB / Grand Batang City)",
+    "Kawasan Industri Kendal - Batang Corridor"
+  ]
+}

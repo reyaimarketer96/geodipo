@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Vulkanik Kuarter Gunung Panderman dan Arjuno [Qpva] berupa breksi andesit keras dan tufa pasiran lereng.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Batu."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 2.5 m",
+        "Tanah Humus Vulkanik & Lempung Lanauan Pasiran",
+        "18 - 40 kg/cm²",
+        "4 - 8",
+        "Footplate vila di lahan datar"
+      ],
+      [
+        "2.5 - 7 m",
+        "Pasir Lanauan Berfragmen Batu Andesit Lepas",
+        "50 - 100 kg/cm²",
+        "12 - 22",
+        "Mikropile penahan vila lereng tebing"
+      ],
+      [
+        "7 - 14 m",
+        "Breksi Laharik Padat Keras",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tiang pancang hotel resor bintang lima"
+      ],
+      [
+        "> 14 m",
+        "Batuan Lava Andesit Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile penahan tebing jurang"
+      ]
+    ],
+    "hazard": "Kelongsoran lereng terjal perbukitan saat curah hujan ekstrem dan gempa vulkanik lokal."
+  }
+}

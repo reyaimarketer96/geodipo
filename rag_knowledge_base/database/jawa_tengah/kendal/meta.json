@@ -1,0 +1,15 @@
+{
+  "region_id": "kendal",
+  "name": "Kabupaten Kendal",
+  "province": "Jawa Tengah",
+  "cat_esdm": "CAT Semarang - Demak & CAT Pekalongan",
+  "bbws": "BBWS Pemali Juana",
+  "geological_sheet": "Lembar Magelang & Semarang (1408-5 & 1409-2)",
+  "coordinates": {
+    "lat": -6.9242,
+    "lng": 110.2039
+  },
+  "industrial_zones": [
+    "Kawasan Industri Kendal (KIK / Park by the Bay)"
+  ]
+}

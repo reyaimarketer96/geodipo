@@ -1,0 +1,19 @@
+{
+  "region_id": "karawang",
+  "name": "Kabupaten Karawang",
+  "sources_count": 1,
+  "sources": [
+    {
+      "title": "Evaluasi Geologi Teknik dan Daya Dukung Tanah untuk Kawasan Industri Otomotif Karawang Barat",
+      "authors": "Kurniawan, D., & Setiadi, A.",
+      "year": 2021,
+      "publication": "Jurnal Konstruksi dan Infrastruktur Terpadu, Vol. 8(3)",
+      "institution": "Teknik Geologi Universitas Padjadjaran (UNPAD)",
+      "key_findings": [
+        "Lapisan lempung lunak aluvium 0-6 m memiliki qc = 15-35 kg/cm²; tanah keras qc >= 250 kg/cm² berada pada kedalaman 14-20 m.",
+        "Akuifer dalam pada kedalaman 85-130 m memiliki debit jenis 2.2 L/dtk/m dan DHL air tawar 350-550 µS/cm."
+      ],
+      "citation": "Kurniawan, D., & Setiadi, A. (2021). J. Konstr. Infras. Terpadu, 8(3)."
+    }
+  ]
+}

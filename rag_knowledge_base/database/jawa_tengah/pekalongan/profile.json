@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Dataran Rendah Pantai Utara [Qa] (endapan lempung marin) dan Formasi Damar serta Vulkanik Rogojembangan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Pekalongan."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Sangat Lunak Jenuh Air (Zona Rob Pesisir)",
+        "5 - 18 kg/cm²",
+        "1 - 4",
+        "Dilarang fondasi telapak di Pekalongan Utara; wajib cerucuk/tiang"
+      ],
+      [
+        "4 - 15 m",
+        "Lempung Marin Lunak Kelabu Tua (Soft Clay)",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Rentan amblas dan penurunan muka tanah (land subsidence) tinggi"
+      ],
+      [
+        "15 - 24 m",
+        "Lanau Pasiran Padat Sedang Transisi",
+        "55 - 120 kg/cm²",
+        "14 - 26",
+        "Zona friksi tiang pancang spun pile pabrik tekstil/batik"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Konglomeratan Keras Formasi Damar",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile ruko & gudang logistik"
+      ]
+    ],
+    "hazard": "Penurunan muka tanah (land subsidence) hingga belasan cm/tahun dan banjir rob kronis di pesisir utara."
+  }
+}

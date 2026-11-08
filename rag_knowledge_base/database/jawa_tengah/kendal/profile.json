@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Damar [QTd], Formasi Kaligetas [Qpkg], dan Aluvium Endapan Delta Sungai Bodri [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 18 m",
+      "water_quality": "Payau di pesisir Kaliwungu dan Brangsong, tawar di Weleri dan Sukorejo."
+    },
+    "aquifer_confined": {
+      "depth": "65 - 120 m",
+      "lithology": "Batupasir tufaan Formasi Damar dan konglomerat fluviatil",
+      "recommended_casing": "Pipa PVC AW / Baja 6 - 8 inch, screen 1.5 mm interval 70-85 m dan 95-115 m.",
+      "safe_yield": "10 - 20 Liter/detik",
+      "sipa_advice": "Wajib kajian hidrogeologi detail untuk debit > 100 m³/hari di Kawasan Industri Kendal (KIK)."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Lunak & Pasir Reklamasi KIK",
+        "8 - 25 kg/cm²",
+        "2 - 6",
+        "Preloading timbunan & perbaikan tanah dasar"
+      ],
+      [
+        "4 - 15 m",
+        "Lempung Marin Lunak Kelabu Tua (Soft Clay)",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Rentan penurunan konsolidasi diferensial"
+      ],
+      [
+        "15 - 22 m",
+        "Lanau Pasiran Padat Sedang Transisi",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Zona friksi tiang pancang pabrik manufaktur KIK"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Konglomeratan Keras Formasi Damar",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Konsolidasi timbunan reklamasi pantai KIK dan penurunan muka tanah pesisir Kaliwungu."
+  }
+}

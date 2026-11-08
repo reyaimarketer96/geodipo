@@ -1,0 +1,13 @@
+{
+  "region_id": "ikn_nusantara",
+  "name": "Wilayah Ikn Nusantara",
+  "province": "Kalimantan",
+  "cat_esdm": "CAT Ikn Nusantara (CAT Kalimantan)",
+  "bbws": "BWS Kalimantan / Balai ESDM Wilayah Kalimantan",
+  "geological_sheet": "Peta Geologi Lembar Ikn Nusantara Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

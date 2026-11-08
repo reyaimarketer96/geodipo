@@ -1,0 +1,15 @@
+{
+  "region_id": "tuban",
+  "name": "Kabupaten Tuban (Kilang & Semen)",
+  "province": "Jawa Timur",
+  "cat_esdm": "CAT Tuban (CAT Jawa Timur)",
+  "bbws": "BBWS Brantas & Bengawan Solo / Dinas ESDM Jawa Timur",
+  "geological_sheet": "Peta Geologi Lembar Tuban Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "tuban"
+  ]
+}

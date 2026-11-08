@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Balikpapan [Tmbp] dan Endapan Pantai Selat Makassar [Qa] berselingan batuan sedimen berfasies klastika halus.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Bontang."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Pasir Pantai Lepas & Lempung Rawa Pasang Surut",
+        "10 - 25 kg/cm²",
+        "2 - 6",
+        "Perbaikan tanah dasar timbunan padat bergeotekstil"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "45 - 90 kg/cm²",
+        "10 - 20",
+        "Tiang pancang mini pile pergudangan & bengkel pabrik"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tumpuan tiang spun pile pabrik amonia/urea Pupuk Kaltim"
+      ],
+      [
+        "> 18 m",
+        "Batupasir Masif Rapat Keras Formasi Balikpapan",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Bearing stratum tiang bor pile tangki LNG cryogenic & dermaga kapal"
+      ]
+    ],
+    "hazard": "Korosi sulfat/air asin tinggi di pesisir pabrik pupuk dan getaran mesin kompresor industri petrokimia."
+  }
+}

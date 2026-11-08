@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Paciran [Tpp] (batugamping karstik Pegunungan Kendeng Utara) dan Aluvium Fluvial Lembah Juwana [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Pati & Rembang."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Rawa Lembah Juwana Lunak Jenuh Air",
+        "6 - 20 kg/cm²",
+        "1 - 5",
+        "Rentan banjir luapan; wajib tiang pancang mini pile / cerucuk"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "35 - 75 kg/cm²",
+        "8 - 18",
+        "Tiang mini pile ruko niaga Pati & bengkel galangan kapal Juwana"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Gampingan Padat Keras Formasi Ngrayong",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tiang pancang spun pile gudang perikanan & pabrik kacang"
+      ],
+      [
+        "> 20 m",
+        "Batugamping Masif Keras Formasi Paciran",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile silo pabrik semen Gunem Rembang"
+      ]
+    ],
+    "hazard": "Banjir berkepanjangan Sungai Juwana saat musim hujan dan rekahan rongga karst di Gunem Rembang."
+  }
+}

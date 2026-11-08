@@ -1,0 +1,13 @@
+{
+  "region_id": "tarakan",
+  "name": "Kota Tarakan & Bulungan (KIPI Tanah Kuning)",
+  "province": "Kalimantan Utara",
+  "cat_esdm": "CAT Tarakan (CAT Kalimantan)",
+  "bbws": "BWS Kalimantan / Balai ESDM Wilayah Kalimantan",
+  "geological_sheet": "Peta Geologi Lembar Tarakan Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

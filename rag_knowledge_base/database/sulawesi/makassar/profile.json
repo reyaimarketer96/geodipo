@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Dataran Rendah Pesisir Selat Makassar [Qa] dan Batuan Gunungapi Formasi Camba [Tmc] (breksi, tufa, lava andesit).",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Makassar."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Sulawesi Selatan."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Pasang Surut Lunak & Pasir Reklamasi MNP",
+        "8 - 24 kg/cm²",
+        "2 - 6",
+        "Dilarang fondasi telapak di pesisir; butuh perbaikan tanah dasar"
+      ],
+      [
+        "4 - 12 m",
+        "Tuf Pasiran Padat Sedang & Lanau Kaku",
+        "40 - 85 kg/cm²",
+        "9 - 18",
+        "Tiang pancang mini pile workshop KIMA Daya & ruko Panakkukang"
+      ],
+      [
+        "12 - 20 m",
+        "Breksi Vulkanik Padat & Konglomerat Formasi Camba",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tiang pancang spun pile pergudangan logistik & rumah sakit"
+      ],
+      [
+        "> 20 m",
+        "Batuan Lava Andesit Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile dermaga peti kemas Makassar New Port"
+      ]
+    ],
+    "hazard": "Sedimentasi lumpur lunak pesisir pantai dan pasang air laut di utara kawasan pelabuhan."
+  }
+}

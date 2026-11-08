@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Balikpapan [Tmbp] (batupasir kuarsa, batulanau, lempung serpih/clay shale) dan Aluvium Teluk Balikpapan di Kariangau.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Balikpapan."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Pasiran Terlapuk Tebal",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Footplate rumah tinggal di lahan berkontur datar"
+      ],
+      [
+        "3.5 - 9 m",
+        "Lanau Lempungan Kaku dengan Sisipan Serpih Clay Shale",
+        "45 - 90 kg/cm²",
+        "10 - 20",
+        "Tiang strauss pile ruko niaga Sudirman & perumahan"
+      ],
+      [
+        "9 - 17 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras Formasi Balikpapan",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tiang pancang spun pile pabrik manufaktur Kariangau"
+      ],
+      [
+        "> 17 m",
+        "Batupasir Kuarsa Masif Sangat Rapat Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile dermaga peti kemas KIK & RDMP kilang Pertamina"
+      ]
+    ],
+    "hazard": "Perilaku clay shale yang melunak jika terkena air dan lereng bukit curam rawan longsor di Balikpapan Kota."
+  }
+}

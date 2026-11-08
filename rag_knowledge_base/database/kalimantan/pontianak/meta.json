@@ -1,0 +1,13 @@
+{
+  "region_id": "pontianak",
+  "name": "Kota Pontianak",
+  "province": "Kalimantan Barat",
+  "cat_esdm": "CAT Pontianak (CAT Kalimantan)",
+  "bbws": "BWS Kalimantan / Balai ESDM Wilayah Kalimantan",
+  "geological_sheet": "Peta Geologi Lembar Pontianak Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

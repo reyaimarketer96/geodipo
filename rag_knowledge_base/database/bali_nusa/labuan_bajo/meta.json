@@ -1,0 +1,13 @@
+{
+  "region_id": "labuan_bajo",
+  "name": "Kabupaten Manggarai Barat (Labuan Bajo)",
+  "province": "Nusa Tenggara Timur",
+  "cat_esdm": "CAT Labuan Bajo (CAT Kepulauan Sunda Kecil)",
+  "bbws": "BWS Bali-Penida / BWS Nusa Tenggara",
+  "geological_sheet": "Peta Geologi Lembar Labuan Bajo Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

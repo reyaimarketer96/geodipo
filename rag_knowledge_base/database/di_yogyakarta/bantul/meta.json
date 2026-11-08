@@ -1,0 +1,13 @@
+{
+  "region_id": "bantul",
+  "name": "Wilayah Bantul",
+  "province": "Di Yogyakarta",
+  "cat_esdm": "CAT Bantul (CAT Yogyakarta)",
+  "bbws": "BBWS Serayu Opak / Balai Geologi Air Tanah ESDM",
+  "geological_sheet": "Peta Geologi Lembar Bantul Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

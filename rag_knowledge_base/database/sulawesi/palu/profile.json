@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Kipas dan Dataran Fluvial Lembah Palu [Qa] tepat di atas zona patahan aktif mendatar Sesar Palu-Koro.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Palu."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Sulawesi Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Berlanau Lepas Jenuh Air (Muka Air Tanah 1-2 m)",
+        "10 - 28 kg/cm²",
+        "2 - 6",
+        "Sangat rawan likuifaksi gempa bumi; wajib mitigasi geoteknik"
+      ],
+      [
+        "4 - 12 m",
+        "Kerikil Pasiran Padat Sedang Kipas Aluvial",
+        "45 - 95 kg/cm²",
+        "10 - 20",
+        "Tiang pancang mini pile struktur rumah tahan gempa"
+      ],
+      [
+        "12 - 20 m",
+        "Konglomerat Kasar Padat & Pasir Kasar",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tumpuan tiang spun pile ruko komersial & jembatan Palu IV"
+      ],
+      [
+        "> 20 m",
+        "Batuan Dasar Metamorfik Keras Kompleks Palu",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile hotel & pelabuhan Pantoloan"
+      ]
+    ],
+    "hazard": "Risiko likuifaksi masif akibat gempa patahan Sesar Palu-Koro dan gelombang tsunami Teluk Palu."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Pesisir Selat Malaka dan Rawa Pasang Surut Sungai Asahan [Qa] serta Formasi Kualuh.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Asahan & Tanjungbalai."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Sumatera Utara."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lumpur Lempung Lunak Sangat Lembek & Gambut Pesisir",
+        "4 - 16 kg/cm²",
+        "1 - 4",
+        "Dilarang fondasi telapak; wajib cerucuk galam / mini pile"
+      ],
+      [
+        "4.5 - 14 m",
+        "Lempung Marin Kelabu Gelap Konsolidasi Tinggi",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Penurunan konsolidasi tebal & gaya seret negatif"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat Sedang Transisi Kualuh",
+        "60 - 130 kg/cm²",
+        "14 - 28",
+        "Zona friksi tiang spun pile ruko Kisaran & pabrik sawit"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Kuarsa Padat Keras Formasi Kualuh",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile Pelabuhan Teluk Nibung"
+      ]
+    ],
+    "hazard": "Banjir pasang rob air laut di Tanjungbalai dan daya dukung tanah sangat rendah di pesisir Asahan."
+  }
+}

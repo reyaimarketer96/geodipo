@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Serpong [Tpss] (konglomerat aneka bahan dan batupasir tufan padat) serta aluvium limpasan Sungai Cisadane dan Kali Angke.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Tangerang Selatan."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Banten."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Residual)",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Dangkal footplate rumah 1-2 lantai"
+      ],
+      [
+        "3 - 9 m",
+        "Tuf Pasiran Padat Sedang & Lanau Berbatuapung",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Strauss pile / mini pile ruko komersial"
+      ],
+      [
+        "9 - 16 m",
+        "Konglomerat Kuarsa & Batupasir Padat Formasi Serpong",
+        "≥ 200 - 250 kg/cm²",
+        "≥ 32 - 45",
+        "Tumpuan tiang pancang spun pile gedung 4-8 lantai"
+      ],
+      [
+        "> 16 m",
+        "Konglomerat Masif Tersementasi Kuat",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50",
+        "Hard bearing stratum tiang bor pile apartemen & jembatan"
+      ]
+    ],
+    "hazard": "Kembang susut tanah lanau tufan pada area timbunan baru dan erosi tebing bantaran kali."
+  }
+}

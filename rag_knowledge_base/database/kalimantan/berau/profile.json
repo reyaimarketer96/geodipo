@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Latih [Tml] (pembawa batubara), Formasi Domaring (batugamping terumbu), dan Aluvium Sungai Segah/Kelay.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Berau."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Aluvial Lunak & Lumpur Pasang Surut",
+        "8 - 22 kg/cm²",
+        "2 - 5",
+        "Cerucuk galam matras / tiang mini pile perumahan"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Kaku Sedang & Batulempung Lapuk",
+        "35 - 75 kg/cm²",
+        "8 - 18",
+        "Zona friksi tiang pancang ruko Tanjung Redeb"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Keras & Konglomerat Formasi Latih",
+        "140 - 230 kg/cm²",
+        "24 - 38",
+        "Tumpuan tiang spun pile stockpile tambang batubara"
+      ],
+      [
+        "> 20 m",
+        "Batuan Karbonat Masif Formasi Domaring / Batupasir Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 42",
+        "Bearing stratum tiang bor pile dermaga ponton batubara & resor"
+      ]
+    ],
+    "hazard": "Gonggongan air pasang di bantaran Sungai Segah dan rongga pelarutan karst di Maratua/Derawan."
+  }
+}

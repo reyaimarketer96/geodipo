@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Piroklastik Kompleks Gunungapi Krakatau [Qvk] dan Rawa Pantai Ciwandan bersentuhan Batuan Beku Basal Pinang.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Cilegon."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Banten."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lumpur Lempung Pasang Surut Lunak & Pasir Reklamasi Pesisir",
+        "8 - 22 kg/cm²",
+        "2 - 5",
+        "Perbaikan tanah dasar timbunan sirtu padat bergeotekstil"
+      ],
+      [
+        "4 - 12 m",
+        "Tuf Pasiran Padat Sedang & Lanau Gampingan",
+        "45 - 90 kg/cm²",
+        "10 - 20",
+        "Tiang pancang mini pile workshop pabrik kimia/baja"
+      ],
+      [
+        "12 - 20 m",
+        "Breksi Vulkanik Padat & Batupasir Keras",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tumpuan tiang spun pile pabrik peleburan baja & tangki kimia"
+      ],
+      [
+        "> 20 m",
+        "Batuan Basal / Andesit Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang pipa baja dermaga laut Pelabuhan Cigading"
+      ]
+    ],
+    "hazard": "Beban dinamis mesin industri berat pabrik baja/petrokimia dan korosi air laut Selat Sunda."
+  }
+}

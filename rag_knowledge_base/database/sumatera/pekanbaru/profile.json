@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Minas [Qpm] (batupasir kuarsa, kerikil) dan Formasi Telisa serta endapan rawa Sungai Siak.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Pekanbaru."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Riau."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Residu)",
+        "18 - 40 kg/cm²",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3.5 - 9 m",
+        "Pasir Lanauan Kuarsa Padat Sedang & Lanau",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Tiang strauss pile ruko niaga Sudirman & perumahan"
+      ],
+      [
+        "9 - 17 m",
+        "Batupasir Kuarsa Padat Formasi Minas",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tiang pancang spun pile pabrik industri Tenayan Raya"
+      ],
+      [
+        "> 17 m",
+        "Batupasir Keras Masif Tersemen Kuat",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile jembatan Siak IV & PLTU Tenayan"
+      ]
+    ],
+    "hazard": "Lempung rawa lunak jenuh air di bantaran Sungai Siak dan penurunan pelat lantai di kawasan Tenayan Raya."
+  }
+}

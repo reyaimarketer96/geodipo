@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Dataran Pantai [Qa], Formasi Kaliwangu [Tmpk], dan Formasi Subang [Tms].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 15 m",
+      "water_quality": "Dipengaruhi salinitas di pesisir utara (Rengasdengklok, Cilamaya), tawar di Telukjambe dan Klari."
+    },
+    "aquifer_confined": {
+      "depth": "75 - 145 m",
+      "lithology": "Batupasir tufaan berselingan konglomerat Formasi Kaliwangu",
+      "recommended_casing": "Pipa Baja Karbon SCH 40 / PVC AW 6 - 8 inch, screen 1.5 mm interval 80-100 m dan 120-135 m.",
+      "safe_yield": "12 - 25 Liter/detik",
+      "sipa_advice": "Wajib kajian pemodelan hidrogeologi untuk deep well kawasan industri KIIC dan Suryacipta."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu Berplastisitas Sangat Tinggi",
+        "10 - 25 kg/cm²",
+        "2 - 6",
+        "Dilarang fondasi telapak di kawasan industri; wajib spun pile"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Lempungan Kaku Sedang",
+        "30 - 70 kg/cm²",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang pabrik KIIC"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Tufan Padat & Kerikil Kuarsa",
+        "120 - 220 kg/cm²",
+        "22 - 36",
+        "Tumpuan tiang pancang spun pile pabrik perakitan mobil"
+      ],
+      [
+        "> 20 m",
+        "Batulempung Keras Kompak Formasi Subang",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Penurunan diferensial pelat lantai gudang bentang lebar dan banjir luapan Sungai Citarum."
+  }
+}

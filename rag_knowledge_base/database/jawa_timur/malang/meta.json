@@ -1,0 +1,13 @@
+{
+  "region_id": "malang",
+  "name": "Kota & Kabupaten Malang",
+  "province": "Jawa Timur",
+  "cat_esdm": "CAT Malang (CAT Jawa Timur)",
+  "bbws": "BBWS Brantas & Bengawan Solo / Dinas ESDM Jawa Timur",
+  "geological_sheet": "Peta Geologi Lembar Malang Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

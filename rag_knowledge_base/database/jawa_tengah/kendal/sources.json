@@ -1,0 +1,19 @@
+{
+  "region_id": "kendal",
+  "name": "Kabupaten Kendal",
+  "sources_count": 1,
+  "sources": [
+    {
+      "title": "Evaluasi Daya Dukung Fondasi Spun Pile Kawasan Industri Kendal Berdasarkan Sondir CPTu dan SPT",
+      "authors": "Wicaksono, B., & Utomo, R.",
+      "year": 2021,
+      "publication": "Media Rekayasa Sipil, Vol. 19(2)",
+      "institution": "Fakultas Teknik Universitas Negeri Semarang",
+      "key_findings": [
+        "Lapisan lempung lanauan lunak aluvium Bodri memiliki ketebalan 8-14 m (qc 10-30 kg/cm²).",
+        "Hard layer tercapai pada kedalaman 18-24 m pada lapisan pasir tufaan padat (qc > 250 kg/cm², N-SPT > 40)."
+      ],
+      "citation": "Wicaksono, B., & Utomo, R. (2021). Media Rekayasa Sipil, 19(2)."
+    }
+  ]
+}

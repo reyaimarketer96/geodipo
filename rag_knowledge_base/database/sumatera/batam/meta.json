@@ -1,0 +1,15 @@
+{
+  "region_id": "batam",
+  "name": "Kota Batam",
+  "province": "Kepulauan Riau",
+  "cat_esdm": "CAT Batam (CAT Sumatera)",
+  "bbws": "BWS Sumatera / Balai Geologi Sumber Daya Air Sumatera",
+  "geological_sheet": "Peta Geologi Lembar Batam Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "batamindo-batam"
+  ]
+}

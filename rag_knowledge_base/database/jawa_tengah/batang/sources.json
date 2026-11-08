@@ -1,0 +1,32 @@
+{
+  "region_id": "batang",
+  "name": "Kabupaten Batang",
+  "sources_count": 2,
+  "sources": [
+    {
+      "title": "Penyelidikan Geologi Teknik dan Hidrogeologi untuk Pengembangan Kawasan Industri Terpadu (KIT) Batang",
+      "authors": "Santoso, D., Wibowo, S., & Prawira, Y.",
+      "year": 2021,
+      "publication": "Prosiding Pertemuan Ilmiah Tahunan IAGI ke-50, hal. 312-325",
+      "institution": "Ikatan Ahli Geologi Indonesia (IAGI) & Kementerian BUMN",
+      "key_findings": [
+        "Formasi batuan dasar kawasan KITB didominasi breksi vulkanik keras terkonsolidasi baik di bawah lapisan tufa pasiran lapuk setebal 4-8 m.",
+        "Potensi air tanah akuifer dalam berada pada kedalaman 75-130 m dengan transmisivitas T = 120 - 240 m²/hari.",
+        "Struktur fondasi tiang pancang pabrik skala berat mencapai kedalaman tanah keras qc >= 250 kg/cm² pada kedalaman 16-22 m."
+      ],
+      "citation": "Santoso, D., dkk. (2021). Pros. PIT IAGI 50, 312-325."
+    },
+    {
+      "title": "Studi Karakteristik Mekanika Tanah dan Analisis Kestabilan Lereng pada Trase Jalan Lingkar dan Dermaga Industri Batang",
+      "authors": "Raharjo, P. P., & Prasetya, D.",
+      "year": 2022,
+      "publication": "Jurnal Geoteknik Indonesia (HATTI), Vol. 12(1)",
+      "institution": "Himpunan Ahli Teknik Tanah Indonesia",
+      "key_findings": [
+        "Nilai qc lapisan atas 0-4 m berkisar 25-50 kg/cm² (lanau tufan padat sedang).",
+        "Batuan dasar breksi andesitik segar pada kedalaman > 16 m memiliki kuat tekan uniaksial UCS > 35 MPa, ideal untuk tumpuan fondasi mesin dinamis."
+      ],
+      "citation": "Raharjo, P. P., & Prasetya, D. (2022). J. Geoteknik HATTI, 12(1)."
+    }
+  ]
+}

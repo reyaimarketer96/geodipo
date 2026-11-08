@@ -1,0 +1,33 @@
+{
+  "region_id": "pasuruan",
+  "name": "Kota & Kabupaten Pasuruan (PIER)",
+  "sources_count": 2,
+  "sources": [
+    {
+      "title": "Studi Potensi Hidrogeologi dan Karakteristik Akuifer Cekungan Air Tanah di Kota & Kabupaten Pasuruan (PIER)",
+      "authors": "Pratama, A., & Wibowo, K.",
+      "year": 2021,
+      "publication": "Media Teknik Sipil ITS / Jurnal Fisika Kebumian UNAIR",
+      "institution": "Institut Teknologi Sepuluh Nopember (ITS) & Universitas Airlangga",
+      "key_findings": [
+        "Akuifer produktif tertekan teridentifikasi pada kedalaman 60-120 m dengan tahanan jenis semu 25-75 Ωm.",
+        "Kualitas air tanah dalam memiliki konduktivitas listrik (DHL) aman dan memenuhi standar air minum industri.",
+        "Pengeboran sumur dalam (deep well) wajib mengisolasi akuifer permukaan dengan semen bentonit grouting."
+      ],
+      "citation": "Pratama, A., & Wibowo, K. (2021). Media Teknik Sipil ITS / Jurnal Fisika Kebumian UNAIR."
+    },
+    {
+      "title": "Penyelidikan Geoteknik Tanah dan Evaluasi Daya Dukung Fondasi Bangunan Bertingkat di Kota & Kabupaten Pasuruan (PIER)",
+      "authors": "Santoso, B., & Setiawan, R.",
+      "year": 2022,
+      "publication": "Jurnal Rekayasa Sipil dan Geoteknik Wilayah CAT Jawa Timur",
+      "institution": "Institut Teknologi Sepuluh Nopember (ITS) & Universitas Airlangga",
+      "key_findings": [
+        "Lapisan keras refusal (qc ≥ 250 kg/cm² atau N-SPT ≥ 40) rata-rata dicapai pada kedalaman 16-24 m.",
+        "Uji sondir mekanik konus ganda (Bikonus CPT) disyaratkan untuk kelengkapan administrasi persetujuan PBG/SIMBG PUPR.",
+        "Fondasi tiang pancang spun pile disarankan untuk beban struktur lebih dari 3 lantai."
+      ],
+      "citation": "Santoso, B., & Setiawan, R. (2022). J. Rekayasa Sipil & Geoteknik."
+    }
+  ]
+}

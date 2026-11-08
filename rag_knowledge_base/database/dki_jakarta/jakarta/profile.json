@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Dataran Pantai Jakarta [Qa] di utara (lempung marin sangat tebal) dan Kipas Aluvium Vulkanik [Qav] di selatan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di DKI Jakarta."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah DKI Jakarta."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu Jenuh Air (Pesisir Utara)",
+        "8 - 22 kg/cm²",
+        "2 - 5",
+        "Dilarang fondasi telapak dangkal tanpa perbaikan tanah"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Marin Sangat Lunak (Very Soft Clay)",
+        "12 - 32 kg/cm²",
+        "2 - 7",
+        "Rentan penurunan konsolidasi diferensial jangka panjang"
+      ],
+      [
+        "14 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm²",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile gedung komersial"
+      ],
+      [
+        "> 24 m",
+        "Konglomerat Kuarsa Keras / Batupasir Masif Rapat",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 42",
+        "Hard bearing stratum tiang bore pile gedung pencakar langit"
+      ]
+    ],
+    "hazard": "Penurunan muka tanah (land subsidence) akibat ekstraksi air tanah dan lempung marin tebal di Jakarta Utara."
+  }
+}

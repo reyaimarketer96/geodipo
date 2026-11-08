@@ -1,0 +1,13 @@
+{
+  "region_id": "banjarmasin",
+  "name": "Kota Banjarmasin",
+  "province": "Kalimantan Selatan",
+  "cat_esdm": "CAT Banjarmasin (CAT Kalimantan)",
+  "bbws": "BWS Kalimantan / Balai ESDM Wilayah Kalimantan",
+  "geological_sheet": "Peta Geologi Lembar Banjarmasin Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

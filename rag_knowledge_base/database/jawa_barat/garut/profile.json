@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Produk Gunungapi Guntur-Papandayan [Qvg] (tufa, lahar, breksi andesit) dan Endapan Danau Purba Garut.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Garut."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Subur (Topsoil Vulkanik)",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berbatuapung Padat Sedang",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Strauss pile hotel resor Cipanas & ruko perkotaan"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile pabrik industri sepatu/kulit Leles"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif / Breksi Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan & fasilitas geotermal Kamojang"
+      ]
+    ],
+    "hazard": "Banjir bandang luapan Sungai Cimanuk dan aliran lahar aktif lereng Gunung Guntur."
+  }
+}

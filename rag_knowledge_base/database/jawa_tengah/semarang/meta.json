@@ -1,0 +1,19 @@
+{
+  "region_id": "semarang",
+  "name": "Kota & Kabupaten Semarang",
+  "province": "Jawa Tengah",
+  "cat_esdm": "CAT Semarang - Demak (No. 26/CAT)",
+  "bbws": "BBWS Pemali Juana",
+  "geological_sheet": "Lembar Magelang & Semarang (1408-5 & 1409-2) Skala 1:100.000 (Thanden dkk., 1996)",
+  "coordinates": {
+    "lat": -6.9932,
+    "lng": 110.4203
+  },
+  "industrial_zones": [
+    "Kawasan Industri Wijayakusuma (KIW) Tugu",
+    "Kawasan Industri Candi (KIC) Ngaliyan",
+    "Bukit Semarang Baru (BSB) Industrial Park Mijen",
+    "Kawasan Industri Terboyo & Genuk",
+    "Kawasan Industri Aviarna Bandara Ahmad Yani"
+  ]
+}

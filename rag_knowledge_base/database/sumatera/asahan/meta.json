@@ -1,0 +1,13 @@
+{
+  "region_id": "asahan",
+  "name": "Kabupaten Asahan & Tanjungbalai",
+  "province": "Sumatera Utara",
+  "cat_esdm": "CAT Asahan (CAT Sumatera)",
+  "bbws": "BWS Sumatera / Balai Geologi Sumber Daya Air Sumatera",
+  "geological_sheet": "Peta Geologi Lembar Asahan Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

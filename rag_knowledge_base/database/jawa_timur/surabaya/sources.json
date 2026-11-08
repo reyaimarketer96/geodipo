@@ -1,0 +1,19 @@
+{
+  "region_id": "surabaya",
+  "name": "Kota Surabaya",
+  "sources_count": 1,
+  "sources": [
+    {
+      "title": "Pemetaan Sebaran Lapisan Lempung Lunak Surabaya Menggunakan Uji Sondir Elektrik CPTu dan SPT",
+      "authors": "Widjaja, M., & Soebowo, E.",
+      "year": 2020,
+      "publication": "Media Teknik Sipil ITS, Vol. 18(2)",
+      "institution": "Departemen Teknik Sipil Institut Teknologi Sepuluh Nopember (ITS)",
+      "key_findings": [
+        "Lapisan lempung lunak delta Brantas memiliki ketebalan 14-22 m (qc 4-18 kg/cm², N-SPT 1-4).",
+        "Penetrasi tiang spun pile gedung komersial wajib mencapai kedalaman > 28 m untuk memperoleh tumpuan end-bearing masif."
+      ],
+      "citation": "Widjaja, M., & Soebowo, E. (2020). Media Tek. Sipil ITS, 18(2)."
+    }
+  ]
+}

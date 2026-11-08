@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Gunungapi Kuarter Gunung Rinjani [Qvr] (breksi, tufa, lahar) dan Formasi Kalipalung serta Pasir Pantai Mandalika.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Mataram & Lombok."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Nusa Tenggara Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Pantai / Topsoil Piroklastik Rinjani",
+        "18 - 40 kg/cm²",
+        "4 - 8",
+        "Wajib perkuatan struktur sloof kaku anti-gempa"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Tufan Berbatuapung Padat Sedang",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Tiang strauss pile ruko Cakranegara & hotel Senggigi"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Keras Rinjani Terkompaksi Kuat",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile resor Mandalika"
+      ],
+      [
+        "> 16 m",
+        "Batuan Lava Andesit Masif Formasi Kalipalung",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile sirkuit & hotel bintang lima"
+      ]
+    ],
+    "hazard": "Aktivitas sesar naik busur belakang Flores (Flores Back Arc Thrust) dengan risiko gempa darat merusak."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "region_id": "banyumas",
+  "name": "Wilayah Banyumas",
+  "province": "Jawa Tengah",
+  "cat_esdm": "CAT Banyumas (CAT Jawa Tengah)",
+  "bbws": "BBWS Pemali Juana & Bengawan Solo / Balai ESDM Jawa Tengah",
+  "geological_sheet": "Peta Geologi Lembar Banyumas Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

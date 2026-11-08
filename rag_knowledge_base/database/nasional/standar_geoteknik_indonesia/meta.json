@@ -1,0 +1,13 @@
+{
+  "region_id": "standar_geoteknik_indonesia",
+  "name": "Wilayah Standar Geoteknik Indonesia",
+  "province": "Nasional",
+  "cat_esdm": "CAT Standar Geoteknik Indonesia (Standar Nasional Indonesia)",
+  "bbws": "Direktorat Air Tanah dan Geologi Lingkungan (PATGTL) Kementerian ESDM",
+  "geological_sheet": "Peta Geologi Lembar Standar Geoteknik Indonesia Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

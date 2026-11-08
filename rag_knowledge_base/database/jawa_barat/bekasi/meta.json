@@ -1,0 +1,20 @@
+{
+  "region_id": "bekasi",
+  "name": "Kota & Kabupaten Bekasi (Cikarang)",
+  "province": "Jawa Barat",
+  "cat_esdm": "CAT Karawang - Bekasi (No. 12/CAT)",
+  "bbws": "BBWS Ciliwung Cisadane & Citarum",
+  "geological_sheet": "Lembar Jakarta (1009-4) Skala 1:100.000 (Turkandi dkk., 1992)",
+  "coordinates": {
+    "lat": -6.2383,
+    "lng": 106.9756
+  },
+  "industrial_zones": [
+    "Kawasan Industri Jababeka (I, II, III, V) Cikarang",
+    "Kawasan Industri MM2100 Cikarang Barat",
+    "East Jakarta Industrial Park (EJIP) Cikarang Selatan",
+    "Greenland International Industrial Center (GIIC) Kota Deltamas",
+    "Delta Silicon Industrial Park (1, 2, 3, 5, 6, 8) Lippo Cikarang",
+    "Marunda Center International Warehouse & Industrial Estate Tarumajaya"
+  ]
+}

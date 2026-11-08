@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Subang [Tms] di selatan dan Aluvium Dataran Pantai Pamanukan/Patimban [Qa] di utara.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Subang (Smartpolitan & Patimban)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lumpur Lempung Marin Pasang Surut / Timbunan Reklamasi (Patimban)",
+        "5 - 18 kg/cm²",
+        "1 - 4",
+        "Preloading timbunan / PVD reklamasi pelabuhan"
+      ],
+      [
+        "4 - 16 m",
+        "Lempung Marin Sangat Lunak Kelabu Gelap",
+        "12 - 32 kg/cm²",
+        "2 - 7",
+        "Rentan penurunan konsolidasi berkepanjangan"
+      ],
+      [
+        "16 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm²",
+        "14 - 28",
+        "Zona friksi selimut tiang spun pile"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Keras & Batulempung Kompak Formasi Subang",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang pancang dermaga Patimban & pabrik Smartpolitan"
+      ]
+    ],
+    "hazard": "Konsolidasi lempung marin lunak di koridor Pelabuhan Patimban dan lempung ekspansif di Cipendeuy."
+  }
+}

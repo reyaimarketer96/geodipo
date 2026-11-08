@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Gunungapi Tersier Flores [Tmv] (breksi andesit, tufa) dan Batugamping Terumbu Koral Pantai serta batuan terobosan granodiorit.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Manggarai Barat (Labuan Bajo)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Nusa Tenggara Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 2.5 m",
+        "Tanah Residu Lempung Berpasir Kerikil Lereng Tebing",
+        "15 - 35 kg/cm²",
+        "3 - 7",
+        "Wajib perkuatan lereng retaining wall pada vila tebing"
+      ],
+      [
+        "2.5 - 7 m",
+        "Breksi Andesit Lapuk Sedang Berfragmen Batu Keras",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Mikropile penahan vila tepi jurang laut Waecicu"
+      ],
+      [
+        "7 - 14 m",
+        "Breksi Vulkanik Padat Terkompaksi Keras",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang spun pile hotel resor bintang lima"
+      ],
+      [
+        "> 14 m",
+        "Batuan Beku Andesit Masif Segar Utuh",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile dermaga kapal pesiar marina & hotel tebing"
+      ]
+    ],
+    "hazard": "Kelongsoran lereng terjal tebing tepi pantai saat hujan lebat dan beban gempa sesar naik busur belakang Flores."
+  }
+}

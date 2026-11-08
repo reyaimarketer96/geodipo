@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Fluvial dan Rawa Gambut Sungai Kahayan [Qa] serta Formasi Kahayan dan batuan terobosan granit Tangkiling.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Palangka Raya."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Rawa Lumpur Gambut Berserat (Peat Soil) Tebal",
+        "2 - 12 kg/cm²",
+        "0 - 3",
+        "Kompaktibilitas sangat tinggi; dilarang fondasi telapak"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Lanauan Lunak Kelabu Gelap",
+        "10 - 28 kg/cm²",
+        "2 - 6",
+        "Rentan gaya seret negatif (negative skin friction) pada tiang"
+      ],
+      [
+        "14 - 24 m",
+        "Pasir Kuarsa Halus hingga Kasar Padat Sedang",
+        "55 - 120 kg/cm²",
+        "14 - 26",
+        "Zona tumpuan tiang pancang spun pile gedung perkantoran"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Padat Masif / Batuan Beku Granit Tangkiling",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile jembatan Kahayan & mall"
+      ]
+    ],
+    "hazard": "Tanah gambut asam yang menyusut hebat saat musim kemarau dan muka air tanah sangat tinggi."
+  }
+}

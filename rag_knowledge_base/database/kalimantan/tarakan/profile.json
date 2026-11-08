@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Tarakan [Tpt] (perselingan batupasir, batulanau, serpih, batubara lignit) dan endapan delta rawa Bulungan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Tarakan & Bulungan (KIPI Tanah Kuning)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Utara."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Lunak & Pasir Reklamasi Pesisir",
+        "8 - 22 kg/cm²",
+        "2 - 5",
+        "Perbaikan tanah dasar timbunan bergeotekstil di KIPI"
+      ],
+      [
+        "4 - 14 m",
+        "Lanau Lempungan Kaku Sedang dengan Sisipan Lignit",
+        "30 - 70 kg/cm²",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang ruko Tarakan"
+      ],
+      [
+        "14 - 22 m",
+        "Batupasir Kuarsa Padat & Batulanau Formasi Tarakan",
+        "120 - 220 kg/cm²",
+        "22 - 36",
+        "Tumpuan tiang pancang mini pile / spun pile pergudangan"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Keras Masif Kompak Rapat",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Bearing stratum tiang spun pile / bore pile smelter aluminium KIPI"
+      ]
+    ],
+    "hazard": "Lapisan batubara muda (lignit) rapuh dan lempung delta laut lunak di kawasan pelabuhan Tanah Kuning."
+  }
+}

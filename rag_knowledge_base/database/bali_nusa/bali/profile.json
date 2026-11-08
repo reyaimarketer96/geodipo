@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Selatan [Tps] (Batugamping terumbu karst Bukit Jimbaran-Uluwatu), Batuan Gunungapi Buyan-Bratan-Batur [Qvbb], dan Aluvium Pantai [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 15 m",
+      "water_quality": "Tawar di dataran Ubud/Tabanan, rawan intrusi laut di Kuta, Canggu, dan Sanur."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 130 m",
+      "lithology": "Breksi vulkanik porous dan lapisan batugamping terumbu kristalin",
+      "recommended_casing": "Pipa PVC AW High Grade / Stainless Steel 6 inch, slot screen 1.0 mm.",
+      "safe_yield": "6 - 15 Liter/detik",
+      "sipa_advice": "Kawasan pariwisata prioritas; pemanfaatan air tanah hotel/resor diatur ketat dengan meteran digital BWS Bali-Penida."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Residu Merah Kapur (Terra Rossa) / Pasir Pantai Halus Canggu",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Wajib perkuatan lereng retaining wall pada vila tebing"
+      ],
+      [
+        "3 - 8 m",
+        "Batugamping Karstik Berongga Pelarutan (Cavities) Bukit / Tuf Vulkanik Padat",
+        "Fluktuatif (60 - 200 kg/cm²)",
+        "14 - 35",
+        "Jebakan rongga karst bawah tanah; butuh coring intan"
+      ],
+      [
+        "8 - 15 m",
+        "Batugamping Terumbu Keras Formasi Selatan / Breksi Vulkanik Keras",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile hotel resor bintang lima"
+      ],
+      [
+        "> 15 m",
+        "Batugamping Kristalin Masif Sangat Keras / Batuan Beku Andesit Segar",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan tebing & hotel resor tebing jurang"
+      ]
+    ],
+    "hazard": "Jebakan rongga karst pelarutan (sinkholes) di tebing Uluwatu/Jimbaran dan likuifaksi pasir jenuh air di pesisir Canggu/Kuta."
+  }
+}

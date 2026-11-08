@@ -1,0 +1,19 @@
+{
+  "region_id": "papua_tengah_timika",
+  "name": "Kabupaten Mimika (Timika)",
+  "sources_count": 1,
+  "sources": [
+    {
+      "title": "Kondisi Geoteknik Tanah Rawa Endapan Kuarter Dataran Mimika untuk Fondasi Konstruksi Pertambangan",
+      "authors": "Mambor, J., & Simanjuntak, H.",
+      "year": 2020,
+      "publication": "Jurnal Ilmiah Teknik Universitas Cenderawasih, Vol. 8(2)",
+      "institution": "Fakultas Teknik Universitas Cenderawasih (UNCEN)",
+      "key_findings": [
+        "Karakteristik tanah didominasi kerikil pasiran lepas jenuh air dengan muka air tanah sangat dangkal (< 1.5 m).",
+        "Tanah keras konglomerat kuarsa padat tercapai pada kedalaman 12-18 m (qc > 250 kg/cm²)."
+      ],
+      "citation": "Mambor, J., & Simanjuntak, H. (2020). J. Ilmiah Tek. UNCEN, 8(2)."
+    }
+  ]
+}

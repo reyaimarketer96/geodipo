@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Vulkanik Muda Gunung Gede [Qvg] bersentuhan dengan jalur aktif patahan tektonik Sesar Cugenang / Cimandiri.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Cianjur."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Tufan (Topsoil Pasca Gempa)",
+        "15 - 35 kg/cm²",
+        "3 - 7",
+        "Wajib perkuatan sloof kaku anti-gempa"
+      ],
+      [
+        "3 - 9 m",
+        "Breksi Laharik Lapuk Sedang & Pasir Tufan",
+        "45 - 95 kg/cm²",
+        "10 - 20",
+        "Tiang strauss pile perumahan & ruko 2-3 lantai"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Andesit Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang mini pile gedung komersial"
+      ],
+      [
+        "> 16 m",
+        "Batuan Lava Andesit Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Tumpuan tiang bore pile gedung bertingkat & jembatan"
+      ]
+    ],
+    "hazard": "Percepatan puncak gempa (PGA) tinggi dekat Sesar Cugenang dan risiko longsor lereng vulkanik Puncak."
+  }
+}

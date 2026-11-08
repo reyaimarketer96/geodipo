@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Kipas Aluvial Vulkanik Muda [Qav] (tufa batuapung, lempung pasiran) dan endapan aluvial Sungai Ciliwung.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Depok."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Tufan)",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Footplate rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Lanauan Tufan Berbatuapung Padat Sedang",
+        "50 - 100 kg/cm²",
+        "12 - 22",
+        "Strauss pile ruko Margonda / kos kampus"
+      ],
+      [
+        "8 - 16 m",
+        "Batupasir Tufan Padat & Kerikil Lahar",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang mini pile apartemen & rumah sakit"
+      ],
+      [
+        "> 16 m",
+        "Konglomerat Tufan Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile / bore pile"
+      ]
+    ],
+    "hazard": "Lereng terjal sempadan Sungai Ciliwung dan lempung kaku yang mudah melunak saat jenuh air."
+  }
+}

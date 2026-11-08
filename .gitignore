@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.venv/
+env/
+venv/
+*.rar
+*.zip
+*.gdb/
+Indo_Geologi/
+Aset_Web_Geodipo/
+screenshots/
+desktop.ini
+audit/raw_all_posts.json
+audit/raw_all_pages.json

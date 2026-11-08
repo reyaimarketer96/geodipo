@@ -1,0 +1,17 @@
+{
+  "region_id": "karawang",
+  "name": "Kabupaten Karawang",
+  "province": "Jawa Barat",
+  "cat_esdm": "CAT Karawang - Bekasi",
+  "bbws": "BBWS Citarum",
+  "geological_sheet": "Lembar Rengasdengklok & Karawang (1109-2 & 1109-5)",
+  "coordinates": {
+    "lat": -6.3074,
+    "lng": 107.3069
+  },
+  "industrial_zones": [
+    "Karawang International Industrial City (KIIC) Telukjambe",
+    "Suryacipta City of Industry Ciampel",
+    "Karawang New Industry City (KNIC / KIM)"
+  ]
+}

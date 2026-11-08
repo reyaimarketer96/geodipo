@@ -1,0 +1,18 @@
+{
+  "region_id": "tangerang",
+  "name": "Kota Tangerang Selatan",
+  "province": "Banten",
+  "cat_esdm": "CAT Tangerang (CAT Banten)",
+  "bbws": "BBWS Cidanau Ciujung Cidurian / Balai ESDM Banten",
+  "geological_sheet": "Peta Geologi Lembar Tangerang Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "balaraja-tangerang",
+    "jatake-tangerang",
+    "milenium-tangerang",
+    "manis-tangerang"
+  ]
+}

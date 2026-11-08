@@ -1,0 +1,13 @@
+{
+  "region_id": "tanah_bumbu",
+  "name": "Kabupaten Tanah Bumbu (Batulicin)",
+  "province": "Kalimantan Selatan",
+  "cat_esdm": "CAT Tanah Bumbu (CAT Kalimantan)",
+  "bbws": "BWS Kalimantan / Balai ESDM Wilayah Kalimantan",
+  "geological_sheet": "Peta Geologi Lembar Tanah Bumbu Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

@@ -1,0 +1,33 @@
+{
+  "region_id": "bekasi",
+  "name": "Kota & Kabupaten Bekasi (Cikarang)",
+  "sources_count": 2,
+  "sources": [
+    {
+      "title": "Groundwater Extraction Dynamics and Hydrogeological Modeling in Cikarang Industrial Estate, West Java",
+      "authors": "Lubis, R. F., Delinom, R. M., & Kagabu, M.",
+      "year": 2019,
+      "publication": "Indonesian Journal of Geoscience, Vol. 6(3), hal. 235-248",
+      "institution": "Pusat Penelitian Geoteknologi LIPI (BRIN)",
+      "key_findings": [
+        "Ekstraksi air tanah intensif di Jababeka, MM2100, dan EJIP membentuk kerucut penurunan (cone of depression) muka air tanah tertekan sedalam -42 m dpl.",
+        "Akuifer produktif utama berada pada batas kedalaman 95-150 m dengan nilai konduktivitas hidrolik K = 1.2 x 10⁻⁴ m/detik.",
+        "Konstruksi sumur bor industri wajib mengisolasi akuifer atas (0-40 m) dengan semen grouting bentonit agar tidak mencemari lapisan dalam."
+      ],
+      "citation": "Lubis, R. F., et al. (2019). Indo. J. Geosci., 6(3), 235-248."
+    },
+    {
+      "title": "Karakteristik Tanah Lanau Lempungan Ekspansif dan Kapasitas Fondasi Tiang Bor di Cikarang Pusat",
+      "authors": "Wijaya, H., & Iskandar, F.",
+      "year": 2020,
+      "publication": "Jurnal Teknik Sipil ITB, Vol. 27(2), hal. 145-156",
+      "institution": "Kelompok Keahlian Geoteknik Institut Teknologi Bandung",
+      "key_findings": [
+        "Indeks plastisitas tanah lempung permukaan (0-4 m) mencapai PI = 38-52%, memiliki potensi kembang-susut ekstrem (expansive soil).",
+        "Nilai qc lapisan keras (qc >= 250 kg/cm²) tercapai pada kedalaman 15-21 m berupa pasir lanauan padat semen kalsit.",
+        "Fondasi bangunan pabrik beban getaran mesin wajib tiang bor pile/spun pile minimum kedalaman 18 m."
+      ],
+      "citation": "Wijaya, H., & Iskandar, F. (2020). J. Tek. Sipil ITB, 27(2), 145-156."
+    }
+  ]
+}

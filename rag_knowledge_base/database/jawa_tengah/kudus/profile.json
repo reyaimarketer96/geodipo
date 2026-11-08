@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Vulkanik Gunung Muria [Qvm] (breksi, tuf, lava andesit leusit) di utara, serta Aluvium Dataran Pantai Purba Selat Muria [Qa] (lempung marin sangat tebal) di selatan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 15 m",
+      "water_quality": "Tawar di kaki Muria (Dawe, Gebog), payau di dataran banjir Mejobo/Jati, rawan amblas dan tergenang rob."
+    },
+    "aquifer_confined": {
+      "depth": "65 - 110 m",
+      "lithology": "Batupasir tufaan piroklastik dan breksi laharik Muria bawah",
+      "recommended_casing": "Pipa PVC AW High Pressure / Pipa Galvanis 6 inch, screen Johnson stainless steel 1.0 mm interval 70-85 m dan 92-105 m.",
+      "safe_yield": "6 - 15 Liter/detik",
+      "sipa_advice": "Wajib uji pompa bertingkat (step-drawdown test) dan recovery test sesuai standar Balai ESDM Wilayah Kendeng Muria."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Rawa Lunak Jenuh Air (Bekas Selat Muria)",
+        "4 - 15 kg/cm²",
+        "1 - 4",
+        "Sangat rawan amblas; dilarang fondasi telapak"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Marin Lunak (Very Soft to Soft Clay)",
+        "12 - 30 kg/cm²",
+        "2 - 7",
+        "Penurunan konsolidasi berkepanjangan & dragload tiang"
+      ],
+      [
+        "18 - 26 m",
+        "Lanau Pasiran Kaku Transisi Muria",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Zona friksi selimut tiang spun pile pabrik rokok/elektronik"
+      ],
+      [
+        "> 26 m",
+        "Batupasir Kasar Padat & Breksi Lahar Muria",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang pancang spun pile pabrik & gudang"
+      ]
+    ],
+    "hazard": "Amblesan tanah dan banjir rob ekstrem di Sayung Demak serta lempung lunak tebal di Jati Kudus."
+  }
+}

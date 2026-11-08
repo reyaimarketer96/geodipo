@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Batuan Gunungapi Pleistosen G. Prahu/Rogojembangan [Qvr], Formasi Damar [QTd], Formasi Kalibiuk [Tmpb], dan Aluvium Pantai [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 18 m",
+      "water_quality": "Tawar di bagian perbukitan selatan, sedikit payau di pesisir Gringsing dan Subah."
+    },
+    "aquifer_confined": {
+      "depth": "70 - 135 m",
+      "lithology": "Perselingan batupasir tufaan berbutir kasar dan breksi vulkanik porous",
+      "recommended_casing": "Pipa Baja Karbon ASTM A53 Schedule 40 / PVC AW 8 inch dengan screen 1.5 mm interval 80-100 m dan 115-130 m.",
+      "safe_yield": "12 - 25 Liter/detik",
+      "sipa_advice": "Dukungan penuh izin SIPA kawasan PSN (Proyek Strategis Nasional) KIT Batang melalui Balai ESDM Wilayah Serayu Utara."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Pasiran",
+        "18 - 40 kg/cm²",
+        "4 - 8",
+        "Pondasi footplate bangunan kantor / gudang ringan"
+      ],
+      [
+        "3 - 10 m",
+        "Batupasir Tufan Padat Sedang & Konglomerat Kerikil",
+        "60 - 130 kg/cm²",
+        "14 - 26",
+        "Tiang pancang mini pile pabrik manufaktur KITB"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Padat Sangat Kompak Formasi Damar",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tumpuan tiang pancang spun pile industri berat"
+      ],
+      [
+        "> 18 m",
+        "Batuan Konglomerat Masif Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Bearing stratum tiang bor pile jembatan & dermaga"
+      ]
+    ],
+    "hazard": "Pemotongan lereng cut-and-fill di kawasan industri KITB dan erosi pantai Gringsing."
+  }
+}

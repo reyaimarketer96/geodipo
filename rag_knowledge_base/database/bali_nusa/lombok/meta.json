@@ -1,0 +1,13 @@
+{
+  "region_id": "lombok",
+  "name": "Kota Mataram & Lombok",
+  "province": "Nusa Tenggara Barat",
+  "cat_esdm": "CAT Lombok (CAT Kepulauan Sunda Kecil)",
+  "bbws": "BWS Bali-Penida / BWS Nusa Tenggara",
+  "geological_sheet": "Peta Geologi Lembar Lombok Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

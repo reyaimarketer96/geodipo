@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Danau Purba Bandung [Ql] (lempung sangat lunak tebal hingga 20-30 meter) dan Batuan Vulkanik Tangkuban Parahu di utara.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Bandung Raya & Cimahi."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Danau Sangat Lunak Jenuh Air (Gedebage/Dayeuhkolot)",
+        "4 - 15 kg/cm²",
+        "1 - 4",
+        "Sangat rawan amblas; wajib tiang pancang / cerucuk"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Marin Danau Lunak Kelabu Tua (Soft Clay)",
+        "12 - 30 kg/cm²",
+        "2 - 7",
+        "Penurunan konsolidasi jangka panjang & gaya seret negatif"
+      ],
+      [
+        "18 - 26 m",
+        "Lanau Pasiran Tufan Kaku Transisi",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Zona friksi tiang pancang spun pile gedung komersial"
+      ],
+      [
+        "> 26 m",
+        "Batupasir Tufan Padat & Breksi Lahar Tangkuban Parahu",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile stasiun KCIC Tegalluar & apartemen"
+      ]
+    ],
+    "hazard": "Amblesan tanah dan banjir genangan kronis di Gedebage/Dayeuhkolot serta getaran Patahan Sesar Lembang di utara."
+  }
+}

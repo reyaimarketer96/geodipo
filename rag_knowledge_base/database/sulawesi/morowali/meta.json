@@ -1,0 +1,15 @@
+{
+  "region_id": "morowali",
+  "name": "Kabupaten Morowali",
+  "province": "Sulawesi Tengah",
+  "cat_esdm": "CAT Bahodopi - Bungku (Sulawesi Tengah)",
+  "bbws": "BWS Sulawesi III",
+  "geological_sheet": "Lembar Bungku (2213) Skala 1:250.000 (Simandjuntak dkk., 1993)",
+  "coordinates": {
+    "lat": -2.5732,
+    "lng": 121.9866
+  },
+  "industrial_zones": [
+    "Indonesia Morowali Industrial Park (IMIP) Bahodopi"
+  ]
+}

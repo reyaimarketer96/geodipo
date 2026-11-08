@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Delta Kali Brantas [Qa] (lempung marin dan lanau pasiran sangat tebal) dan Formasi Pucangan [Qpt] di bawahnya.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 30 m",
+      "water_quality": "Air payau hingga asin di Surabaya Utara dan Timur, rentan intrusi air laut Selat Madura."
+    },
+    "aquifer_confined": {
+      "depth": "80 - 150 m",
+      "lithology": "Batupasir vulkanik purba Formasi Kabuh dan Formasi Pucangan fasies marin bawah",
+      "recommended_casing": "Pipa Baja Galvanis / PVC AW 6 - 8 inch, pelindung casing kedap air 0-45 m.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Zona pengawasan ketat ESDM Jatim; ekstraksi wajib mematuhi debit teknis yang disetujui."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Marin Lunak Jenuh Air (Pesisir Rungkut/Perak)",
+        "5 - 18 kg/cm²",
+        "1 - 4",
+        "Dilarang fondasi telapak di kawasan industri; wajib spun pile"
+      ],
+      [
+        "5 - 16 m",
+        "Lempung Delta Lunak Kelabu Tua (Soft Clay)",
+        "12 - 30 kg/cm²",
+        "2 - 7",
+        "Penurunan konsolidasi berkepanjangan & dragload tiang"
+      ],
+      [
+        "16 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm²",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile pabrik SIER/Margomulyo"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Keras & Batulempung Kompak Formasi Pucangan",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile dermaga Perak & apartemen Surabaya Barat"
+      ]
+    ],
+    "hazard": "Konsolidasi lempung lunak delta Brantas yang tebal dan rob pasang air laut di Surabaya Utara."
+  }
+}

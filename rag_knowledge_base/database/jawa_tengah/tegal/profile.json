@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Pantai dan Dataran Fluvial Kali Gung [Qa] serta Formasi Kalibiuk dan lapukan lahar Gunung Slamet.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Tegal."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu (Endapan Aluvial)",
+        "10 - 25 kg/cm²",
+        "2 - 6",
+        "Dilarang fondasi dangkal tanpa cerucuk/mini pile"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran dan Lempung Kaku Sedang",
+        "35 - 75 kg/cm²",
+        "8 - 16",
+        "Memberikan friksi selimut tiang pancang ruko"
+      ],
+      [
+        "12 - 20 m",
+        "Pasir Kasar Berkerikil Lahar Gunung Slamet",
+        "80 - 170 kg/cm²",
+        "18 - 32",
+        "Tumpuan tiang pancang industri logam & pergudangan"
+      ],
+      [
+        "> 20 m",
+        "Breksi Laharik Keras & Batulempung Kompak",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile gedung komersial"
+      ]
+    ],
+    "hazard": "Banjir rob pasang surut di Margadana pesisir dan lempung kembang-susut di Adiwerna."
+  }
+}

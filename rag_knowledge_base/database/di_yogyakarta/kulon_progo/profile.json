@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Pasir Pantai Gumuk Pasir Glagah [Qa] di selatan dan Formasi Sentolo serta Formasi Andesit Tua (OAF) di utara.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Kulon Progo (Bandara YIA)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah DI Yogyakarta."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Halus-Sedang Lepas Jenuh Air (Muka Air Tanah 1 m)",
+        "10 - 28 kg/cm²",
+        "2 - 6",
+        "Sangat rentan likuifaksi gempa bumi; wajib pemadatan dinamik"
+      ],
+      [
+        "4 - 12 m",
+        "Pasir Kasar Padat Sedang & Lanau Pasiran",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Zona perkuatan stone column / tiang pancang spun pile ruko Temon"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Gampingan Padat Formasi Sentolo",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tiang pancang spun pile terminal bandara YIA & hotel transit"
+      ],
+      [
+        "> 20 m",
+        "Breksi Andesit Keras Formasi Andesit Tua (OAF)",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile landasan pacu runway & jembatan YIA"
+      ]
+    ],
+    "hazard": "Risiko gempa megathrust selatan Jawa, likuifaksi pasir pantai Temon, dan bahaya tsunami Samudera Hindia."
+  }
+}

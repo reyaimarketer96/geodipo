@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Damar [QTd] (tuf, batupasir tufaan, konglomerat), Formasi Kalibiuk [Tmpb], Formasi Kaligetas [Qpkg] (breksi vulkanik), dan Aluvium Dataran Pantai [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 25 m",
+      "water_quality": "Payau hingga asin di pesisir (Genuk, Semarang Utara), rentan intrusi air laut, DHL > 1.800 µS/cm."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 140 m",
+      "lithology": "Batupasir tufaan berbutir sedang-kasar Formasi Damar bawah dan breksi lahar Kaligetas",
+      "recommended_casing": "Pipa baja / PVC AW 6 - 8 inch dengan slotted screen 1.5 mm pada interval 75-90 m dan 110-130 m, cement grouting 0-40 m.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Zona kritis penurunan muka air tanah pesisir; wajib pemasangan water meter telemetri ESDM Jateng."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Marin Lunak Jenuh Air (Zona Rob Pantura Genuk/Terboyo)",
+        "4 - 15 kg/cm²",
+        "1 - 4",
+        "Dilarang keras fondasi telapak di pesisir; wajib spun pile"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Marin Kelabu Sangat Lunak (Very Soft Clay)",
+        "10 - 28 kg/cm²",
+        "2 - 6",
+        "Penurunan tanah (land subsidence) hingga 10-15 cm/tahun"
+      ],
+      [
+        "18 - 28 m",
+        "Lanau Pasiran Padat Sedang Transisi Formasi Kaligesik",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Zona friksi tiang pancang pabrik Kawasan Industri Wijayakusuma"
+      ],
+      [
+        "> 28 m",
+        "Batupasir Konglomeratan Keras Formasi Damar",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile pergudangan & pelabuhan Tanjung Emas"
+      ]
+    ],
+    "hazard": "Penurunan muka tanah (land subsidence) ekstrem dan banjir rob di utara serta kelongsoran lereng di perbukitan Candi."
+  }
+}

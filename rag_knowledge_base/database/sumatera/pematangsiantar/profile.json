@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Tuf Toba [Qvt] (ignimbrit piroklastik batuapung tebal letusan Kaldera Toba) dan Aluvium Fluvial Bah Bolon.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Pematangsiantar & Simalungun."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Sumatera Utara."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Tufan Cokelat Abu-Abu",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Footplate ruko / rumah tinggal standar"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Berfragmen Batuapung Padat Sedang",
+        "60 - 120 kg/cm²",
+        "14 - 26",
+        "Strauss pile / mini pile ruko niaga Siantar"
+      ],
+      [
+        "8 - 16 m",
+        "Tuf Masif Terlas Keras (Welded Tuff Toba)",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tumpuan tiang spun pile pabrik oleokimia KEK Sei Mangkei"
+      ],
+      [
+        "> 16 m",
+        "Batuan Ignimbrit Toba Sangat Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang spun pile rel kereta api & pabrik kelapa sawit"
+      ]
+    ],
+    "hazard": "Lereng jurang curam Sungai Bah Bolon dan sifat lempung tufan yang mudah luruh jika tergenang air."
+  }
+}

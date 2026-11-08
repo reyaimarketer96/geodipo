@@ -1,0 +1,15 @@
+{
+  "region_id": "sidoarjo",
+  "name": "Kabupaten Sidoarjo",
+  "province": "Jawa Timur",
+  "cat_esdm": "CAT Sidoarjo (CAT Jawa Timur)",
+  "bbws": "BBWS Brantas & Bengawan Solo / Dinas ESDM Jawa Timur",
+  "geological_sheet": "Peta Geologi Lembar Sidoarjo Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "sidoarjo-safe-lock"
+  ]
+}

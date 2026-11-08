@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Gunungapi Kuarter Gunung Gede-Pangrango [Qvg] dan Formasi Nyalindung serta batuan terobosan andesit.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Sukabumi."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Lapukan Lahar)",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Footplate rumah tinggal / vila"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berfragmen Andesit Padat Sedang",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Tiang strauss pile pabrik garmen Cicurug/Cibadak"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Padat & Konglomerat Keras",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tumpuan tiang pancang mini pile / spun pile"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif Segar",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile jembatan & pabrik semen"
+      ]
+    ],
+    "hazard": "Topografi berbukit lereng curam rawan longsor saat musim hujan dan sesar aktif Cimandiri."
+  }
+}

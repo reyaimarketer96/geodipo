@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Tuf Banten [QTvb] berselingan dengan Formasi Bojongmanik dan Aluvium Pantai Teluk Banten.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Serang."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Banten."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Pasiran",
+        "15 - 35 kg/cm²",
+        "3 - 7",
+        "Footplate dangkal rumah tinggal"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Lapuk Sedang",
+        "45 - 90 kg/cm²",
+        "10 - 20",
+        "Strauss pile ruko niaga"
+      ],
+      [
+        "8 - 15 m",
+        "Batupasir Tufan Padat & Breksi Lahar",
+        "160 - 240 kg/cm²",
+        "25 - 40",
+        "Tiang pancang mini pile pergudangan"
+      ],
+      [
+        "> 15 m",
+        "Tuf Keras & Batuan Vulkanik Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Bearing stratum tiang spun pile gedung kantor pemerintahan"
+      ]
+    ],
+    "hazard": "Muka air tanah dangkal di Kasemen pesisir dan lempung ekspansif di Walantaka."
+  }
+}

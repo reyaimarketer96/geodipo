@@ -1,0 +1,13 @@
+{
+  "region_id": "kupang",
+  "name": "Kota & Kabupaten Kupang",
+  "province": "Nusa Tenggara Timur",
+  "cat_esdm": "CAT Kupang (CAT Kepulauan Sunda Kecil)",
+  "bbws": "BWS Bali-Penida / BWS Nusa Tenggara",
+  "geological_sheet": "Peta Geologi Lembar Kupang Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

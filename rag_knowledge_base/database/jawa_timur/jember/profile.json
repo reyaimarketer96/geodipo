@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Gunungapi Argopuro-Raung [Qpva] dan Formasi Puger (batugamping terumbu karstik masif) di pantai selatan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Jember."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Subur (Topsoil Vulkanik)",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko kampus UNEJ"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berkerikil Andesit Padat Sedang",
+        "60 - 120 kg/cm²",
+        "14 - 26",
+        "Strauss pile ruko niaga Kaliwates & hotel perkotaan"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang spun pile pabrik tembakau / gudang logistik"
+      ],
+      [
+        "> 16 m",
+        "Batugamping Masif Keras Formasi Puger / Andesit",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile pabrik semen Imasco Puger & silo semen"
+      ]
+    ],
+    "hazard": "Risiko gempa megathrust selatan Jawa Timur dan bahaya likuifaksi pasir pesisir Puger."
+  }
+}

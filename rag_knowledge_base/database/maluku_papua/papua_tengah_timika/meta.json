@@ -1,0 +1,16 @@
+{
+  "region_id": "papua_tengah_timika",
+  "name": "Kabupaten Mimika (Timika)",
+  "province": "Papua Tengah",
+  "cat_esdm": "CAT Mimika - Timika",
+  "bbws": "BWS Papua Merauke & Mimika",
+  "geological_sheet": "Lembar Timika Skala 1:250.000",
+  "coordinates": {
+    "lat": -4.5467,
+    "lng": 136.8837
+  },
+  "industrial_zones": [
+    "Kawasan Industri & Logistik Pelabuhan Pomako Timika",
+    "Kawasan Penunjang Pertambangan Freeport Kuala Kencana"
+  ]
+}

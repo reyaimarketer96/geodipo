@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Kompleks Ofiolit Pegunungan Cyclops (serpentinit, gabro, sekis) dan Aluvium Fluvio-Lakustrin Danau Sentani [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Jayapura."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Papua."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Kemerahan & Pasir Pantai Teluk",
+        "12 - 30 kg/cm²",
+        "3 - 7",
+        "Wajib perkuatan sloof kaku tahan gempa SNI 1726"
+      ],
+      [
+        "3.5 - 9 m",
+        "Lanau Pasiran Padat Sedang Berkerikil Sekis",
+        "50 - 105 kg/cm²",
+        "12 - 22",
+        "Tiang strauss pile ruko Abepura & perkantoran"
+      ],
+      [
+        "9 - 17 m",
+        "Batuan Metamorfik Sekis / Gabro Padat Keras",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang spun pile mall Jayapura & rumah sakit"
+      ],
+      [
+        "> 17 m",
+        "Batuan Dasar Ofiolit Masif Segar Sangat Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile pilar Jembatan Youtefa & dermaga"
+      ]
+    ],
+    "hazard": "Aktivitas sesar naik aktif darat Jayapura yang dangkal dan potensi likuifaksi pesisir pantai Muara Tami."
+  }
+}

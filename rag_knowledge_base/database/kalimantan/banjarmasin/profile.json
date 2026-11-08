@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Rawa Pasang Surut Delta Sungai Barito dan Martapura [Qa] (lapisan lempung dan gambut super lunak hingga 20-30 m).",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Banjarmasin."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Selatan."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lumpur Lempung Rawa Pasang Surut Super Lembek & Gambut",
+        "2 - 10 kg/cm²",
+        "0 - 2",
+        "Kuat geser sangat rendah; tradisi cerucuk galam matras kayu"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Delta Lunak Kelabu Tua (Very Soft Marine Clay)",
+        "8 - 25 kg/cm²",
+        "1 - 5",
+        "Penurunan konsolidasi ekstrem & gaya seret negatif pada tiang"
+      ],
+      [
+        "18 - 28 m",
+        "Lanau Pasiran Padat Sedang Transisi Formasi Dahor",
+        "35 - 90 kg/cm²",
+        "8 - 20",
+        "Zona friksi tiang pancang spun pile gedung komersial"
+      ],
+      [
+        "> 28 m",
+        "Batupasir Kuarsa Padat Keras Terkompaksi",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 36",
+        "Hard bearing stratum tiang pipa baja dermaga Trisakti & jembatan Barito"
+      ]
+    ],
+    "hazard": "Daya dukung tanah terlemah di Indonesia dengan lapisan lempung delta super lunak mencapai kedalaman 25 meter."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "region_id": "pandeglang",
+  "name": "Wilayah Pandeglang",
+  "province": "Banten",
+  "cat_esdm": "CAT Pandeglang (CAT Banten)",
+  "bbws": "BBWS Cidanau Ciujung Cidurian / Balai ESDM Banten",
+  "geological_sheet": "Peta Geologi Lembar Pandeglang Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

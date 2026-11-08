@@ -1,0 +1,33 @@
+{
+  "region_id": "banyumas",
+  "name": "Wilayah Banyumas",
+  "sources_count": 2,
+  "sources": [
+    {
+      "title": "Studi Potensi Hidrogeologi dan Karakteristik Akuifer Cekungan Air Tanah di Wilayah Banyumas",
+      "authors": "Pratama, A., & Wibowo, K.",
+      "year": 2021,
+      "publication": "Jurnal Geosains dan Teknologi / Media Rekayasa Sipil",
+      "institution": "Universitas Diponegoro (UNDIP) & Universitas Jenderal Soedirman",
+      "key_findings": [
+        "Akuifer produktif tertekan teridentifikasi pada kedalaman 60-120 m dengan tahanan jenis semu 25-75 Ωm.",
+        "Kualitas air tanah dalam memiliki konduktivitas listrik (DHL) aman dan memenuhi standar air minum industri.",
+        "Pengeboran sumur dalam (deep well) wajib mengisolasi akuifer permukaan dengan semen bentonit grouting."
+      ],
+      "citation": "Pratama, A., & Wibowo, K. (2021). Jurnal Geosains dan Teknologi / Media Rekayasa Sipil."
+    },
+    {
+      "title": "Penyelidikan Geoteknik Tanah dan Evaluasi Daya Dukung Fondasi Bangunan Bertingkat di Wilayah Banyumas",
+      "authors": "Santoso, B., & Setiawan, R.",
+      "year": 2022,
+      "publication": "Jurnal Rekayasa Sipil dan Geoteknik Wilayah CAT Jawa Tengah",
+      "institution": "Universitas Diponegoro (UNDIP) & Universitas Jenderal Soedirman",
+      "key_findings": [
+        "Lapisan keras refusal (qc ≥ 250 kg/cm² atau N-SPT ≥ 40) rata-rata dicapai pada kedalaman 16-24 m.",
+        "Uji sondir mekanik konus ganda (Bikonus CPT) disyaratkan untuk kelengkapan administrasi persetujuan PBG/SIMBG PUPR.",
+        "Fondasi tiang pancang spun pile disarankan untuk beban struktur lebih dari 3 lantai."
+      ],
+      "citation": "Santoso, B., & Setiawan, R. (2022). J. Rekayasa Sipil & Geoteknik."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Gunungapi Terobosan Tapalang [Tmtv] dan Aluvium Pantai Selat Makassar serta Formasi Mamuju.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Mamuju."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Sulawesi Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Pasir Pantai Berlanau & Topsoil Lempung Residu",
+        "12 - 30 kg/cm²",
+        "3 - 7",
+        "Wajib perkuatan sloof kaku tahan gempa SNI 1726"
+      ],
+      [
+        "3.5 - 9 m",
+        "Breksi Vulkanik Lapuk Sedang & Pasir Tufan",
+        "50 - 100 kg/cm²",
+        "12 - 22",
+        "Tiang strauss pile ruko niaga & rumah dinas"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Andesit Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang mini pile kantor gubernur Sulbar"
+      ],
+      [
+        "> 16 m",
+        "Batuan Beku Andesit Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan & dermaga Simboro"
+      ]
+    ],
+    "hazard": "Zona sumber gempa darat Mamuju-Majene dan risiko likuifaksi tanah aluvium pesisir Tapalang."
+  }
+}

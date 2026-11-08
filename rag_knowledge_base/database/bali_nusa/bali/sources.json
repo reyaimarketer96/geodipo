@@ -1,0 +1,19 @@
+{
+  "region_id": "bali",
+  "name": "Pulau Bali (Denpasar, Badung, Gianyar, Tabanan)",
+  "sources_count": 1,
+  "sources": [
+    {
+      "title": "Karakteristik Hidrogeologi dan Intrusi Air Laut pada Wilayah Pesisir Kuta-Sanur Bali",
+      "authors": "Widyastuti, M., & Purnama, S.",
+      "year": 2019,
+      "publication": "Jurnal Kebumian Universitas Gadjah Mada, Vol. 14(2)",
+      "institution": "Fakultas Geografi Universitas Gadjah Mada (UGM)",
+      "key_findings": [
+        "Intrusi air laut telah mencapai kedalaman 15-25 m pada jarak 1 km dari garis pantai Canggu-Seminyak.",
+        "Akuifer tertekan air tawar terlindung di bawah batugamping tufaan pada kedalaman 65-110 m dengan DHL < 600 µS/cm."
+      ],
+      "citation": "Widyastuti, M., & Purnama, S. (2019). J. Kebumian UGM, 14(2)."
+    }
+  ]
+}

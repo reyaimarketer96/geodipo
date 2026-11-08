@@ -1,0 +1,17 @@
+{
+  "region_id": "kudus",
+  "name": "Kabupaten Kudus & Demak",
+  "province": "Jawa Tengah",
+  "cat_esdm": "CAT Kudus & CAT Semarang - Demak",
+  "bbws": "BBWS Pemali Juana",
+  "geological_sheet": "Lembar Kudus (1409-3) Skala 1:100.000 (Santoso, 1993)",
+  "coordinates": {
+    "lat": -6.8048,
+    "lng": 110.8405
+  },
+  "industrial_zones": [
+    "Kawasan Industri Sayung Demak (Jateng Land)",
+    "Kawasan Industri Kaliwungu & Jati Kudus",
+    "Kawasan Sentra Industri Rokok & Tekstil Gebog"
+  ]
+}

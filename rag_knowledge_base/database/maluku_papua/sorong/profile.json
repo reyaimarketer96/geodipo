@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Klasaman [Tpk] (batupasir, batulempung) dan Aluvium Pantai Selat Dampier serta Patahan Aktif Sesar Sorong.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Sorong."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Papua Barat Daya."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Pasang Surut Lunak & Lumpur Pesisir",
+        "8 - 24 kg/cm²",
+        "2 - 6",
+        "Perbaikan tanah dasar timbunan sirtu bergeotekstil di KEK Sorong"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "35 - 75 kg/cm²",
+        "8 - 18",
+        "Tiang pancang mini pile ruko niaga & workshop logistik migas"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Padat & Konglomerat Formasi Klasaman",
+        "130 - 230 kg/cm²",
+        "24 - 38",
+        "Tumpuan tiang spun pile pabrik industri KEK Sorong"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras Masif Tersemen Kuat",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile dermaga peti kemas Pelabuhan Sorong"
+      ]
+    ],
+    "hazard": "Aktivitas pergerakan mendatar Patahan Aktif Sesar Sorong dan korosi air asin pada struktur pelabuhan."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Lidah [Tpl] (batulempung lunak plastisitas tinggi) dan Aluvium Lembah Bengawan Solo [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Bojonegoro (Blok Cepu Banyu Urip)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Hitam Plastisitas Sangat Tinggi (Expansive Clay)",
+        "10 - 25 kg/cm²",
+        "2 - 6",
+        "Kembang susut ekstrem; perbaikan subgrade sirtu padat"
+      ],
+      [
+        "3.5 - 12 m",
+        "Lempung Napalan Kaku Abu-Abu Formasi Lidah",
+        "30 - 70 kg/cm²",
+        "7 - 16",
+        "Memberikan friksi tiang pancang ruko Bojonegoro"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Padat Sedang & Batulanau Keras Formasi Mundu",
+        "120 - 220 kg/cm²",
+        "22 - 36",
+        "Tiang pancang spun pile workshop migas & pergudangan"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras Kompak Rapat Tersemen Kuat",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang bor pile fasilitas central processing facility (CPF) Banyu Urip"
+      ]
+    ],
+    "hazard": "Tanah lempung ekspansif dengan potensi kembang-susut ekstrem dan banjir limpasan Sungai Bengawan Solo."
+  }
+}

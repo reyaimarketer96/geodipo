@@ -1,0 +1,38 @@
+name: Geodipo RAG Cloud Deployer
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  run-rag-injection:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360 # allow up to 6 hours if needed
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run Autonomous RAG Server Worker
+        run: |
+          python server_worker.py
+
+      - name: Commit & Push Progress Checkpoint
+        if: always()
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Cloud Deployer"
+          git add checkpoint.json worker.log
+          git commit -m "Auto: Update RAG deployment checkpoint [skip ci]" || echo "No changes to commit"
+          git push

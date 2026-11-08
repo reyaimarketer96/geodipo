@@ -1,0 +1,15 @@
+{
+  "region_id": "jakarta",
+  "name": "DKI Jakarta",
+  "province": "DKI Jakarta",
+  "cat_esdm": "CAT Jakarta (CAT Jakarta)",
+  "bbws": "BBWS Ciliwung Cisadane / Dinas Perindustrian dan Energi DKI Jakarta",
+  "geological_sheet": "Peta Geologi Lembar Jakarta Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "pulogadung-jiep-jakarta"
+  ]
+}

@@ -1,0 +1,1828 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Geodipo | Jasa Geolistrik, Sumur Bor Deep Well & Penyelidikan Tanah PBG</title>
+  <meta name="description" content="Solusi rekayasa kebumian terpadu: survei geolistrik resistivitas 2D, pengeboran sumur bor deep well hingga 200m, uji tanah sondir CPT & boring SPT resmi PBG, serta izin SIPA ESDM.">
+  
+  <style>
+    /* CSS TOKENS & RESET */
+    :root {
+      --geo-basalt: #0b1522;
+      --geo-basalt-sub: #112236;
+      --geo-slate-dark: #1e293b;
+      --geo-slate-mid: #334155;
+      --geo-slate-muted: #64748b;
+      --geo-slate-light: #94a3b8;
+      --geo-border: #e2e8f0;
+      --geo-border-dark: #1e3a5f;
+      --geo-surface-light: #f8fafc;
+      --geo-surface-subtle: #f1f5f9;
+      --geo-white: #ffffff;
+      
+      --geo-amber: #ea580c;
+      --geo-amber-hover: #c2410c;
+      --geo-amber-subtle: #fff7ed;
+      --geo-amber-border: #ffedd5;
+      
+      --geo-aquifer: #0284c7;
+      --geo-aquifer-hover: #0369a1;
+      --geo-aquifer-subtle: #f0f9ff;
+      
+      --geo-wa: #16a34a;
+      --geo-wa-hover: #15803d;
+      --geo-wa-subtle: #f0fdf4;
+      
+      --geo-font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      --geo-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      
+      --geo-max-width: 1200px;
+      --geo-radius-sm: 6px;
+      --geo-radius-md: 10px;
+      --geo-radius-lg: 16px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: var(--geo-font-sans);
+      font-size: 15.5px;
+      line-height: 1.65;
+      color: var(--geo-slate-dark);
+      background-color: #ffffff;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    a {
+      color: var(--geo-aquifer);
+      text-decoration: none;
+      transition: color 0.15s ease, background 0.15s ease, border-color 0.15s ease, transform 0.15s ease;
+    }
+    a:hover {
+      color: var(--geo-aquifer-hover);
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .geo-container {
+      max-width: var(--geo-max-width);
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: clamp(16px, 4vw, 28px);
+      padding-right: clamp(16px, 4vw, 28px);
+    }
+
+    /* UTILITY TOP BAR */
+    .geo-top-bar {
+      background: #060e17;
+      color: #94a3b8;
+      font-size: 12.5px;
+      padding: 8px 0;
+      border-bottom: 1px solid #162a40;
+    }
+    .geo-top-bar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .geo-top-badges {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .geo-top-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: #cbd5e1;
+    }
+    .geo-top-dot {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--geo-wa);
+    }
+    .geo-top-contacts a {
+      color: #cbd5e1;
+      font-weight: 600;
+    }
+    .geo-top-contacts a:hover {
+      color: #ffffff;
+    }
+
+    /* GLOBAL HEADER */
+    .geo-header {
+      background: #ffffff;
+      border-bottom: 1px solid var(--geo-border);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+    }
+    .geo-header-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 72px;
+      gap: 20px;
+    }
+    .geo-brand {
+      display: flex;
+      flex-direction: column;
+      text-decoration: none !important;
+    }
+    .geo-brand-name {
+      font-size: 24px;
+      font-weight: 850;
+      letter-spacing: -0.03em;
+      color: var(--geo-basalt);
+      line-height: 1;
+      display: flex;
+      align-items: baseline;
+    }
+    .geo-brand-dot {
+      color: var(--geo-amber);
+    }
+    .geo-brand-tagline {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--geo-slate-muted);
+      margin-top: 3px;
+    }
+
+    .geo-nav {
+      display: flex;
+      align-items: center;
+      gap: 24px;
+    }
+    .geo-nav-link {
+      color: var(--geo-slate-dark);
+      font-weight: 650;
+      font-size: 14px;
+      text-decoration: none !important;
+      position: relative;
+      padding: 6px 0;
+    }
+    .geo-nav-link:hover {
+      color: var(--geo-amber);
+    }
+    .geo-nav-cta {
+      background: var(--geo-amber);
+      color: #ffffff !important;
+      padding: 10px 18px;
+      border-radius: var(--geo-radius-sm);
+      font-size: 13.5px;
+      font-weight: 750;
+      text-decoration: none !important;
+      box-shadow: 0 2px 8px rgba(234, 88, 12, 0.25);
+      transition: background 0.15s, transform 0.15s;
+      white-space: nowrap;
+    }
+    .geo-nav-cta:hover {
+      background: var(--geo-amber-hover);
+      transform: translateY(-1px);
+    }
+
+    /* BUTTONS */
+    .geo-btn-primary {
+      background: var(--geo-amber);
+      color: #ffffff !important;
+      padding: 14px 26px;
+      border-radius: var(--geo-radius-sm);
+      font-size: 15px;
+      font-weight: 750;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1px solid transparent;
+      box-shadow: 0 4px 14px rgba(234, 88, 12, 0.35);
+      text-decoration: none !important;
+      cursor: pointer;
+    }
+    .geo-btn-primary:hover {
+      background: var(--geo-amber-hover);
+      transform: translateY(-1px);
+    }
+    .geo-btn-outline {
+      background: #ffffff;
+      color: var(--geo-slate-dark) !important;
+      padding: 14px 24px;
+      border-radius: var(--geo-radius-sm);
+      font-size: 15px;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      border: 1.5px solid var(--geo-border);
+      text-decoration: none !important;
+      cursor: pointer;
+    }
+    .geo-btn-outline:hover {
+      border-color: var(--geo-slate-dark);
+      background: var(--geo-surface-light);
+    }
+
+    /* HERO SECTION (EDITORIAL SPLIT) */
+    .geo-hero {
+      background: linear-gradient(175deg, #09131e 0%, #0d1b2a 100%);
+      color: #ffffff;
+      padding: clamp(48px, 6vw, 76px) 0 clamp(48px, 6vw, 72px);
+      position: relative;
+      border-bottom: 1px solid var(--geo-border-dark);
+    }
+    .geo-hero-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.22fr) minmax(320px, 0.98fr);
+      gap: clamp(32px, 5vw, 54px);
+      align-items: center;
+    }
+    .geo-kicker {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #fb923c;
+      background: rgba(234, 88, 12, 0.15);
+      border: 1px solid rgba(251, 146, 60, 0.35);
+      padding: 5px 12px;
+      border-radius: 4px;
+      margin-bottom: 18px;
+    }
+    .geo-hero-title {
+      font-size: clamp(30px, 3.6vw, 46px);
+      font-weight: 850;
+      line-height: 1.15;
+      letter-spacing: -0.025em;
+      color: #ffffff;
+      margin-bottom: 18px;
+    }
+    .geo-hero-lead {
+      font-size: clamp(15.5px, 1.25vw, 17px);
+      line-height: 1.65;
+      color: #cbd5e1;
+      margin-bottom: 26px;
+      max-width: 620px;
+    }
+    .geo-hero-props {
+      list-style: none;
+      display: grid;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+    .geo-hero-props li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 14.5px;
+      color: #e2e8f0;
+      line-height: 1.5;
+    }
+    .geo-hero-props svg {
+      width: 18px;
+      height: 18px;
+      color: #38bdf8;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .geo-hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 14px;
+      align-items: center;
+    }
+
+    .geo-hero-visual {
+      position: relative;
+    }
+    .geo-hero-media-wrap {
+      border-radius: var(--geo-radius-lg);
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45);
+      background: #0b1522;
+      aspect-ratio: 4 / 3;
+    }
+    .geo-hero-media-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .geo-hero-spec-badge {
+      position: absolute;
+      bottom: -18px;
+      left: 20px;
+      right: 20px;
+      background: rgba(11, 21, 34, 0.94);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(56, 189, 248, 0.35);
+      border-radius: var(--geo-radius-md);
+      padding: 14px 18px;
+      color: #ffffff;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+      text-align: center;
+    }
+    .geo-spec-label {
+      font-size: 11px;
+      font-weight: 700;
+      color: #94a3b8;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .geo-spec-val {
+      font-size: 14px;
+      font-weight: 800;
+      color: #38bdf8;
+      margin-top: 3px;
+    }
+
+    /* TRUST PROOF BAR */
+    .geo-proof-bar {
+      background: var(--geo-surface-light);
+      border-bottom: 1px solid var(--geo-border);
+      padding: 38px 0 24px;
+    }
+    .geo-proof-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+    .geo-proof-item {
+      padding: 16px;
+      border-left: 3px solid var(--geo-amber);
+      background: #ffffff;
+      border-radius: 0 var(--geo-radius-sm) var(--geo-radius-sm) 0;
+      border-top: 1px solid var(--geo-border);
+      border-right: 1px solid var(--geo-border);
+      border-bottom: 1px solid var(--geo-border);
+    }
+    .geo-proof-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--geo-basalt);
+      margin-bottom: 4px;
+    }
+    .geo-proof-desc {
+      font-size: 13px;
+      color: var(--geo-slate-muted);
+      line-height: 1.45;
+    }
+
+    /* SECTION HEADER */
+    .geo-section {
+      padding: clamp(54px, 7vw, 84px) 0;
+    }
+    .geo-section-alt {
+      background-color: var(--geo-surface-light);
+    }
+    .geo-section-head {
+      text-align: center;
+      max-width: 720px;
+      margin: 0 auto 46px;
+    }
+    .geo-section-kicker {
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--geo-amber);
+      margin-bottom: 8px;
+    }
+    .geo-section-title {
+      font-size: clamp(26px, 3.2vw, 36px);
+      font-weight: 850;
+      letter-spacing: -0.025em;
+      color: var(--geo-basalt);
+      margin-bottom: 12px;
+      line-height: 1.25;
+    }
+    .geo-section-lead {
+      font-size: 16px;
+      color: var(--geo-slate-muted);
+      line-height: 1.6;
+    }
+
+    /* CUSTOMER PERSONA PATHWAYS (3 CARDS) */
+    .geo-pathways-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .geo-pathway-card {
+      background: #ffffff;
+      border: 1px solid var(--geo-border);
+      border-radius: var(--geo-radius-md);
+      padding: 30px 26px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+      position: relative;
+    }
+    .geo-pathway-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.07);
+      border-color: var(--geo-amber);
+    }
+    .geo-pathway-badge {
+      display: inline-block;
+      align-self: flex-start;
+      font-size: 11px;
+      font-weight: 750;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 4px;
+      margin-bottom: 16px;
+    }
+    .geo-badge-res { background: #dbeafe; color: #1e40af; }
+    .geo-badge-dev { background: #fef3c7; color: #92400e; }
+    .geo-badge-ind { background: #dcfce7; color: #166534; }
+    .geo-pathway-title {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--geo-basalt);
+      margin-bottom: 12px;
+      line-height: 1.3;
+    }
+    .geo-pathway-problem {
+      font-size: 13.5px;
+      color: var(--geo-slate-muted);
+      background: var(--geo-surface-light);
+      padding: 12px 14px;
+      border-radius: var(--geo-radius-sm);
+      border-left: 3px solid #cbd5e1;
+      margin-bottom: 16px;
+      line-height: 1.5;
+    }
+    .geo-pathway-solution {
+      font-size: 14.5px;
+      color: var(--geo-slate-mid);
+      line-height: 1.6;
+      margin-bottom: 22px;
+      flex-grow: 1;
+    }
+    .geo-pathway-link {
+      font-size: 14.5px;
+      font-weight: 750;
+      color: var(--geo-amber);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .geo-pathway-link:hover {
+      color: var(--geo-amber-hover);
+      text-decoration: underline;
+    }
+
+    /* 4 SERVICE PILLARS GRID */
+    .geo-services-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 22px;
+    }
+    .geo-service-card {
+      background: #ffffff;
+      border: 1px solid var(--geo-border);
+      border-radius: var(--geo-radius-md);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+      transition: transform 0.2s, box-shadow 0.2s, border-color 0.2s;
+    }
+    .geo-service-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 32px rgba(0, 0, 0, 0.08);
+      border-color: var(--geo-aquifer);
+    }
+    .geo-service-img {
+      height: 175px;
+      background: #09131e;
+      overflow: hidden;
+    }
+    .geo-service-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    .geo-service-card:hover .geo-service-img img {
+      transform: scale(1.04);
+    }
+    .geo-service-body {
+      padding: 22px 20px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .geo-service-tag {
+      font-size: 11px;
+      font-weight: 750;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      color: var(--geo-aquifer);
+      margin-bottom: 8px;
+    }
+    .geo-service-title {
+      font-size: 18px;
+      font-weight: 800;
+      color: var(--geo-basalt);
+      margin-bottom: 10px;
+      line-height: 1.35;
+    }
+    .geo-service-desc {
+      font-size: 13.5px;
+      color: var(--geo-slate-muted);
+      line-height: 1.55;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+    .geo-service-specs {
+      list-style: none;
+      font-size: 12.5px;
+      color: var(--geo-slate-mid);
+      margin-bottom: 18px;
+      border-top: 1px solid var(--geo-border);
+      padding-top: 12px;
+      display: grid;
+      gap: 6px;
+    }
+    .geo-service-specs li {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .geo-service-specs span {
+      color: var(--geo-wa);
+      font-weight: bold;
+    }
+
+    /* 5-STEP METHODOLOGY */
+    .geo-steps-grid {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      position: relative;
+    }
+    .geo-step-card {
+      background: #ffffff;
+      border: 1px solid var(--geo-border);
+      border-radius: var(--geo-radius-md);
+      padding: 22px 18px;
+      position: relative;
+    }
+    .geo-step-num {
+      font-size: 28px;
+      font-weight: 900;
+      color: #e2e8f0;
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+    .geo-step-title {
+      font-size: 15px;
+      font-weight: 800;
+      color: var(--geo-basalt);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .geo-step-desc {
+      font-size: 13px;
+      color: var(--geo-slate-muted);
+      line-height: 1.5;
+    }
+
+    /* CASE STUDIES / REAL FIELD PROOF */
+    .geo-cases-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 26px;
+    }
+    .geo-case-card {
+      background: #ffffff;
+      border: 1px solid var(--geo-border);
+      border-radius: var(--geo-radius-md);
+      overflow: hidden;
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .geo-case-card:hover {
+      border-color: var(--geo-amber);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+    .geo-case-thumb {
+      height: 100%;
+      min-height: 220px;
+      background: #09131e;
+      position: relative;
+    }
+    .geo-case-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .geo-case-content {
+      padding: 20px 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .geo-case-meta {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      font-weight: 750;
+      text-transform: uppercase;
+      color: var(--geo-amber);
+      margin-bottom: 8px;
+    }
+    .geo-case-title {
+      font-size: 16.5px;
+      font-weight: 800;
+      color: var(--geo-basalt);
+      margin-bottom: 8px;
+      line-height: 1.35;
+    }
+    .geo-case-desc {
+      font-size: 13px;
+      color: var(--geo-slate-muted);
+      line-height: 1.5;
+      margin-bottom: 14px;
+    }
+    .geo-case-specs-list {
+      background: var(--geo-surface-light);
+      border-radius: 6px;
+      padding: 10px 12px;
+      font-size: 12px;
+      color: var(--geo-slate-mid);
+      margin-bottom: 12px;
+      border-left: 3px solid var(--geo-aquifer);
+      display: grid;
+      gap: 3px;
+    }
+    .geo-case-result {
+      font-size: 12.5px;
+      font-weight: 750;
+      color: #166534;
+      background: #f0fdf4;
+      padding: 6px 10px;
+      border-radius: 4px;
+    }
+
+    /* COMPARISON TABLE */
+    .geo-comp-wrapper {
+      background: #ffffff;
+      border: 1px solid var(--geo-border);
+      border-radius: var(--geo-radius-md);
+      overflow-x: auto;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+    }
+    .geo-comp-table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 14px;
+    }
+    .geo-comp-table th {
+      padding: 16px 20px;
+      font-weight: 750;
+      border-bottom: 2px solid var(--geo-border);
+    }
+    .geo-comp-table th.col-feat { background: var(--geo-surface-subtle); color: var(--geo-slate-mid); width: 26%; }
+    .geo-comp-table th.col-geodipo { background: var(--geo-basalt); color: #38bdf8; width: 37%; font-size: 15.5px; }
+    .geo-comp-table th.col-others { background: var(--geo-surface-light); color: var(--geo-slate-muted); width: 37%; }
+    .geo-comp-table td {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--geo-border);
+      vertical-align: top;
+      line-height: 1.5;
+    }
+    .geo-comp-table td.col-geodipo {
+      background: #fcfdfc;
+      font-weight: 600;
+      color: var(--geo-basalt);
+      border-left: 2px solid var(--geo-wa);
+      border-right: 2px solid var(--geo-wa);
+    }
+    .geo-comp-table td.col-others {
+      color: var(--geo-slate-muted);
+    }
+
+    /* TABBED REGIONAL HUB */
+    .geo-regional-tabs-wrap {
+      background: #ffffff;
+      border: 1px solid var(--geo-border);
+      border-radius: var(--geo-radius-md);
+      padding: 26px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.03);
+    }
+    .geo-tabs-nav {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      border-bottom: 2px solid var(--geo-border);
+      padding-bottom: 14px;
+      margin-bottom: 22px;
+    }
+    .geo-tab-button {
+      background: var(--geo-surface-light);
+      border: 1px solid var(--geo-border);
+      color: var(--geo-slate-mid);
+      padding: 9px 18px;
+      border-radius: var(--geo-radius-sm);
+      font-size: 13.5px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.15s ease;
+    }
+    .geo-tab-button.active, .geo-tab-button:hover {
+      background: var(--geo-basalt);
+      color: #ffffff;
+      border-color: var(--geo-basalt);
+    }
+    .geo-tab-pane {
+      display: none;
+    }
+    .geo-tab-pane.active {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+      gap: 10px;
+    }
+    .geo-city-chip {
+      background: var(--geo-surface-light);
+      border: 1px solid var(--geo-border);
+      border-radius: 6px;
+      padding: 9px 12px;
+      font-size: 13px;
+      font-weight: 650;
+      color: var(--geo-slate-dark);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      text-decoration: none !important;
+      transition: all 0.15s ease;
+    }
+    .geo-city-chip:hover {
+      background: #ffffff;
+      border-color: var(--geo-amber);
+      color: var(--geo-amber);
+      transform: translateY(-1px);
+    }
+    .geo-city-indicator {
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--geo-wa);
+    }
+
+    /* FAQ ACCORDION */
+    .geo-faq-list {
+      display: grid;
+      gap: 12px;
+      max-width: 840px;
+      margin: 0 auto;
+    }
+    .geo-faq-item {
+      background: #ffffff;
+      border: 1px solid var(--geo-border);
+      border-radius: var(--geo-radius-sm);
+      overflow: hidden;
+    }
+    .geo-faq-summary {
+      padding: 16px 20px;
+      font-size: 15px;
+      font-weight: 750;
+      color: var(--geo-basalt);
+      cursor: pointer;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      user-select: none;
+    }
+    .geo-faq-summary::-webkit-details-marker { display: none; }
+    .geo-faq-summary::after {
+      content: "+";
+      font-size: 20px;
+      font-weight: 400;
+      color: var(--geo-amber);
+    }
+    .geo-faq-item[open] .geo-faq-summary::after {
+      content: "−";
+    }
+    .geo-faq-item[open] .geo-faq-summary {
+      background: var(--geo-surface-light);
+      border-bottom: 1px solid var(--geo-border);
+    }
+    .geo-faq-content {
+      padding: 16px 20px;
+      font-size: 14px;
+      color: var(--geo-slate-muted);
+      line-height: 1.65;
+    }
+
+    /* FINAL BANNER */
+    .geo-cta-banner {
+      background: linear-gradient(135deg, #09131e 0%, #0d2138 100%);
+      color: #ffffff;
+      border-radius: var(--geo-radius-lg);
+      padding: clamp(36px, 5vw, 60px) clamp(24px, 4vw, 48px);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid var(--geo-border-dark);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+    }
+    .geo-cta-title {
+      font-size: clamp(24px, 3vw, 36px);
+      font-weight: 850;
+      color: #ffffff;
+      margin-bottom: 14px;
+      letter-spacing: -0.02em;
+    }
+    .geo-cta-desc {
+      font-size: 16px;
+      color: #cbd5e1;
+      max-width: 680px;
+      margin: 0 auto 28px;
+      line-height: 1.6;
+    }
+
+    /* GLOBAL FOOTER */
+    .geo-footer {
+      background: #060e17;
+      color: #cbd5e1;
+      padding: 60px 0 30px;
+      border-top: 1px solid #162a40;
+      font-size: 13.5px;
+    }
+    .geo-footer-grid {
+      display: grid;
+      grid-template-columns: 1.3fr 1fr 1fr 1fr;
+      gap: 36px;
+      margin-bottom: 48px;
+    }
+    .geo-footer-brand-title {
+      font-size: 22px;
+      font-weight: 850;
+      color: #ffffff;
+      margin-bottom: 12px;
+      display: flex;
+      align-items: baseline;
+    }
+    .geo-footer-about {
+      color: #94a3b8;
+      line-height: 1.7;
+      margin-bottom: 18px;
+      max-width: 320px;
+    }
+    .geo-footer-head {
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: #ffffff;
+      margin-bottom: 16px;
+    }
+    .geo-footer-links {
+      list-style: none;
+      display: grid;
+      gap: 9px;
+    }
+    .geo-footer-links a {
+      color: #94a3b8;
+      text-decoration: none !important;
+    }
+    .geo-footer-links a:hover {
+      color: var(--geo-amber);
+    }
+    .geo-footer-bottom {
+      border-top: 1px solid #162a40;
+      padding-top: 24px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 14px;
+      font-size: 12.5px;
+      color: #64748b;
+    }
+
+    /* NON-INTRUSIVE MOBILE WHATSAPP FAB */
+    .geo-wa-fab {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      width: 54px;
+      height: 54px;
+      border-radius: 50%;
+      background: #25d366;
+      color: #ffffff !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 18px rgba(37, 211, 102, 0.45);
+      z-index: 999;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      text-decoration: none !important;
+    }
+    .geo-wa-fab:hover {
+      transform: scale(1.08);
+      box-shadow: 0 6px 24px rgba(37, 211, 102, 0.6);
+    }
+    .geo-wa-fab svg {
+      width: 28px;
+      height: 28px;
+      fill: currentColor;
+    }
+    .geo-wa-pulse {
+      position: absolute;
+      top: 2px;
+      right: 2px;
+      width: 12px;
+      height: 12px;
+      background: #22c55e;
+      border: 2px solid #ffffff;
+      border-radius: 50%;
+    }
+
+    /* MOBILE NAVIGATION BURGER & DRAWER */
+    .geo-burger {
+      display: none;
+      flex-direction: column;
+      justify-content: center;
+      gap: 5px;
+      width: 40px;
+      height: 40px;
+      background: #ffffff;
+      border: 1.5px solid var(--geo-border);
+      border-radius: var(--geo-radius-sm);
+      padding: 8px;
+      cursor: pointer;
+      z-index: 101;
+    }
+    .geo-burger span {
+      display: block;
+      width: 100%;
+      height: 2px;
+      background: var(--geo-basalt);
+      transition: all 0.25s ease;
+      border-radius: 2px;
+    }
+    .geo-burger.is-active span:nth-child(1) {
+      transform: translateY(7px) rotate(45deg);
+    }
+    .geo-burger.is-active span:nth-child(2) {
+      opacity: 0;
+    }
+    .geo-burger.is-active span:nth-child(3) {
+      transform: translateY(-7px) rotate(-45deg);
+    }
+
+    .geo-mobile-drawer {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: #ffffff;
+      border-bottom: 2px solid var(--geo-border);
+      box-shadow: 0 16px 32px rgba(11, 21, 34, 0.12);
+      padding: 20px 24px;
+      flex-direction: column;
+      gap: 4px;
+      z-index: 99;
+    }
+    .geo-mobile-drawer.is-open {
+      display: flex;
+    }
+    .geo-drawer-link {
+      color: var(--geo-slate-dark);
+      font-weight: 650;
+      font-size: 15px;
+      text-decoration: none !important;
+      padding: 12px 0;
+      border-bottom: 1px solid var(--geo-border-light);
+    }
+    .geo-drawer-link:hover {
+      color: var(--geo-amber);
+    }
+    .geo-drawer-cta {
+      margin-top: 12px;
+      text-align: center;
+      display: block;
+      padding: 14px;
+      border-radius: var(--geo-radius-sm);
+      font-weight: 750;
+      font-size: 14px;
+      text-decoration: none !important;
+    }
+
+    /* RESPONSIVE MEDIA QUERIES */
+    @media (max-width: 1024px) {
+      .geo-hero-grid {
+        grid-template-columns: 1fr;
+      }
+      .geo-services-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .geo-proof-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      .geo-steps-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      .geo-footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .geo-nav {
+        display: none;
+      }
+      .geo-burger {
+        display: flex;
+      }
+      .geo-top-bar {
+        font-size: 11px;
+      }
+      .geo-top-badges span:nth-child(2),
+      .geo-top-badges span:nth-child(3) {
+        display: none;
+      }
+      .geo-top-bar-inner {
+        justify-content: center;
+        text-align: center;
+      }
+      .geo-pathways-grid {
+        grid-template-columns: 1fr;
+      }
+      .geo-cases-grid {
+        grid-template-columns: 1fr;
+      }
+      .geo-case-card {
+        grid-template-columns: 1fr;
+      }
+      .geo-case-thumb {
+        height: 190px;
+      }
+      .geo-steps-grid {
+        grid-template-columns: 1fr;
+      }
+      .geo-hero-spec-badge {
+        position: static;
+        margin-top: 14px;
+      }
+      .geo-footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .geo-hero-actions {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .geo-hero-actions .geo-btn-amber,
+      .geo-hero-actions .geo-btn-outline {
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- UTILITY TOP BAR -->
+  <div class="geo-top-bar">
+    <div class="geo-container geo-top-bar-inner">
+      <div class="geo-top-badges">
+        <span class="geo-top-badge"><span class="geo-top-dot"></span> Tim Ahli Geologi & Geoteknik Siaga</span>
+        <span>•</span>
+        <span>SIPP & Perizinan SIPA Air Tanah ESDM</span>
+        <span>•</span>
+        <span>Standar Uji PBG / SIMBG PUPR</span>
+      </div>
+      <div class="geo-top-contacts">
+        <span>Konsultasi Cepat: <a href="https://wa.me/6281338240851?text=Halo%20Geodipo%2C%20saya%20ingin%20konsultasi%20mengenai%20proyek%20geologi%2C%20sumur%20bor%2C%20atau%20uji%20tanah.">0813-3824-0851 (WhatsApp)</a></span>
+      </div>
+    </div>
+  </div>
+
+  <!-- GLOBAL HEADER -->
+  <header class="geo-header">
+    <div class="geo-container geo-header-inner">
+      <a href="/" class="geo-brand" aria-label="Geodipo Home">
+        <span class="geo-brand-name">GEODIPO<span class="geo-brand-dot">.</span></span>
+        <span class="geo-brand-tagline">Geoscience & Drilling Engineering</span>
+      </a>
+
+      <nav class="geo-nav" aria-label="Navigasi Utama">
+        <a href="#layanan" class="geo-nav-link">Layanan Rekayasa</a>
+        <a href="#jalur-klien" class="geo-nav-link">Jalur Solusi</a>
+        <a href="#metodologi" class="geo-nav-link">Metodologi</a>
+        <a href="#portofolio" class="geo-nav-link">Studi Kasus</a>
+        <a href="#komparasi" class="geo-nav-link">Standar Mutu</a>
+        <a href="#wilayah" class="geo-nav-link">Wilayah Kerja</a>
+        <a href="#faq" class="geo-nav-link">FAQ</a>
+        <a href="https://wa.me/6281338240851?text=Halo%20Geodipo%2C%20saya%20ingin%20konsultasi%20mengenai%20proyek." class="geo-nav-cta">Konsultasi Proyek →</a>
+      </nav>
+
+      <button class="geo-burger" aria-label="Buka Menu Navigasi" id="geoBurgerBtn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <!-- MOBILE NAVIGATION DRAWER -->
+    <div class="geo-mobile-drawer" id="geoMobileDrawer">
+      <a href="#layanan" class="geo-drawer-link">Layanan Rekayasa Kebumian</a>
+      <a href="#jalur-klien" class="geo-drawer-link">Jalur Solusi Sektor Klien</a>
+      <a href="#metodologi" class="geo-drawer-link">Metodologi & Alur Kerja Lapangan</a>
+      <a href="#portofolio" class="geo-drawer-link">Studi Kasus & Rekam Jejak Lapangan</a>
+      <a href="#komparasi" class="geo-drawer-link">Standar Mutu Rekayasa</a>
+      <a href="#wilayah" class="geo-drawer-link">Cakupan Wilayah Indonesia</a>
+      <a href="#faq" class="geo-drawer-link">FAQ & Konsultasi Teknis</a>
+      <a href="https://wa.me/6281338240851?text=Halo%20Geodipo%2C%20saya%20ingin%20konsultasi%20mengenai%20proyek." class="geo-btn-amber geo-drawer-cta">Konsultasi Cepat via WhatsApp →</a>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (SPLIT INDUSTRIAL EDITORIAL) -->
+  <section class="geo-hero" id="hero">
+    <div class="geo-container">
+      <div class="geo-hero-grid">
+        <div>
+          <div class="geo-kicker">KONSULTAN GEOFISIKA, HIDROGEOLOGI & SUMUR BOR INDONESIA</div>
+          <h1 class="geo-hero-title">Jasa Geolistrik, Sumur Bor Deep Well & Penyelidikan Tanah PBG</h1>
+          <p class="geo-hero-lead">Solusi rekayasa kebumian terpadu: pemetaan posisi akuifer 2D sebelum pengeboran, konstruksi deep well industri berkapasitas tembus batuan kompak hingga 200 meter, uji tanah sondir CPT & boring SPT resmi PBG, serta legalitas izin SIPA ESDM di seluruh Indonesia.</p>
+
+          <ul class="geo-hero-props">
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span><strong>Akurasi Akuifer Geolistrik 2D:</strong> Mengidentifikasi zona batupasir pembawa air dan batas intrusi air asin sebelum mata bor diturunkan ke lapangan.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span><strong>Armada Rig Penembus Batuan Keras:</strong> Unit hidraulik rotary mud dan kompresor pneumatik DTH Hammer siap menembus formasi breksi andesit masif.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/></svg>
+              <span><strong>Lolos Verifikasi PBG & SIPA ESDM:</strong> Laporan disahkan Tenaga Ahli Geoteknik ber-SKA/SKK resmi HATTI untuk portal SIMBG PUPR dan OSS RBA.</span>
+            </li>
+          </ul>
+
+          <div class="geo-hero-actions">
+            <a href="https://wa.me/6281338240851?text=Halo%20Geodipo%2C%20saya%20ingin%20konsultasi%20mengenai%20proyek%20sumur%20bor%20dan%20geolistrik." class="geo-btn-primary">
+              Konsultasi Bersama Ahli Geologi →
+            </a>
+            <a href="#layanan" class="geo-btn-outline">Eksplorasi Spesifikasi Layanan ↓</a>
+          </div>
+        </div>
+
+        <div class="geo-hero-visual">
+          <div class="geo-hero-media-wrap">
+            <img src="images/hero-geolistrik-field.webp" alt="Tim Geofisika Geodipo Mengoperasikan Alat Geolistrik Resistivitas di Lapangan" loading="eager">
+          </div>
+          <div class="geo-hero-spec-badge">
+            <div>
+              <div class="geo-spec-label">Instrumen</div>
+              <div class="geo-spec-val">Resistivity 2D</div>
+            </div>
+            <div>
+              <div class="geo-spec-label">Standar CPT/SPT</div>
+              <div class="geo-spec-val">SNI 2827:2008</div>
+            </div>
+            <div>
+              <div class="geo-spec-label">Armada Rig Bor</div>
+              <div class="geo-spec-val">Kedalaman 200m+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OPERATIONAL TRUST BAR -->
+  <section class="geo-proof-bar">
+    <div class="geo-container">
+      <div class="geo-proof-grid">
+        <div class="geo-proof-item">
+          <div class="geo-proof-title">Kajian CAT Indonesia</div>
+          <div class="geo-proof-desc">Kajian titik bor merujuk peta geologi regional ESDM & geometri Cekungan Air Tanah (CAT).</div>
+        </div>
+        <div class="geo-proof-item">
+          <div class="geo-proof-title">Pengujian Standar SNI</div>
+          <div class="geo-proof-desc">Pengujian sondir CPT (SNI 2827:2008) dan boring SPT (SNI 4153:2008) terkalibrasi KAN.</div>
+        </div>
+        <div class="geo-proof-item">
+          <div class="geo-proof-title">SKA / SKK Ahli HATTI</div>
+          <div class="geo-proof-desc">Laporan teknis ditandatangani Tenaga Ahli Geoteknik resmi berlisensi lolos SIMBG PUPR.</div>
+        </div>
+        <div class="geo-proof-item">
+          <div class="geo-proof-title">Material Casing SNI</div>
+          <div class="geo-proof-desc">Pipa PVC AW tebal standar JIS (tahan 10 kg/cm²) atau pipa baja GIP medium anti remuk.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CUSTOMER PERSONA PATHWAYS (3 CARDS) -->
+  <section class="geo-section" id="jalur-klien">
+    <div class="geo-container">
+      <div class="geo-section-head">
+        <div class="geo-section-kicker">Kebutuhan Proyek Anda</div>
+        <h2 class="geo-section-title">Pilih Jalur Solusi Berdasarkan Sektor Klien</h2>
+        <p class="geo-section-lead">Setiap kebutuhan memiliki tantangan mekanik dan kepatuhan regulasi yang berbeda. Temukan pendekatan teknis yang sesuai dengan target proyek Anda.</p>
+      </div>
+
+      <div class="geo-pathways-grid">
+        <!-- Pathway 1: Residential -->
+        <div class="geo-pathway-card">
+          <div>
+            <span class="geo-pathway-badge geo-badge-res">Residensial & Hunian</span>
+            <h3 class="geo-pathway-title">Pemilik Rumah & Perumahan Klaster</h3>
+            <div class="geo-pathway-problem">
+              <strong>Kendala Umum:</strong> Air sumur dangkal sering berbau besi, keruh kekuningan, atau mengalami tekor debit parah saat kemarau akibat akuifer bebas yang rentan tercemar limbah pemukiman.
+            </div>
+            <p class="geo-pathway-solution">
+              Geodipo membangun sumur bor akuifer tertekan (*confined aquifer*) kedalaman 30 sampai 60 meter. Dilengkapi konstruksi *grouting* semen pelindung kontaminasi dan saringan pasir silika untuk menjamin pasokan air bening 24 jam.
+            </p>
+          </div>
+          <a href="/jasa-sumur-bor/" class="geo-pathway-link">Pelajari Spesifikasi Residensial →</a>
+        </div>
+
+        <!-- Pathway 2: Construction / PBG -->
+        <div class="geo-pathway-card">
+          <div>
+            <span class="geo-pathway-badge geo-badge-dev">Pengembang & Kontraktor</span>
+            <h3 class="geo-pathway-title">Gedung, Gudang & Syarat Izin PBG</h3>
+            <div class="geo-pathway-problem">
+              <strong>Kendala Umum:</strong> Berkas perizinan PBG atau Sertifikat Laik Fungsi (SLF) tertunda verifikasinya pada sistem SIMBG Dinas PUPR karena belum melampirkan laporan mekanika tanah ber-SKA.
+            </div>
+            <p class="geo-pathway-solution">
+              Penyelidikan tanah cepat dan akurat: pengujian sondir CPT 2.5 ton hingga tanah keras (*refusal qc ≥ 200 kg/cm²*) serta deep boring SPT dengan sampel tabung UDS. Draf laporan teknis siap dalam 2–3 hari kerja.
+            </p>
+          </div>
+          <a href="/jasa-sondir/" class="geo-pathway-link">Lihat Paket Uji Tanah PBG →</a>
+        </div>
+
+        <!-- Pathway 3: Industrial & Commercial -->
+        <div class="geo-pathway-card">
+          <div>
+            <span class="geo-pathway-badge geo-badge-ind">Kawasan Industri & Bisnis</span>
+            <h3 class="geo-pathway-title">Pabrik, Hotel & Deep Well Komersial</h3>
+            <div class="geo-pathway-problem">
+              <strong>Kendala Umum:</strong> Kebutuhan debit kontinu debit besar (5–15 L/detik) untuk mesin industri dan boiler, disertai kewajiban mematuhi izin pengusahaan air tanah resmi Kementerian ESDM.
+            </div>
+            <p class="geo-pathway-solution">
+              Konstruksi sumur bor industri kedalaman 100–200+ meter pipa baja GIP medium, pengujian geolistrik 2D, borehole logging, step-drawdown pumping test 72 jam, serta pendampingan izin resmi SIPA via OSS RBA.
+            </p>
+          </div>
+          <a href="/jasa-pengurusan-sipa/" class="geo-pathway-link">Konsultasi Izin SIPA Industri →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 CORE ENGINEERING PILLARS -->
+  <section class="geo-section geo-section-alt" id="layanan">
+    <div class="geo-container">
+      <div class="geo-section-head">
+        <div class="geo-section-kicker">Layanan Rekayasa Kebumian</div>
+        <h2 class="geo-section-title">Empat Pilar Keahlian Teknis Geodipo</h2>
+        <p class="geo-section-lead">Layanan komprehensif mulai dari pemetaan geofisika non-destruktif, konstruksi sumur dalam, pengujian mekanika tanah fondasi, hingga legalitas pemanfaatan air resmi negara.</p>
+      </div>
+
+      <div class="geo-services-grid">
+        <!-- Pillar 1 -->
+        <div class="geo-service-card">
+          <div class="geo-service-img">
+            <img src="images/geolistrik-instruments.webp" alt="Peralatan Geolistrik dan Kabel Survei Lapangan Geodipo" loading="lazy">
+          </div>
+          <div class="geo-service-body">
+            <div class="geo-service-tag">Geofisika Terapan</div>
+            <h3 class="geo-service-title">Survei Geolistrik Resistivitas 2D</h3>
+            <p class="geo-service-desc">Investigasi tahanan jenis 1D VES dan pemetaan 2D ERT untuk mendeteksi sebaran lapisan batupasir pembawa air, batas air asin, dan patahan sebelum pengeboran.</p>
+            <ul class="geo-service-specs">
+              <li><span>✔</span> Konfigurasi Schlumberger & Wenner</li>
+              <li><span>✔</span> Penampang 2D tahanan jenis batuan</li>
+              <li><span>✔</span> Rekomendasi koordinat titik bor optimal</li>
+            </ul>
+            <a href="/jasa-geolistrik/" class="geo-pathway-link">Lihat Metode Geolistrik →</a>
+          </div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="geo-service-card">
+          <div class="geo-service-img">
+            <img src="images/field-equipment-prep.webp" alt="Armada dan Peralatan Rig Pengeboran Deep Well Geodipo" loading="lazy">
+          </div>
+          <div class="geo-service-body">
+            <div class="geo-service-tag">Konstruksi Fisik</div>
+            <h3 class="geo-service-title">Jasa Sumur Bor Deep Well</h3>
+            <p class="geo-service-desc">Pengeboran sumur air tanah dalam (30 hingga 200+ meter) dengan armada rotary mud drilling dan DTH Hammer berkapasitas tembus formasi batuan keras masif.</p>
+            <ul class="geo-service-specs">
+              <li><span>✔</span> Pipa Casing PVC AW JIS / GIP Medium SNI</li>
+              <li><span>✔</span> Gravel pack pasir silika penyaring halus</li>
+              <li><span>✔</span> Grouting semen penyekat rembesan kotor</li>
+            </ul>
+            <a href="/jasa-sumur-bor/" class="geo-pathway-link">Spesifikasi Sumur Bor →</a>
+          </div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="geo-service-card">
+          <div class="geo-service-img">
+            <img src="images/geolistrik-long-electrode-line.webp" alt="Penyelidikan Geoteknik Lapangan dan Pengujian Geolistrik Geodipo" loading="lazy">
+          </div>
+          <div class="geo-service-body">
+            <div class="geo-service-tag">Geoteknik Fondasi</div>
+            <h3 class="geo-service-title">Jasa Sondir & Boring SPT (PBG)</h3>
+            <p class="geo-service-desc">Uji tanah sondir CPT 2.5 ton dan pemboran mesin putar SPT untuk penentuan daya dukung tanah, evaluasi penurunan fondasi gedung, dan syarat resmi PBG/SLF.</p>
+            <ul class="geo-service-specs">
+              <li><span>✔</span> Grafik qc & hambatan lekat total Tf</li>
+              <li><span>✔</span> Sampel tabung UDS & uji lab mektan</li>
+              <li><span>✔</span> Lembar pengesahan SKA Tenaga Ahli HATTI</li>
+            </ul>
+            <a href="/jasa-sondir/" class="geo-pathway-link">Paket Uji Sondir PBG →</a>
+          </div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="geo-service-card">
+          <div class="geo-service-img">
+            <img src="images/geolistrik-team-consultation.webp" alt="Konsultasi Teknis Tim Ahli Geologi dan Legalitas SIPA Air Tanah Geodipo" loading="lazy">
+          </div>
+          <div class="geo-service-body">
+            <div class="geo-service-tag">Legalitas ESDM</div>
+            <h3 class="geo-service-title">Pengurusan Izin SIPA Air Tanah</h3>
+            <p class="geo-service-desc">Pendampingan perizinan pemanfaatan air tanah resmi Kementerian ESDM dan sistem OSS RBA untuk kawasan industri, hotel, rumah sakit, dan gedung bertingkat.</p>
+            <ul class="geo-service-specs">
+              <li><span>✔</span> Pumping test step-drawdown 48–72 jam</li>
+              <li><span>✔</span> Water flow meter tera resmi BMKG/ESDM</li>
+              <li><span>✔</span> Dokumen studi hidrogeologi lengkap</li>
+            </ul>
+            <a href="/jasa-pengurusan-sipa/" class="geo-pathway-link">Alur Perizinan SIPA →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5-STEP ENGINEERING METHODOLOGY -->
+  <section class="geo-section" id="metodologi">
+    <div class="geo-container">
+      <div class="geo-section-head">
+        <div class="geo-section-kicker">Metodologi Ilmiah</div>
+        <h2 class="geo-section-title">5 Tahapan Standar Kerja Rekayasa Geodipo</h2>
+        <p class="geo-section-lead">Pendekatan saintifik yang sistematis untuk memastikan setiap rupiah investasi pengeboran dan fondasi Anda menghasilkan data akurat dan pasokan air terukur.</p>
+      </div>
+
+      <div class="geo-steps-grid">
+        <div class="geo-step-card">
+          <div class="geo-step-num">01</div>
+          <h3 class="geo-step-title">Kajian Geologi & CAT</h3>
+          <p class="geo-step-desc">Evaluasi data sekunder formasi batuan regional, status Cekungan Air Tanah (CAT), dan riwayat sumur bor eksisting di sekitar lokasi proyek.</p>
+        </div>
+        <div class="geo-step-card">
+          <div class="geo-step-num">02</div>
+          <h3 class="geo-step-title">Investigasi Lapangan</h3>
+          <p class="geo-step-desc">Akuisisi data resistivitas geolistrik 2D multi-elektroda atau pengujian sondir CPT 2.5 ton langsung di titik rencana konstruksi.</p>
+        </div>
+        <div class="geo-step-card">
+          <div class="geo-step-num">03</div>
+          <h3 class="geo-step-title">Konstruksi & Bor</h3>
+          <p class="geo-step-desc">Pengeboran menggunakan rig hidraulik rotary mud atau DTH hammer, instalasi pipa casing AW SNI, gravel pack silika, dan grouting semen.</p>
+        </div>
+        <div class="geo-step-card">
+          <div class="geo-step-num">04</div>
+          <h3 class="geo-step-title">Pengujian Debit SNI</h3>
+          <p class="geo-step-desc">Uji pemompaan step-drawdown dan recovery test kontinu untuk mengukur debit optimum aman (*safe yield*) serta penurunan muka air tanah.</p>
+        </div>
+        <div class="geo-step-card">
+          <div class="geo-step-num">05</div>
+          <h3 class="geo-step-title">Laporan & Legalitas</h3>
+          <p class="geo-step-desc">Penyusunan laporan komprehensif ber-SKA untuk izin PBG/SIMBG PUPR atau pengurusan berkas izin pemanfaatan air tanah resmi ke ESDM.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VERIFIED FIELD CASE STUDIES (REAL ASSETS) -->
+  <section class="geo-section geo-section-alt" id="portofolio">
+    <div class="geo-container">
+      <div class="geo-section-head">
+        <div class="geo-section-kicker">Rekam Jejak Terverifikasi</div>
+        <h2 class="geo-section-title">Dokumentasi Proyek Nyata di Seluruh Indonesia</h2>
+        <p class="geo-section-lead">Bukan klaim tanpa dasar. Berikut adalah dokumentasi lapangan dan studi kasus penanganan litologi spesifik dari Jawa, Sumatera, hingga Papua.</p>
+      </div>
+
+      <div class="geo-cases-grid">
+        <!-- Case 1: Geotag Jateng (Kaliwungu Kudus) -->
+        <div class="geo-case-card">
+          <div class="geo-case-thumb">
+            <img src="images/geotag-jateng-kudus.webp" alt="Survei Geolistrik Geotag Kudus Jawa Tengah" loading="lazy">
+          </div>
+          <div class="geo-case-content">
+            <div>
+              <div class="geo-case-meta">
+                <span>Jawa Tengah</span>
+                <span>UTM 49M 475632 9249151</span>
+              </div>
+              <h3 class="geo-case-title">Survei Geolistrik Air Bersih Desa Banget, Kaliwungu</h3>
+              <p class="geo-case-desc">Identifikasi lapisan pembawa air tanah tawar pada elevasi 35 mdpl untuk mengatasi masalah air payau pesisir pada formasi endapan aluvial pantai.</p>
+              <div class="geo-case-specs-list">
+                <div><strong>Instrumen:</strong> Geolistrik Resistivitas Multichannel</div>
+                <div><strong>Target:</strong> Akuifer Tertekan Tawar Bebas Salinitas</div>
+              </div>
+            </div>
+            <div class="geo-case-result">Titik akuifer terkonfirmasi pada kedalaman 48 meter, air tawar murni.</div>
+          </div>
+        </div>
+
+        <!-- Case 2: Geotag Sumatera (Tasik Serai Riau) -->
+        <div class="geo-case-card">
+          <div class="geo-case-thumb">
+            <img src="images/geotag-sumatera-riau.webp" alt="Penyelidikan Geolistrik Air Bersih Tasik Serai Barat Riau" loading="lazy">
+          </div>
+          <div class="geo-case-content">
+            <div>
+              <div class="geo-case-meta">
+                <span>Riau, Sumatera</span>
+                <span>UTM 47N 765468 133341</span>
+              </div>
+              <h3 class="geo-case-title">Eksplorasi Akuifer Gambut Tasik Serai Barat, Tualang Mandau</h3>
+              <p class="geo-case-desc">Pencarian akuifer di bawah lapisan gambut asam tebal dan lempung liat lunak untuk penyediaan air bersih warga perkebunan kelapa sawit.</p>
+              <div class="geo-case-specs-list">
+                <div><strong>Metode:</strong> Konfigurasi Schlumberger Bentangan 200m</div>
+                <div><strong>Kondisi:</strong> Lapisan gambut atas disekat cement grouting</div>
+              </div>
+            </div>
+            <div class="geo-case-result">Menembus akuifer batupasir formasi Minas, pH netral 7.2 bebas bau gambut.</div>
+          </div>
+        </div>
+
+        <!-- Case 3: Geotag Papua (Kampung Bebon Jaya) -->
+        <div class="geo-case-card">
+          <div class="geo-case-thumb">
+            <img src="images/geotag-papua-bebon.webp" alt="Survei Geolistrik Kampung Bebon Jaya Papua" loading="lazy">
+          </div>
+          <div class="geo-case-content">
+            <div>
+              <div class="geo-case-meta">
+                <span>Sarmi, Papua</span>
+                <span>2.272021°S 139.546626°E</span>
+              </div>
+              <h3 class="geo-case-title">Pemetaan Potensi Air Tanah Kampung Bebon Jaya</h3>
+              <p class="geo-case-desc">Pengukuran lintasan GL-01 metode Wenner dengan pencatatan raw data sheet elektroda C1-P1-P2-C2 pada elevasi 87.4 msnm untuk proyek sarana air bersih daerah.</p>
+              <div class="geo-case-specs-list">
+                <div><strong>Lintasan:</strong> GL-01 Bentangan Multi-Elektroda</div>
+                <div><strong>Dokumentasi:</strong> Lembar Raw Data Sheet Lapangan Lengkap</div>
+              </div>
+            </div>
+            <div class="geo-case-result">Pemetaan struktur batuan dasar dan formasi akuifer tertekan terpetakan valid.</div>
+          </div>
+        </div>
+
+        <!-- Case 4: Formasi Vulkanik Ungaran Semarang -->
+        <div class="geo-case-card">
+          <div class="geo-case-thumb">
+            <img src="images/geotag-ungaran-semarang.webp" alt="Survei Geolistrik Formasi Vulkanik Ungaran Semarang Jawa Tengah" loading="lazy">
+          </div>
+          <div class="geo-case-content">
+            <div>
+              <div class="geo-case-meta">
+                <span>Jawa Tengah</span>
+                <span>Lereng Gn. Ungaran, Semarang</span>
+              </div>
+              <h3 class="geo-case-title">Eksplorasi Akuifer Formasi Batuan Vulkanik & Breksi</h3>
+              <p class="geo-case-desc">Penyelidikan geolistrik resistivitas sounding untuk mendeteksi rekahan lava andesit dan batupasir tufaan penyimpan air tanah bersih di lereng perbukitan.</p>
+              <div class="geo-case-specs-list">
+                <div><strong>Formasi:</strong> Breksi Vulkanik & Batupasir Tufaan Kaligesik</div>
+                <div><strong>Target:</strong> Retakan Akuifer Tertekan Kedalaman 80–120m</div>
+              </div>
+            </div>
+            <div class="geo-case-result">Zona akuifer rekahan batuan andesit ditemukan akurat pada kedalaman 94 meter, debit 4.2 L/detik.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ENGINEERING SPECIFICATION COMPARISON -->
+  <section class="geo-section" id="komparasi">
+    <div class="geo-container">
+      <div class="geo-section-head">
+        <div class="geo-section-kicker">Standar Kualitas Kerja</div>
+        <h2 class="geo-section-title">Mengapa Memilih Geodipo Dibanding Tukang Bor Konvensional?</h2>
+        <p class="geo-section-lead">Investasi sumur bor dan penyelidikan tanah ditujukan untuk ketahanan puluhan tahun. Hindari kerugian finansial akibat tebak-tebakan tanpa landasan sains kebumian.</p>
+      </div>
+
+      <div class="geo-comp-wrapper">
+        <table class="geo-comp-table">
+          <thead>
+            <tr>
+              <th class="col-feat">Parameter Pekerjaan</th>
+              <th class="col-geodipo">Rekayasa Teknik Geodipo</th>
+              <th class="col-others">Tukang Bor Konvensional</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="col-feat"><strong>Penentuan Titik Bor</strong></td>
+              <td class="col-geodipo">Berdasarkan data geologi Cekungan Air Tanah (CAT) & survei geolistrik ilmiah</td>
+              <td class="col-others">Menebak dengan kawat tembaga, kelapa, atau insting tanpa data ilmiah</td>
+            </tr>
+            <tr>
+              <td class="col-feat"><strong>Kualitas Pipa Casing</strong></td>
+              <td class="col-geodipo">Pipa PVC Kelas AW Tebal (Standar JIS tahan 10 kg/cm²) atau Baja GIP SNI</td>
+              <td class="col-others">Pipa PVC tipis kelas D atau C yang rentan pecah terjepit geseran tanah</td>
+            </tr>
+            <tr>
+              <td class="col-feat"><strong>Saringan Pasir (Screen)</strong></td>
+              <td class="col-geodipo">Pipa saringan pabrik presisi + gravel pack pasir silika bundar</td>
+              <td class="col-others">Paralon digergaji manual tidak rata, memicu pasir hisap dan pompa rusak</td>
+            </tr>
+            <tr>
+              <td class="col-feat"><strong>Penyekat Kontaminasi</strong></td>
+              <td class="col-geodipo">Semen grouting (0–12m) menyekat air resapan kotor dan limbah septik tank</td>
+              <td class="col-others">Dibiarkan tanpa semen, air limbah permukaan bebas mencemari sumur</td>
+            </tr>
+            <tr>
+              <td class="col-feat"><strong>Penetrasi Batuan Keras</strong></td>
+              <td class="col-geodipo">Armada DTH Hammer kompresor udara 25 bar siap tembus breksi andesit masif</td>
+              <td class="col-others">Mesin modifikasi kecil, pekerjaan macet dan ditinggal saat mentok batu</td>
+            </tr>
+            <tr>
+              <td class="col-feat"><strong>Pertanggungjawaban Teknis</strong></td>
+              <td class="col-geodipo">Didampingi sarjana geologi / hidrogeologi berlisensi SKA resmi HATTI</td>
+              <td class="col-others">Hanya tukang gali borongan tanpa dasar jaminan kepastian ilmiah</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- TABBED REGIONAL HUB -->
+  <section class="geo-section geo-section-alt" id="wilayah">
+    <div class="geo-container">
+      <div class="geo-section-head">
+        <div class="geo-section-kicker">Cakupan Wilayah Operasional</div>
+        <h2 class="geo-section-title">Jaringan Layanan Sumur Bor & Uji Tanah Se-Indonesia</h2>
+        <p class="geo-section-lead">Dari sentra industri Jabodetabek, Jawa Barat, Jawa Tengah, Jawa Timur, hingga pulau Sumatera, Kalimantan, Sulawesi dan Papua—tim Geodipo siap memobilisasi peralatan ke lokasi proyek Anda.</p>
+      </div>
+
+      <div class="geo-regional-tabs-wrap">
+        <div class="geo-tabs-nav" role="tablist">
+          <button class="geo-tab-button active" onclick="switchRegionalTab(event, 'tab-jabar-dki')">Jabodetabek & Jawa Barat</button>
+          <button class="geo-tab-button" onclick="switchRegionalTab(event, 'tab-jateng-diy')">DI Yogyakarta & Jawa Tengah</button>
+          <button class="geo-tab-button" onclick="switchRegionalTab(event, 'tab-jatim-bali')">Jawa Timur & Bali</button>
+          <button class="geo-tab-button" onclick="switchRegionalTab(event, 'tab-luar-jawa')">Sumatera, Kalimantan & Luar Jawa</button>
+        </div>
+
+        <!-- TAB 1: JABODETABEK & JABAR -->
+        <div id="tab-jabar-dki" class="geo-tab-pane active">
+          <a href="/jasa-sumur-bor-jakarta/" class="geo-city-chip"><span>DKI Jakarta (5 Wilayah)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-bekasi/" class="geo-city-chip"><span>Bekasi (Kota & Kab)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-karawang/" class="geo-city-chip"><span>Karawang (KIIC/Suryacipta)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-tangerang/" class="geo-city-chip"><span>Tangerang Raya</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-bogor/" class="geo-city-chip"><span>Bogor (Kota & Kab)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-depok/" class="geo-city-chip"><span>Kota Depok</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-bandung/" class="geo-city-chip"><span>Bandung Raya</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-cilegon/" class="geo-city-chip"><span>Cilegon & Banten</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-cirebon/" class="geo-city-chip"><span>Cirebon & Indramayu</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-sukabumi/" class="geo-city-chip"><span>Sukabumi & Cianjur</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-purwakarta/" class="geo-city-chip"><span>Purwakarta & Subang</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-tasikmalaya/" class="geo-city-chip"><span>Tasikmalaya & Garut</span><span class="geo-city-indicator"></span></a>
+        </div>
+
+        <!-- TAB 2: DIY & JATENG -->
+        <div id="tab-jateng-diy" class="geo-tab-pane">
+          <a href="/jasa-sumur-bor-jogja/" class="geo-city-chip"><span>DI Yogyakarta (Sleman/Bantul)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sondir-jogja/" class="geo-city-chip"><span>Sondir PBG Jogja & Sleman</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-semarang/" class="geo-city-chip"><span>Semarang (Kota & Kab)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-surakarta/" class="geo-city-chip"><span>Solo / Surakarta</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-banyumas/" class="geo-city-chip"><span>Banyumas & Purwokerto</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-cilacap/" class="geo-city-chip"><span>Cilacap (Kawasan Industri)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-kudus/" class="geo-city-chip"><span>Kudus & Pati</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-magelang/" class="geo-city-chip"><span>Magelang</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-batang/" class="geo-city-chip"><span>Batang (Kawasan KITB)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-tegal/" class="geo-city-chip"><span>Tegal & Brebes</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-pekalongan/" class="geo-city-chip"><span>Pekalongan</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-kebumen/" class="geo-city-chip"><span>Kebumen & Purworejo</span><span class="geo-city-indicator"></span></a>
+        </div>
+
+        <!-- TAB 3: JATIM & BALI -->
+        <div id="tab-jatim-bali" class="geo-tab-pane">
+          <a href="/jasa-sumur-bor-surabaya/" class="geo-city-chip"><span>Kota Surabaya</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-sidoarjo/" class="geo-city-chip"><span>Sidoarjo (Kawasan Industri)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-gresik/" class="geo-city-chip"><span>Gresik (Kawasan JIIPE)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-bali/" class="geo-city-chip"><span>Bali (Badung & Denpasar)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-malang/" class="geo-city-chip"><span>Malang & Kota Batu</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-pasuruan/" class="geo-city-chip"><span>Pasuruan (Kawasan PIER)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-mojokerto/" class="geo-city-chip"><span>Mojokerto (Kawasan Ngoro)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-kediri/" class="geo-city-chip"><span>Kediri & Blitar</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-jember/" class="geo-city-chip"><span>Jember & Lumajang</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-banyuwangi/" class="geo-city-chip"><span>Banyuwangi</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-tuban/" class="geo-city-chip"><span>Tuban & Lamongan</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-madiun/" class="geo-city-chip"><span>Madiun & Ngawi</span><span class="geo-city-indicator"></span></a>
+        </div>
+
+        <!-- TAB 4: LUAR JAWA -->
+        <div id="tab-luar-jawa" class="geo-tab-pane">
+          <a href="/jasa-sumur-bor-balikpapan/" class="geo-city-chip"><span>Balikpapan & Sepaku (IKN)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-samarinda/" class="geo-city-chip"><span>Samarinda & Kutai</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-medan/" class="geo-city-chip"><span>Medan & Deli Serdang</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-pekanbaru/" class="geo-city-chip"><span>Pekanbaru (Riau)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-palembang/" class="geo-city-chip"><span>Palembang (Sumsel)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-batam/" class="geo-city-chip"><span>Kota Batam (Batamindo)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-makassar/" class="geo-city-chip"><span>Makassar (Kawasan KIMA)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-banjarmasin/" class="geo-city-chip"><span>Banjarmasin (Kalsel)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-pontianak/" class="geo-city-chip"><span>Pontianak (Kalbar)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sumur-bor-lampung/" class="geo-city-chip"><span>Bandar Lampung</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sondir-jayapura/" class="geo-city-chip"><span>Kota Jayapura (Papua)</span><span class="geo-city-indicator"></span></a>
+          <a href="/jasa-sondir-timika/" class="geo-city-chip"><span>Mimika / Timika (Papua)</span><span class="geo-city-indicator"></span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TECHNICAL FAQ -->
+  <section class="geo-section" id="faq">
+    <div class="geo-container">
+      <div class="geo-section-head">
+        <div class="geo-section-kicker">Tanya Jawab Teknis</div>
+        <h2 class="geo-section-title">Pertanyaan Kritis Sebelum Memulai Pekerjaan</h2>
+        <p class="geo-section-lead">Jawaban transparan mengenai faktor biaya per meter, akurasi geolistrik, persyaratan izin SIPA, dan kepatuhan SIMBG PUPR.</p>
+      </div>
+
+      <div class="geo-faq-list">
+        <details class="geo-faq-item" open>
+          <summary class="geo-faq-summary">Apakah survei geolistrik menjamin 100% ditemukannya air bersih?</summary>
+          <div class="geo-faq-content">
+            Secara ilmiah, geolistrik mengukur respon tahanan jenis (*resistivity semu*) dari formasi batuan di bawah permukaan tanah. Data ini memetakan batuan pembawa air (seperti batupasir atau breksi rekahan berpori) dan membedakannya dari lempung kedap air atau intrusi air asin. Survei ini meminimalkan risiko kegagalan titik bor, namun verifikasi litologi dan debit air tetap ditentukan oleh konstruksi pengeboran dan pumping test.
+          </div>
+        </details>
+
+        <details class="geo-faq-item">
+          <summary class="geo-faq-summary">Berapa rincian estimasi biaya sumur bor per meter?</summary>
+          <div class="geo-faq-content">
+            Biaya sumur bor dipengaruhi oleh 4 faktor utama: diameter lubang casing (4, 5, 6, hingga 8 inci), kedalaman target (akuifer dangkal 30–50m vs deep well industri 100–150m+), formasi litologi batuan (tanah aluvial lunak vs batuan breksi vulkanik keras), serta spesifikasi pompa submersible (stainless steel multistage vs standar). Geodipo selalu memberikan rincian Rencana Anggaran Biaya (RAB) transparan sebelum pekerjaan dimulai.
+          </div>
+        </details>
+
+        <details class="geo-faq-item">
+          <summary class="geo-faq-summary">Berapa titik uji sondir yang diwajibkan untuk syarat izin PBG bangunan gedung?</summary>
+          <div class="geo-faq-content">
+            Berdasarkan pedoman teknis SIMBG Kementerian PUPR dan SNI 8460:2017: untuk rumah tinggal atau ruko 1–2 lantai disyaratkan minimal 2 titik sondir mekanik/hidrolik 2.5 ton hingga tanah keras (qc ≥ 200 kg/cm²). Untuk bangunan industri, pergudangan bentang lebar, atau gedung 3 lantai ke atas, disyaratkan 3 hingga 5 titik yang sering dikombinasikan dengan 1–2 titik deep boring SPT dan uji laboratorium mekanika tanah.
+          </div>
+        </details>
+
+        <details class="geo-faq-item">
+          <summary class="geo-faq-summary">Apakah sumur bor rumah tangga wajib memiliki izin SIPA dari Kementerian ESDM?</summary>
+          <div class="geo-faq-content">
+            Berdasarkan Keputusan Menteri ESDM No. 291.K/GL.01/MEM.G/2023, sumur bor untuk kebutuhan dasar rumah tangga perseorangan dengan volume pemakaian kurang dari 100 meter kubik (100 m³) per bulan dibebaskan dari kewajiban izin pengusahaan air tanah (SIPA). Kewajiban izin SIPA dan persetujuan studi hidrogeologi berlaku mutlak bagi sektor industri, perhotelan, rumah sakit, pergudangan, perumahan komersial, dan kegiatan usaha niaga.
+          </div>
+        </details>
+
+        <details class="geo-faq-item">
+          <summary class="geo-faq-summary">Bagaimana penanganan Geodipo bila di lokasi ditemukan formasi batuan andesit keras?</summary>
+          <div class="geo-faq-content">
+            Geodipo memiliki armada rig pneumatik DTH (*Down-The-Hole*) Hammer dengan dukungan kompresor udara bertekanan tinggi 20–25 bar. Metode tumbuk-putar berkecepatan tinggi ini mampu menembus batuan beku andesit dan batugamping masif yang umumnya membuat mesin bor konvensional macet atau mata bor patah.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CALL TO ACTION BANNER -->
+  <section class="geo-section" style="padding-top: 0;">
+    <div class="geo-container">
+      <div class="geo-cta-banner">
+        <h2 class="geo-cta-title">Konsultasikan Titik Proyek Kebumian Anda</h2>
+        <p class="geo-cta-desc">Diskusikan kebutuhan sumur bor, survei geolistrik, atau pengujian sondir PBG Anda langsung bersama tim ahli hidrogeologi Geodipo. Dapatkan analisis formasi batuan awal dan estimasi RAB transparan tanpa komitmen.</p>
+        <a href="https://wa.me/6281338240851?text=Halo%20Geodipo%2C%20saya%20ingin%20konsultasi%20mengenai%20proyek%20sumur%20bor%2C%20geolistrik%2C%20atau%20uji%20tanah." class="geo-btn-primary" style="font-size: 16px; padding: 16px 34px;">
+          Hubungi Tim Teknis via WhatsApp (0813-3824-0851) →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- GLOBAL FOOTER -->
+  <footer class="geo-footer">
+    <div class="geo-container">
+      <div class="geo-footer-grid">
+        <div>
+          <div class="geo-footer-brand-title">GEODIPO<span style="color:var(--geo-amber);">.</span></div>
+          <p class="geo-footer-about">
+            Layanan rekayasa kebumian terpadu: investigasi hidrogeologi, survei geolistrik resistivitas 2D, konstruksi sumur bor deep well, dan uji geoteknik fondasi berstandar SNI di seluruh wilayah Indonesia.
+          </p>
+          <p style="color:#94a3b8; font-size:12.5px;">
+            Penanggung Jawab Teknis: <strong>Aditya Febrianto, S.T.</strong>
+          </p>
+        </div>
+
+        <div>
+          <div class="geo-footer-head">Layanan Utama</div>
+          <ul class="geo-footer-links">
+            <li><a href="/jasa-geolistrik/">Survei Geolistrik 2D</a></li>
+            <li><a href="/jasa-sumur-bor/">Sumur Bor Deep Well</a></li>
+            <li><a href="/jasa-sondir/">Uji Sondir Tanah PBG</a></li>
+            <li><a href="/jasa-boring-spt/">Boring SPT & Uji Mektan</a></li>
+            <li><a href="/jasa-pengurusan-sipa/">Perizinan SIPA ESDM</a></li>
+            <li><a href="/pumping-test-sumur-bor/">Uji Pemompaan (Pumping Test)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="geo-footer-head">Pusat Informasi</div>
+          <ul class="geo-footer-links">
+            <li><a href="/cakupan-wilayah/">Cakupan Wilayah Sumur Bor</a></li>
+            <li><a href="/cakupan-wilayah-sondir/">Cakupan Wilayah Uji Sondir</a></li>
+            <li><a href="/biaya-sumur-bor/">Panduan Biaya Sumur Bor</a></li>
+            <li><a href="/kedalaman-sumur-bor/">Kedalaman Akuifer Air Bersih</a></li>
+            <li><a href="/tentang-geodipo/">Tentang Tim Geodipo</a></li>
+            <li><a href="/kontak/">Kontak Tim Lapangan</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <div class="geo-footer-head">Standar & Kepatuhan</div>
+          <p style="color:#94a3b8; line-height:1.6; margin-bottom:12px;">
+            Sertifikasi Tenaga Ahli HATTI • Kepatuhan PBG/SIMBG Kementerian PUPR • Persetujuan Teknis Air Tanah Kementerian ESDM RI.
+          </p>
+          <a href="https://wa.me/6281338240851?text=Halo%20Geodipo%2C%20saya%20ingin%20berkonsultasi." style="display:inline-flex; align-items:center; gap:6px; color:#22c55e; font-weight:700;">
+            <span>✆ WhatsApp: 0813-3824-0851</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="geo-footer-bottom">
+        <span>© 2026 Geodipo. Seluruh hak cipta dilindungi undang-undang.</span>
+        <span>Rekayasa Pengeboran & Investigasi Kebumian Berbasis Standar Geologi Regional Cekungan Air Tanah (CAT).</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SLEEK NON-INTRUSIVE WHATSAPP FAB (MOBILE & DESKTOP) -->
+  <a href="https://wa.me/6281338240851?text=Halo%20Geodipo%2C%20saya%20ingin%20konsultasi%20mengenai%20proyek." class="geo-wa-fab" aria-label="Konsultasi Cepat via WhatsApp">
+    <span class="geo-wa-pulse"></span>
+    <svg viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+  </a>
+
+  <!-- TAB SWITCHER & MOBILE NAV SCRIPT -->
+  <script>
+    function switchRegionalTab(evt, tabId) {
+      var tabContents = document.querySelectorAll('.geo-tab-pane');
+      tabContents.forEach(function(pane) {
+        pane.classList.remove('active');
+      });
+
+      var tabButtons = document.querySelectorAll('.geo-tab-button');
+      tabButtons.forEach(function(btn) {
+        btn.classList.remove('active');
+      });
+
+      document.getElementById(tabId).classList.add('active');
+      evt.currentTarget.classList.add('active');
+    }
+
+    document.addEventListener('DOMContentLoaded', function() {
+      var burger = document.getElementById('geoBurgerBtn');
+      var drawer = document.getElementById('geoMobileDrawer');
+      if (burger && drawer) {
+        burger.addEventListener('click', function() {
+          burger.classList.toggle('is-active');
+          drawer.classList.toggle('is-open');
+        });
+        drawer.querySelectorAll('a').forEach(function(link) {
+          link.addEventListener('click', function() {
+            burger.classList.remove('is-active');
+            drawer.classList.remove('is-open');
+          });
+        });
+      }
+    });
+  </script>
+</body>
+</html>

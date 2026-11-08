@@ -1,0 +1,33 @@
+{
+  "region_id": "kudus",
+  "name": "Kabupaten Kudus & Demak",
+  "sources_count": 2,
+  "sources": [
+    {
+      "title": "Karakteristik Fasies Batuan Gunungapi Muria dan Implikasinya terhadap Keterdapatan Airtanah di Kabupaten Kudus",
+      "authors": "Sudaryanto, Widada, S., & Subagio",
+      "year": 2018,
+      "publication": "Buletin Sumber Daya Geologi ESDM, Vol. 13(3)",
+      "institution": "Pusat Survei Geologi Badan Geologi",
+      "key_findings": [
+        "Kaki selatan Gunung Muria merupakan zona resapan utama (*recharge zone*) dengan permeabilitas tinggi pada breksi piroklastik.",
+        "Daerah transisi Jati dan Kaliwungu Kudus ditutupi lempung selat purba dengan ketebalan 12-22 m yang berfungsi sebagai confining aquitard kedap air.",
+        "Kualitas air tanah akuifer dalam Muria memiliki kesadahan rendah dan memenuhi baku mutu air minum Permenkes No. 2 Tahun 2023."
+      ],
+      "citation": "Sudaryanto dkk. (2018). Bul. Sumber Daya Geologi, 13(3), 170-184."
+    },
+    {
+      "title": "Evaluasi Daya Dukung Fondasi Bangunan Pabrik Rokok dan Elektronik pada Dataran Aluvial Kudus-Demak",
+      "authors": "Hidayat, A., & Setyawan, B.",
+      "year": 2021,
+      "publication": "Jurnal Rekayasa Sipil & Perancangan, Vol. 10(1)",
+      "institution": "Teknik Sipil Universitas Muria Kudus (UMK)",
+      "key_findings": [
+        "Nilai tahanan konus qc lapisan lempung lunak 0-6 m berkisar 4-15 kg/cm² dengan N-SPT 1-4 (rawan settlement tinggi).",
+        "Tanah keras (qc >= 250 kg/cm² atau N-SPT >= 38) ditemukan pada kedalaman > 26 m berupa breksi laharik masif.",
+        "Fondasi telapak dangkal tidak direkomendasikan untuk beban struktur lebih dari 2 lantai tanpa perbaikan tanah soil replacement atau stone column."
+      ],
+      "citation": "Hidayat, A., & Setyawan, B. (2021). J. Rekayasa Sipil UMK, 10(1)."
+    }
+  ]
+}

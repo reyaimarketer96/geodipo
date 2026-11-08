@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Fluvial Sungai Mahakam [Qa] (lempung lunak jenuh air sangat tebal) dan Formasi Kampungbaru serta Balikpapan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Samarinda."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lumpur Lempung Rawa Mahakam Lunak Sangat Lembek",
+        "4 - 16 kg/cm²",
+        "1 - 4",
+        "Dilarang fondasi telapak di bantaran Mahakam; wajib cerucuk galam/tiang"
+      ],
+      [
+        "4.5 - 14 m",
+        "Lempung Lanauan Kelabu Jenuh Air Sangat Tebal",
+        "12 - 30 kg/cm²",
+        "2 - 7",
+        "Penurunan konsolidasi jangka panjang & gaya seret negatif"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Kuarsa Padat Sedang & Sisipan Batubara Lignit",
+        "60 - 130 kg/cm²",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile ruko niaga & gudang"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Keras Kompak Formasi Kampungbaru",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile jembatan Mahakam IV & dermaga Palaran"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Mahakam dan penurunan konsolidasi tebal pada tanah lempung lunak pesisir sungai."
+  }
+}

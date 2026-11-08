@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Pantai dan Delta Kali Kanci [Qa] serta Formasi Kalibiuk dan Tuf Cirebon Gunung Ciremai.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Cirebon."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu (Aluvial Pantai)",
+        "8 - 22 kg/cm²",
+        "1 - 5",
+        "Dilarang fondasi dangkal tanpa cerucuk/mini pile"
+      ],
+      [
+        "4 - 14 m",
+        "Lanau Pasiran dan Lempung Kaku Sedang",
+        "30 - 70 kg/cm²",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang ruko"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat & Kerikil Andesit",
+        "90 - 180 kg/cm²",
+        "20 - 34",
+        "Tumpuan tiang pancang pabrik rotan / industri Losari"
+      ],
+      [
+        "> 22 m",
+        "Batulempung Keras Formasi Kalibiuk / Tuf Ciremai",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile / bore pile PLTU Kanci"
+      ]
+    ],
+    "hazard": "Muka air tanah dangkal rob di pesisir dan lempung lunak tebal di kawasan industri Losari."
+  }
+}

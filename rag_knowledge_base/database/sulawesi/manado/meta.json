@@ -1,0 +1,13 @@
+{
+  "region_id": "manado",
+  "name": "Kota Manado",
+  "province": "Sulawesi Utara",
+  "cat_esdm": "CAT Manado (CAT Sulawesi)",
+  "bbws": "BWS Sulawesi / Dinas ESDM Wilayah Sulawesi",
+  "geological_sheet": "Peta Geologi Lembar Manado Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

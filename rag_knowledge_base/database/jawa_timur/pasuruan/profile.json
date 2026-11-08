@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Dataran Pantai Selat Madura [Qa] di utara dan Formasi Rabang serta Breksi Bromo-Tengger di selatan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Pasuruan (PIER)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Lunak Kelabu (Pesisir PIER Rembang)",
+        "8 - 24 kg/cm²",
+        "2 - 6",
+        "Dilarang fondasi dangkal tanpa cerucuk/mini pile"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Lanauan Sedang hingga Kaku",
+        "25 - 65 kg/cm²",
+        "6 - 15",
+        "Memberikan friksi selimut tiang pancang pabrik PIER"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat & Kerikil Lahar Tengger",
+        "80 - 160 kg/cm²",
+        "18 - 32",
+        "Tumpuan tiang pancang spun pile pergudangan"
+      ],
+      [
+        "> 22 m",
+        "Konglomerat Keras & Batuan Vulkanik Tersemen",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Welang/Rejoso di utara dan tanah ekspansif di dataran pantai."
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "region_id": "serang",
+  "name": "Kota Serang",
+  "province": "Banten",
+  "cat_esdm": "CAT Serang (CAT Banten)",
+  "bbws": "BBWS Cidanau Ciujung Cidurian / Balai ESDM Banten",
+  "geological_sheet": "Peta Geologi Lembar Serang Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "bojonegara-serang",
+    "pancatama-cikande",
+    "modern-cikande-serang"
+  ]
+}

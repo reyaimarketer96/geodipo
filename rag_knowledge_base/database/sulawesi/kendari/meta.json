@@ -1,0 +1,13 @@
+{
+  "region_id": "kendari",
+  "name": "Kota Kendari",
+  "province": "Sulawesi Tenggara",
+  "cat_esdm": "CAT Kendari (CAT Sulawesi)",
+  "bbws": "BWS Sulawesi / Dinas ESDM Wilayah Sulawesi",
+  "geological_sheet": "Peta Geologi Lembar Kendari Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

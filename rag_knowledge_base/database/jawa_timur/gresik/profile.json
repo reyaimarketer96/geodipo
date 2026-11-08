@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Pantai Purba Manyar [Qa], Formasi Kabuh [Qpk], Formasi Lidah [Tpl], dan Formasi Pucangan [Qpt].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 25 m",
+      "water_quality": "Payau dan asin di Manyar, Ujungpangkah, dan Kebomas akibat pengaruh pesisir Selat Madura."
+    },
+    "aquifer_confined": {
+      "depth": "75 - 140 m",
+      "lithology": "Batupasir tufaan Formasi Kabuh tertekan di bawah batulempung Formasi Lidah",
+      "recommended_casing": "Pipa Baja SCH 40 / PVC AW 6 - 8 inch, continuous screen stainless 1.5 mm.",
+      "safe_yield": "10 - 22 Liter/detik",
+      "sipa_advice": "Wajib pemasangan flowmeter digital dan uji kualitas air berkala untuk industri kimia/smelter JIIPE."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Pasang Surut Lunak & Pasir Reklamasi JIIPE",
+        "8 - 25 kg/cm²",
+        "2 - 6",
+        "Preloading timbunan & perbaikan tanah dasar geotekstil"
+      ],
+      [
+        "4 - 15 m",
+        "Lempung Marin Kelabu Lunak (Soft Marine Clay)",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Rentan konsolidasi diferensial di bawah tangki industri"
+      ],
+      [
+        "15 - 22 m",
+        "Batugamping Karstik Lapuk Sedang & Lanau Pasiran",
+        "60 - 140 kg/cm²",
+        "15 - 30",
+        "Zona friksi tiang pancang pabrik smelter tembaga Freeport JIIPE"
+      ],
+      [
+        "> 22 m",
+        "Batugamping Masif Keras Formasi Paciran",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 42",
+        "Hard bearing stratum tiang spun pile smelter & dermaga pelabuhan Manyar"
+      ]
+    ],
+    "hazard": "Konsolidasi timbunan reklamasi pantai JIIPE dan rongga karst bawah tanah di perbukitan kapur Kebomas."
+  }
+}

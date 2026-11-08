@@ -1,0 +1,4370 @@
+{
+  "jasa-sondir-tangerang-selatan": {
+    "name": "Kota Tangerang Selatan",
+    "slug": "jasa-sondir-tangerang-selatan",
+    "province": "Banten",
+    "region_type": "Kota",
+    "key_areas": "BSD City, Bintaro Jaya, Pamulang, Ciputat, Serpong, Setu, Pondok Aren",
+    "geology_zone": "Formasi Serpong [Tpss] (konglomerat aneka bahan dan batupasir tufan padat) serta aluvium limpasan Sungai Cisadane dan Kali Angke.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Residual)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Dangkal footplate rumah 1-2 lantai"
+      ],
+      [
+        "3 - 9 m",
+        "Tuf Pasiran Padat Sedang & Lanau Berbatuapung",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Strauss pile / mini pile ruko komersial"
+      ],
+      [
+        "9 - 16 m",
+        "Konglomerat Kuarsa & Batupasir Padat Formasi Serpong",
+        "\u2265 200 - 250 kg/cm\u00b2",
+        "\u2265 32 - 45",
+        "Tumpuan tiang pancang spun pile gedung 4-8 lantai"
+      ],
+      [
+        "> 16 m",
+        "Konglomerat Masif Tersementasi Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50",
+        "Hard bearing stratum tiang bor pile apartemen & jembatan"
+      ]
+    ],
+    "hazard": "Kembang susut tanah lanau tufan pada area timbunan baru dan erosi tebing bantaran kali."
+  },
+  "jasa-sondir-serang": {
+    "name": "Kota Serang",
+    "slug": "jasa-sondir-serang",
+    "province": "Banten",
+    "region_type": "Kota",
+    "key_areas": "Serang Kota, Cipocok Jaya, Curug, Kasemen, Walantaka, Taktakan",
+    "geology_zone": "Tuf Banten [QTvb] berselingan dengan Formasi Bojongmanik dan Aluvium Pantai Teluk Banten.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Pasiran",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 7",
+        "Footplate dangkal rumah tinggal"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Lapuk Sedang",
+        "45 - 90 kg/cm\u00b2",
+        "10 - 20",
+        "Strauss pile ruko niaga"
+      ],
+      [
+        "8 - 15 m",
+        "Batupasir Tufan Padat & Breksi Lahar",
+        "160 - 240 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang mini pile pergudangan"
+      ],
+      [
+        "> 15 m",
+        "Tuf Keras & Batuan Vulkanik Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Bearing stratum tiang spun pile gedung kantor pemerintahan"
+      ]
+    ],
+    "hazard": "Muka air tanah dangkal di Kasemen pesisir dan lempung ekspansif di Walantaka."
+  },
+  "jasa-sondir-kabupaten-serang": {
+    "name": "Kabupaten Serang (Cikande & Bojonegara)",
+    "slug": "jasa-sondir-kabupaten-serang",
+    "province": "Banten",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Modern Cikande, Bojonegara, Kramatwatu, Anyer, Kragilan, Ciruas",
+    "geology_zone": "Formasi Genteng [Tpg] (tufa batuapung) dan Basalt Gunung Pinang di barat, bersentuhan dengan Aluvium Rawa Cikande.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Cokelat Gelap Plastisitas Tinggi",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Perbaikan tanah dasar timbunan sirtu padat"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Tufan Kaku (Stiff Silty Clay)",
+        "35 - 80 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang pancang mini pile gudang bentang ringan"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Tufan Padat & Konglomerat",
+        "140 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Zona friksi spun pile pabrik manufaktur"
+      ],
+      [
+        "> 20 m",
+        "Batuan Vulkanik Keras / Tuf Tersemen Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 45",
+        "Bearing stratum tiang bor pile pabrik baja & kimia"
+      ]
+    ],
+    "hazard": "Penurunan diferensial pelat lantai pabrik di tanah aluvium Cikande dan batu basal lepas di Bojonegara."
+  },
+  "jasa-sondir-depok": {
+    "name": "Kota Depok",
+    "slug": "jasa-sondir-depok",
+    "province": "Jawa Barat",
+    "region_type": "Kota",
+    "key_areas": "Margonda, Cinere, Sawangan, Cimanggis, Tapos, Sukmajaya, Beji, Bojongsari",
+    "geology_zone": "Kipas Aluvial Vulkanik Muda [Qav] (tufa batuapung, lempung pasiran) dan endapan aluvial Sungai Ciliwung.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Tufan)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Lanauan Tufan Berbatuapung Padat Sedang",
+        "50 - 100 kg/cm\u00b2",
+        "12 - 22",
+        "Strauss pile ruko Margonda / kos kampus"
+      ],
+      [
+        "8 - 16 m",
+        "Batupasir Tufan Padat & Kerikil Lahar",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang mini pile apartemen & rumah sakit"
+      ],
+      [
+        "> 16 m",
+        "Konglomerat Tufan Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile / bore pile"
+      ]
+    ],
+    "hazard": "Lereng terjal sempadan Sungai Ciliwung dan lempung kaku yang mudah melunak saat jenuh air."
+  },
+  "jasa-sondir-purwakarta": {
+    "name": "Kabupaten Purwakarta",
+    "slug": "jasa-sondir-purwakarta",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Bukit Indah City (BIC), Kota Industri KBI, Jatiluhur, Bungursari, Campaka",
+    "geology_zone": "Formasi Subang [Tms] (batulempung lempungan) dan Formasi Jatiluhur [Tmj] berselingan dengan batuan vulkanik Gunung Burangrang.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Hitam Plastisitas Sangat Tinggi (Expansive Clay)",
+        "12 - 30 kg/cm\u00b2",
+        "2 - 6",
+        "Wajib penggantian tanah timbunan sirtu 1.5 m"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lempung Lanauan Kaku Abu-Abu Kecokelatan",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Memberikan friksi selimut tiang spun pile pabrik"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Tufan Padat & Batulanau Keras",
+        "120 - 220 kg/cm\u00b2",
+        "22 - 36",
+        "Tiang pancang mini pile gudang logistik BIC"
+      ],
+      [
+        "> 18 m",
+        "Batulempung Keras Masif Formasi Subang/Jatiluhur",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Tumpuan tiang pancang spun pile dia 400-600 mm"
+      ]
+    ],
+    "hazard": "Tanah lempung ekspansif kembang-susut di kawasan industri BIC dan lereng terjal di sekitar Jatiluhur."
+  },
+  "jasa-sondir-subang": {
+    "name": "Kabupaten Subang (Smartpolitan & Patimban)",
+    "slug": "jasa-sondir-subang",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Subang Smartpolitan, Pelabuhan Internasional Patimban, Kalijati, Cipendeuy, Pamanukan, Pagaden",
+    "geology_zone": "Formasi Subang [Tms] di selatan dan Aluvium Dataran Pantai Pamanukan/Patimban [Qa] di utara.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lumpur Lempung Marin Pasang Surut / Timbunan Reklamasi (Patimban)",
+        "5 - 18 kg/cm\u00b2",
+        "1 - 4",
+        "Preloading timbunan / PVD reklamasi pelabuhan"
+      ],
+      [
+        "4 - 16 m",
+        "Lempung Marin Sangat Lunak Kelabu Gelap",
+        "12 - 32 kg/cm\u00b2",
+        "2 - 7",
+        "Rentan penurunan konsolidasi berkepanjangan"
+      ],
+      [
+        "16 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Zona friksi selimut tiang spun pile"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Keras & Batulempung Kompak Formasi Subang",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang pancang dermaga Patimban & pabrik Smartpolitan"
+      ]
+    ],
+    "hazard": "Konsolidasi lempung marin lunak di koridor Pelabuhan Patimban dan lempung ekspansif di Cipendeuy."
+  },
+  "jasa-sondir-cirebon": {
+    "name": "Kota & Kabupaten Cirebon",
+    "slug": "jasa-sondir-cirebon",
+    "province": "Jawa Barat",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Cirebon Kota, Kawasan Industri Losari, Kanci, Weru, Kedawung, Lemahwungkuk, Harjamukti",
+    "geology_zone": "Aluvium Pantai dan Delta Kali Kanci [Qa] serta Formasi Kalibiuk dan Tuf Cirebon Gunung Ciremai.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu (Aluvial Pantai)",
+        "8 - 22 kg/cm\u00b2",
+        "1 - 5",
+        "Dilarang fondasi dangkal tanpa cerucuk/mini pile"
+      ],
+      [
+        "4 - 14 m",
+        "Lanau Pasiran dan Lempung Kaku Sedang",
+        "30 - 70 kg/cm\u00b2",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang ruko"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat & Kerikil Andesit",
+        "90 - 180 kg/cm\u00b2",
+        "20 - 34",
+        "Tumpuan tiang pancang pabrik rotan / industri Losari"
+      ],
+      [
+        "> 22 m",
+        "Batulempung Keras Formasi Kalibiuk / Tuf Ciremai",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile / bore pile PLTU Kanci"
+      ]
+    ],
+    "hazard": "Muka air tanah dangkal rob di pesisir dan lempung lunak tebal di kawasan industri Losari."
+  },
+  "jasa-sondir-sukabumi": {
+    "name": "Kota & Kabupaten Sukabumi",
+    "slug": "jasa-sondir-sukabumi",
+    "province": "Jawa Barat",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Sukabumi Kota, Cikembar, Cibadak, Cicurug, Palabuhanratu, Sukalarang",
+    "geology_zone": "Batuan Gunungapi Kuarter Gunung Gede-Pangrango [Qvg] dan Formasi Nyalindung serta batuan terobosan andesit.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Lapukan Lahar)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / vila"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berfragmen Andesit Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang strauss pile pabrik garmen Cicurug/Cibadak"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Padat & Konglomerat Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang pancang mini pile / spun pile"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile jembatan & pabrik semen"
+      ]
+    ],
+    "hazard": "Topografi berbukit lereng curam rawan longsor saat musim hujan dan sesar aktif Cimandiri."
+  },
+  "jasa-sondir-cianjur": {
+    "name": "Kabupaten Cianjur",
+    "slug": "jasa-sondir-cianjur",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Cianjur Kota, Cipanas, Puncak, Cugenang, Ciranjang, Sukaluyu, Warungkondang",
+    "geology_zone": "Batuan Vulkanik Muda Gunung Gede [Qvg] bersentuhan dengan jalur aktif patahan tektonik Sesar Cugenang / Cimandiri.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Tufan (Topsoil Pasca Gempa)",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 7",
+        "Wajib perkuatan sloof kaku anti-gempa"
+      ],
+      [
+        "3 - 9 m",
+        "Breksi Laharik Lapuk Sedang & Pasir Tufan",
+        "45 - 95 kg/cm\u00b2",
+        "10 - 20",
+        "Tiang strauss pile perumahan & ruko 2-3 lantai"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Andesit Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile gedung komersial"
+      ],
+      [
+        "> 16 m",
+        "Batuan Lava Andesit Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Tumpuan tiang bore pile gedung bertingkat & jembatan"
+      ]
+    ],
+    "hazard": "Percepatan puncak gempa (PGA) tinggi dekat Sesar Cugenang dan risiko longsor lereng vulkanik Puncak."
+  },
+  "jasa-sondir-kendal": {
+    "name": "Kabupaten Kendal (KIK & Kaliwungu)",
+    "slug": "jasa-sondir-kendal",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Kendal (KIK), Kaliwungu, Brangsong, Weleri, Kendal Kota, Boja",
+    "geology_zone": "Endapan Aluvium Pantai Jawa Tengah [Qa] di utara dan Formasi Damar [QTd] di perbukitan selatan.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Lunak & Pasir Reklamasi KIK",
+        "8 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Preloading timbunan & perbaikan tanah dasar"
+      ],
+      [
+        "4 - 15 m",
+        "Lempung Marin Lunak Kelabu Tua (Soft Clay)",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Rentan penurunan konsolidasi diferensial"
+      ],
+      [
+        "15 - 22 m",
+        "Lanau Pasiran Padat Sedang Transisi",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Zona friksi tiang pancang pabrik manufaktur KIK"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Konglomeratan Keras Formasi Damar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Konsolidasi timbunan reklamasi pantai KIK dan penurunan muka tanah pesisir Kaliwungu."
+  },
+  "jasa-sondir-batang": {
+    "name": "Kabupaten Batang (KIT Batang)",
+    "slug": "jasa-sondir-batang",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Terpadu Batang (KITB), Gringsing, Banyuputih, Subah, Batang Kota",
+    "geology_zone": "Formasi Damar [QTd] dan Aluvium Pesisir Laut Jawa yang bersentuhan dengan batuan vulkanik Gunung Rogojembangan.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Pasiran",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 8",
+        "Pondasi footplate bangunan kantor / gudang ringan"
+      ],
+      [
+        "3 - 10 m",
+        "Batupasir Tufan Padat Sedang & Konglomerat Kerikil",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 26",
+        "Tiang pancang mini pile pabrik manufaktur KITB"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Padat Sangat Kompak Formasi Damar",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang pancang spun pile industri berat"
+      ],
+      [
+        "> 18 m",
+        "Batuan Konglomerat Masif Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Bearing stratum tiang bor pile jembatan & dermaga"
+      ]
+    ],
+    "hazard": "Pemotongan lereng cut-and-fill di kawasan industri KITB dan erosi pantai Gringsing."
+  },
+  "jasa-sondir-tegal": {
+    "name": "Kota & Kabupaten Tegal",
+    "slug": "jasa-sondir-tegal",
+    "province": "Jawa Tengah",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Tegal Kota, Margadana, Adiwerna, Slawi, Kramat, Suradadi, Warureja",
+    "geology_zone": "Aluvium Pantai dan Dataran Fluvial Kali Gung [Qa] serta Formasi Kalibiuk dan lapukan lahar Gunung Slamet.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu (Endapan Aluvial)",
+        "10 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Dilarang fondasi dangkal tanpa cerucuk/mini pile"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran dan Lempung Kaku Sedang",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 16",
+        "Memberikan friksi selimut tiang pancang ruko"
+      ],
+      [
+        "12 - 20 m",
+        "Pasir Kasar Berkerikil Lahar Gunung Slamet",
+        "80 - 170 kg/cm\u00b2",
+        "18 - 32",
+        "Tumpuan tiang pancang industri logam & pergudangan"
+      ],
+      [
+        "> 20 m",
+        "Breksi Laharik Keras & Batulempung Kompak",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile gedung komersial"
+      ]
+    ],
+    "hazard": "Banjir rob pasang surut di Margadana pesisir dan lempung kembang-susut di Adiwerna."
+  },
+  "jasa-sondir-kudus": {
+    "name": "Kabupaten Kudus & Demak",
+    "slug": "jasa-sondir-kudus",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Kudus Kota, Jati, Kaliwungu, Mejobo, Kawasan Industri Sayung Demak, Karanganyar Demak",
+    "geology_zone": "Aluvium Dataran Pantai Purba Selat Muria [Qa] (lempung marin sangat tebal) dan lapukan tufa Gunung Muria di utara.",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Rawa Lunak Jenuh Air (Bekas Selat Muria)",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Sangat rawan amblas; dilarang fondasi telapak"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Marin Lunak (Very Soft to Soft Clay)",
+        "12 - 30 kg/cm\u00b2",
+        "2 - 7",
+        "Penurunan konsolidasi berkepanjangan & dragload tiang"
+      ],
+      [
+        "18 - 26 m",
+        "Lanau Pasiran Kaku Transisi Muria",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Zona friksi selimut tiang spun pile pabrik rokok/elektronik"
+      ],
+      [
+        "> 26 m",
+        "Batupasir Kasar Padat & Breksi Lahar Muria",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang pancang spun pile pabrik & gudang"
+      ]
+    ],
+    "hazard": "Amblesan tanah dan banjir rob ekstrem di Sayung Demak serta lempung lunak tebal di Jati Kudus."
+  },
+  "jasa-sondir-cilacap": {
+    "name": "Kabupaten Cilacap",
+    "slug": "jasa-sondir-cilacap",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Cilacap (KIC), Kilang Pertamina RU IV, Pelabuhan Tanjung Intan, Jeruklegi, Kroya",
+    "geology_zone": "Endapan Aluvium Pantai Laguna Segara Anakan [Qa] dan Formasi Halang serta Formasi Gabon di perbukitan.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Halus Lepas & Lempung Pasang Surut",
+        "8 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Rentan penurunan seketika & likuifaksi gempa pantai"
+      ],
+      [
+        "4 - 15 m",
+        "Lempung Marin Lunak Kelabu Gelap",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Rentan penurunan konsolidasi di bawah tangki BBM"
+      ],
+      [
+        "15 - 24 m",
+        "Pasir Kasar Padat Sedang & Lanau Pasiran Kaku",
+        "60 - 140 kg/cm\u00b2",
+        "15 - 30",
+        "Zona friksi selimut tiang pancang spun pile"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Keras & Batuan Sedimen Kompak Formasi Halang",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Bearing stratum tiang pipa baja dermaga & tangki kilang Pertamina"
+      ]
+    ],
+    "hazard": "Risiko gempa megathrust selatan Jawa, tsunami, dan korosi air laut tinggi pada tiang dermaga."
+  },
+  "jasa-sondir-purwokerto": {
+    "name": "Kabupaten Banyumas (Purwokerto)",
+    "slug": "jasa-sondir-purwokerto",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Purwokerto Timur/Barat/Selatan/Utara, Baturraden, Sokaraja, Ajibarang, Wangon",
+    "geology_zone": "Produk Gunungapi Slamet Muda [Qvs] (breksi lahar, tufa pasiran, lava andesit) dan Formasi Kumbang di selatan.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Lapukan Lahar Slamet)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Lanauan Berfragmen Batuapung Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Strauss pile / mini pile ruko Purwokerto & kampus Unsoed"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Padat & Kerikil Andesit Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang pancang mini pile / spun pile hotel"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile jembatan & pabrik semen Ajibarang"
+      ]
+    ],
+    "hazard": "Topografi berlereng di Baturraden dan potensi kegempaan sesar lokal Ajibarang."
+  },
+  "jasa-sondir-malang": {
+    "name": "Kota & Kabupaten Malang",
+    "slug": "jasa-sondir-malang",
+    "province": "Jawa Timur",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Klojen, Lowokwaru, Blimbing, Sukun, Kedungkandang, Singosari, Karangploso, Kepanjen",
+    "geology_zone": "Batuan Gunungapi Kuarter Gunung Arjuno-Welirang dan Kawi-Butak [Qpvw] (breksi laharik, tufa, batupasir vulkanik).",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Tufan (Topsoil Subur)",
+        "22 - 45 kg/cm\u00b2",
+        "5 - 10",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Padat Sedang Berkerikil Andesit",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile kos mahasiswa / ruko kampus UB/UM"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Terpadatkan Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile hotel & rumah sakit"
+      ],
+      [
+        "> 15 m",
+        "Batuan Andesit Masif / Breksi Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile apartemen & kampus"
+      ]
+    ],
+    "hazard": "Lereng curam perbukitan rawan longsor di Karangploso dan erosi tebing Sungai Brantas."
+  },
+  "jasa-sondir-batu": {
+    "name": "Kota Batu",
+    "slug": "jasa-sondir-batu",
+    "province": "Jawa Timur",
+    "region_type": "Kota",
+    "key_areas": "Batu Kota, Bumiaji, Junrejo, kawasan wisata vila tebing Panderman & Songgoriti",
+    "geology_zone": "Vulkanik Kuarter Gunung Panderman dan Arjuno [Qpva] berupa breksi andesit keras dan tufa pasiran lereng.",
+    "soil_profile": [
+      [
+        "0 - 2.5 m",
+        "Tanah Humus Vulkanik & Lempung Lanauan Pasiran",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 8",
+        "Footplate vila di lahan datar"
+      ],
+      [
+        "2.5 - 7 m",
+        "Pasir Lanauan Berfragmen Batu Andesit Lepas",
+        "50 - 100 kg/cm\u00b2",
+        "12 - 22",
+        "Mikropile penahan vila lereng tebing"
+      ],
+      [
+        "7 - 14 m",
+        "Breksi Laharik Padat Keras",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang hotel resor bintang lima"
+      ],
+      [
+        "> 14 m",
+        "Batuan Lava Andesit Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile penahan tebing jurang"
+      ]
+    ],
+    "hazard": "Kelongsoran lereng terjal perbukitan saat curah hujan ekstrem dan gempa vulkanik lokal."
+  },
+  "jasa-sondir-pasuruan": {
+    "name": "Kota & Kabupaten Pasuruan (PIER)",
+    "slug": "jasa-sondir-pasuruan",
+    "province": "Jawa Timur",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Kawasan Industri PIER (Pasuruan Industrial Estate Rembang), Kraton, Rejoso, Beji, Gempol, Pandaan",
+    "geology_zone": "Aluvium Dataran Pantai Selat Madura [Qa] di utara dan Formasi Rabang serta Breksi Bromo-Tengger di selatan.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Lunak Kelabu (Pesisir PIER Rembang)",
+        "8 - 24 kg/cm\u00b2",
+        "2 - 6",
+        "Dilarang fondasi dangkal tanpa cerucuk/mini pile"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Lanauan Sedang hingga Kaku",
+        "25 - 65 kg/cm\u00b2",
+        "6 - 15",
+        "Memberikan friksi selimut tiang pancang pabrik PIER"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat & Kerikil Lahar Tengger",
+        "80 - 160 kg/cm\u00b2",
+        "18 - 32",
+        "Tumpuan tiang pancang spun pile pergudangan"
+      ],
+      [
+        "> 22 m",
+        "Konglomerat Keras & Batuan Vulkanik Tersemen",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Welang/Rejoso di utara dan tanah ekspansif di dataran pantai."
+  },
+  "jasa-sondir-mojokerto": {
+    "name": "Kota & Kabupaten Mojokerto (Ngoro)",
+    "slug": "jasa-sondir-mojokerto",
+    "province": "Jawa Timur",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Ngoro Industrial Park (NIP), Mojosari, Puri, Trowulan, Jetis, Dawarblandong",
+    "geology_zone": "Formasi Kabuh [Qpk] (batupasir konglomeratan) dan batuan vulkanik Gunung Penanggungan di Ngoro.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan",
+        "18 - 42 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Lanauan Berkerikil Andesit Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 25",
+        "Strauss pile / mini pile ruko niaga"
+      ],
+      [
+        "8 - 16 m",
+        "Konglomerat Aneka Bahan & Batupasir Formasi Kabuh",
+        "150 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik manufaktur NIP"
+      ],
+      [
+        "> 16 m",
+        "Batuan Konglomerat Masif Keras Tersemen Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Bearing stratum tiang bor pile industri berat & jembatan"
+      ]
+    ],
+    "hazard": "Retakan pelat lantai pada lempung lapukan di Dawarblandong dan getaran mesin berat di NIP."
+  },
+  "jasa-sondir-kediri": {
+    "name": "Kota & Kabupaten Kediri",
+    "slug": "jasa-sondir-kediri",
+    "province": "Jawa Timur",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Kediri Kota, Pesantren, Gampengrejo, Banyakan (Bandara Dhoho), Ngasem, Pare",
+    "geology_zone": "Endapan Aluvium Fluvial Sungai Brantas [Qa] dan produk piroklastik Gunung Kelud [Qvk].",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Tufan Lepas asal Lahar Kelud",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 7",
+        "Rentan amblas seketika; butuh perbaikan tanah dasar"
+      ],
+      [
+        "3 - 9 m",
+        "Pasir Kasar Berkerikil Pumis Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang strauss pile ruko & gudang logistik Bandara Dhoho"
+      ],
+      [
+        "9 - 18 m",
+        "Breksi Laharik Keras & Pasir Terpadatkan",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik rokok Gudang Garam"
+      ],
+      [
+        "> 18 m",
+        "Konglomerat Lahar Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile terminal bandara & jembatan"
+      ]
+    ],
+    "hazard": "Potensi likuifaksi pasir Kelud jenuh air di bantaran Sungai Brantas saat gempa bumi."
+  },
+  "jasa-sondir-tuban": {
+    "name": "Kabupaten Tuban (Kilang & Semen)",
+    "slug": "jasa-sondir-tuban",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Kilang Minyak GRR Jenu, Pabrik Semen Merakurak, Tuban Kota, Palang, Bancar",
+    "geology_zone": "Formasi Paciran [Tpp] (batugamping terumbu karstik berongga) dan Formasi Ngrayong (batupasir kuarsa).",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Tanah Residu Lempung Merah Terra Rossa di atas Batu Kapur",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal di lahan datar"
+      ],
+      [
+        "3 - 8 m",
+        "Batugamping Karstik Lapuk Sedang dengan Rongga Pelarutan",
+        "Fluktuatif (70 - 240 kg/cm\u00b2)",
+        "16 - 38",
+        "Jebakan rongga karst (cavities); butuh coring intan"
+      ],
+      [
+        "8 - 16 m",
+        "Batugamping Masif Keras Formasi Paciran",
+        "\u2265 250 kg/cm\u00b2",
+        "\u2265 42",
+        "Tumpuan tiang pancang spun pile berujung sepatu baja"
+      ],
+      [
+        "> 16 m",
+        "Batupasir Kuarsa Keras Masif Formasi Ngrayong",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Hard bearing stratum tiang bor pile kilang GRR & silo semen"
+      ]
+    ],
+    "hazard": "Rongga karst bawah permukaan (sinkholes) pada batugamping Paciran dan abrasi pantai Jenu."
+  },
+  "jasa-sondir-banyuwangi": {
+    "name": "Kabupaten Banyuwangi",
+    "slug": "jasa-sondir-banyuwangi",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Wongsorejo, Pelabuhan Ketapang, Banyuwangi Kota, Rogojampi, Muncar",
+    "geology_zone": "Batuan Gunungapi Ijen-Raung [Qvi] dan Formasi Meru Betiri serta Aluvium Pesisir Selat Bali.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Pantai & Lempung Lanauan Cokelat",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 8",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 9 m",
+        "Pasir Lanauan Padat Sedang Berkerikil Andesit",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Strauss pile / mini pile pabrik pengolahan ikan Muncar"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Vulkanik Keras Terpadatkan Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang spun pile pergudangan Pelabuhan Ketapang"
+      ],
+      [
+        "> 16 m",
+        "Batuan Andesit Keras Masif Formasi Ijen",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile dermaga feri Ketapang"
+      ]
+    ],
+    "hazard": "Beban getaran gempa subduksi megathrust Selat Bali dan muka air tanah dangkal di pesisir Muncar."
+  },
+  "jasa-sondir-padang": {
+    "name": "Kota Padang",
+    "slug": "jasa-sondir-padang",
+    "province": "Sumatera Barat",
+    "region_type": "Kota",
+    "key_areas": "Padang Barat, Teluk Bayur, Bungus, Lubuk Begalung, Koto Tangah, Nanggalo",
+    "geology_zone": "Endapan Aluvium Pantai Samudera Hindia [Qa] dan Batuan Vulkanik Bukit Barisan [Qv].",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Lepas Jenuh Air (Muka Air Tanah 1 m)",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Rentan likuifaksi gempa; dilarang fondasi telapak"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Aluvial",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang strauss pile ruko niaga bertulang kaku"
+      ],
+      [
+        "12 - 20 m",
+        "Pasir Kasar Berkerikil Kuarsa Padat",
+        "90 - 180 kg/cm\u00b2",
+        "20 - 34",
+        "Tiang pancang mini pile / spun pile gedung 3-5 lantai"
+      ],
+      [
+        "> 20 m",
+        "Breksi Vulkanik Masif & Batuan Beku Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang spun pile Pelabuhan Teluk Bayur"
+      ]
+    ],
+    "hazard": "Risiko gempa megathrust Mentawai, likuifaksi pasir pesisir, dan tsunami Samudera Hindia."
+  },
+  "jasa-sondir-jambi": {
+    "name": "Kota Jambi",
+    "slug": "jasa-sondir-jambi",
+    "province": "Jambi",
+    "region_type": "Kota",
+    "key_areas": "Pasar Jambi, Telanaipura, Jambi Selatan, Danau Teluk, Pelayangan, Muaro Jambi",
+    "geology_zone": "Endapan Aluvium Batanghari [Qa] dan Formasi Kasai [QTk] berselingan lempung rawa gambut.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Rawa Lunak & Gambut Berserat (Bantaran Batanghari)",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Sangat kompresibel; wajib cerucuk galam/mini pile"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Lanauan Lunak Kelabu Gelap",
+        "12 - 32 kg/cm\u00b2",
+        "2 - 7",
+        "Penurunan konsolidasi jangka panjang & dragload tiang"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Zona friksi selimut tiang pancang pabrik karet/sawit"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Kasar Padat Formasi Kasai",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile gedung komersial & jembatan"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Batanghari dan lempung rawa lunak berkadar air ekstrem."
+  },
+  "jasa-sondir-pontianak": {
+    "name": "Kota Pontianak",
+    "slug": "jasa-sondir-pontianak",
+    "province": "Kalimantan Barat",
+    "region_type": "Kota",
+    "key_areas": "Pontianak Kota, Pontianak Barat, Siantan, Sungai Raya, Dwikora, Kubu Raya",
+    "geology_zone": "Endapan Aluvium Rawa Delta Sungai Kapuas [Qa] dan tanah gambut sangat tebal di pedalaman.",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Rawa Lumpur Gambut Sangat Lembek (Delta Kapuas)",
+        "3 - 10 kg/cm\u00b2",
+        "0 - 2",
+        "Kuat geser sangat rendah; tradisi matras kayu cerucuk"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Delta Lunak Kelabu Kehitaman",
+        "8 - 25 kg/cm\u00b2",
+        "1 - 5",
+        "Penurunan konsolidasi berkepanjangan & dragload tiang"
+      ],
+      [
+        "18 - 28 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku Transisi",
+        "35 - 85 kg/cm\u00b2",
+        "8 - 18",
+        "Memberikan friksi selimut tiang pancang spun pile"
+      ],
+      [
+        "> 28 m",
+        "Batupasir Kuarsa Padat & Granit Lapuk Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 36",
+        "Hard bearing stratum tiang spun pile dermaga & ruko 3-4 lantai"
+      ]
+    ],
+    "hazard": "Tanah gambut asam dan lempung delta Kapuas super lunak hingga kedalaman 25 meter."
+  },
+  "jasa-sondir-manado": {
+    "name": "Kota Manado",
+    "slug": "jasa-sondir-manado",
+    "province": "Sulawesi Utara",
+    "region_type": "Kota",
+    "key_areas": "Wenang, Malalayang, Tikala, Mapanget, Bunaken, Pelabuhan Manado, Paal Dua",
+    "geology_zone": "Batuan Vulkanik Muda Kuarter Gunung Lokon-Mahawu [Qv] dan Tuf Tondano berselingan Aluvium Teluk Manado.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Pasiran (Lapukan Tuf Tondano)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Berbatuapung Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko niaga kawasan Boulevard"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Vulkanik Keras & Lava Andesit",
+        "150 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile hotel tepi pantai"
+      ],
+      [
+        "> 16 m",
+        "Batuan Beku Andesit Masif Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile hotel & mall"
+      ]
+    ],
+    "hazard": "Banjir bandang luapan Sungai Tondano dan gelombang gempa tektonik Laut Maluku."
+  },
+  "jasa-sondir-lombok": {
+    "name": "Kota Mataram & Lombok",
+    "slug": "jasa-sondir-lombok",
+    "province": "Nusa Tenggara Barat",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Mataram Kota, Cakranegara, Ampenan, Senggigi (Lombok Barat), Mandalika (Lombok Tengah)",
+    "geology_zone": "Batuan Gunungapi Kuarter Gunung Rinjani [Qvr] (breksi, tufa, lahar) dan Formasi Kalipalung serta Pasir Pantai Mandalika.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Pantai / Topsoil Piroklastik Rinjani",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 8",
+        "Wajib perkuatan struktur sloof kaku anti-gempa"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Tufan Berbatuapung Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang strauss pile ruko Cakranegara & hotel Senggigi"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Keras Rinjani Terkompaksi Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile resor Mandalika"
+      ],
+      [
+        "> 16 m",
+        "Batuan Lava Andesit Masif Formasi Kalipalung",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile sirkuit & hotel bintang lima"
+      ]
+    ],
+    "hazard": "Aktivitas sesar naik busur belakang Flores (Flores Back Arc Thrust) dengan risiko gempa darat merusak."
+  },
+  "jasa-sondir-ikn": {
+    "name": "IKN Nusantara & Penajam Paser Utara",
+    "slug": "jasa-sondir-ikn",
+    "province": "Kalimantan Timur",
+    "region_type": "Ibu Kota Nusantara",
+    "key_areas": "Kawasan Inti Pusat Pemerintahan (KIPP), Sepaku, Penajam, Waru, Babulu, Samboja",
+    "geology_zone": "Formasi Balikpapan [Tmbp] dan Pamaluan [Tomp] (perselingan batupasir kuarsa, batulanau, dan lempung serpih/clay shale ekspansif).",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan Terlapuk Tebal",
+        "12 - 30 kg/cm\u00b2",
+        "3 - 7",
+        "Perbaikan tanah dasar timbunan geotekstil"
+      ],
+      [
+        "3 - 9 m",
+        "Lempung Serpih (Clay Shale) Kaku Rapuh saat Terpapar Udara",
+        "40 - 85 kg/cm\u00b2",
+        "10 - 20",
+        "Rentan pelemahan geser (slaking); butuh proteksi galian"
+      ],
+      [
+        "9 - 18 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras",
+        "140 - 240 kg/cm\u00b2",
+        "25 - 40",
+        "Zona tumpuan tiang spun pile gedung kementerian KIPP"
+      ],
+      [
+        "> 18 m",
+        "Batupasir Kuarsa Masif Sangat Rapat (Refusal)",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang bore pile istana kepresidenan & jembatan"
+      ]
+    ],
+    "hazard": "Perilaku clay shale yang cepat melunak dan kehilangan kuat geser saat terkena kontak air/udara serta lereng terjal rawan longsor."
+  },
+  "jasa-sondir-kutai-kartanegara": {
+    "name": "Kabupaten Kutai Kartanegara (Tenggarong)",
+    "slug": "jasa-sondir-kutai-kartanegara",
+    "province": "Kalimantan Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Tenggarong Kota, Tenggarong Seberang, Loa Janan, Loa Kulu, Muara Jawa, Sanga-Sanga",
+    "geology_zone": "Formasi Kampungbaru [Tpk] dan Formasi Balikpapan [Tmbp] berselingan aluvium limpasan Sungai Mahakam.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lunak Jenuh Air Endapan Aluvial Mahakam",
+        "6 - 20 kg/cm\u00b2",
+        "1 - 5",
+        "Dilarang fondasi dangkal; wajib cerucuk galam / mini pile"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Lempungan Kaku Sedang Kelabu",
+        "28 - 65 kg/cm\u00b2",
+        "6 - 15",
+        "Memberikan friksi selimut tiang pancang ruko"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Kuarsa Padat Sedang & Sisipan Batubara Lignit",
+        "90 - 180 kg/cm\u00b2",
+        "18 - 32",
+        "Tumpuan tiang pancang dermaga jetty batubara"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras Kompak Formasi Kampungbaru",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile jembatan & fasilitas tambang"
+      ]
+    ],
+    "hazard": "Bantaran sungai Mahakam rawan penurunan konsolidasi dan runtuhan lereng galian tambang."
+  },
+  "jasa-sondir-bontang": {
+    "name": "Kota Bontang",
+    "slug": "jasa-sondir-bontang",
+    "province": "Kalimantan Timur",
+    "region_type": "Kota",
+    "key_areas": "Bontang Utara, Bontang Selatan, Bontang Barat, Kawasan Industri Pupuk Kaltim, Badak NGL",
+    "geology_zone": "Formasi Balikpapan [Tmbp] dan Endapan Pantai Selat Makassar [Qa] berselingan batuan sedimen berfasies klastika halus.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Pasir Pantai Lepas & Lempung Rawa Pasang Surut",
+        "10 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Perbaikan tanah dasar timbunan padat bergeotekstil"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "45 - 90 kg/cm\u00b2",
+        "10 - 20",
+        "Tiang pancang mini pile pergudangan & bengkel pabrik"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tumpuan tiang spun pile pabrik amonia/urea Pupuk Kaltim"
+      ],
+      [
+        "> 18 m",
+        "Batupasir Masif Rapat Keras Formasi Balikpapan",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Bearing stratum tiang bor pile tangki LNG cryogenic & dermaga kapal"
+      ]
+    ],
+    "hazard": "Korosi sulfat/air asin tinggi di pesisir pabrik pupuk dan getaran mesin kompresor industri petrokimia."
+  },
+  "jasa-sondir-berau": {
+    "name": "Kabupaten Berau",
+    "slug": "jasa-sondir-berau",
+    "province": "Kalimantan Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Tanjung Redeb, Sambaliung, Gunung Tabur, Teluk Bayur, Pulau Derawan, Maratua",
+    "geology_zone": "Formasi Latih [Tml] (pembawa batubara), Formasi Domaring (batugamping terumbu), dan Aluvium Sungai Segah/Kelay.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Aluvial Lunak & Lumpur Pasang Surut",
+        "8 - 22 kg/cm\u00b2",
+        "2 - 5",
+        "Cerucuk galam matras / tiang mini pile perumahan"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Kaku Sedang & Batulempung Lapuk",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Zona friksi tiang pancang ruko Tanjung Redeb"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Keras & Konglomerat Formasi Latih",
+        "140 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tumpuan tiang spun pile stockpile tambang batubara"
+      ],
+      [
+        "> 20 m",
+        "Batuan Karbonat Masif Formasi Domaring / Batupasir Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Bearing stratum tiang bor pile dermaga ponton batubara & resor"
+      ]
+    ],
+    "hazard": "Gonggongan air pasang di bantaran Sungai Segah dan rongga pelarutan karst di Maratua/Derawan."
+  },
+  "jasa-sondir-banjarbaru": {
+    "name": "Kota Banjarbaru & Martapura",
+    "slug": "jasa-sondir-banjarbaru",
+    "province": "Kalimantan Selatan",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Banjarbaru Utara/Selatan, Landasan Ulin (Bandara Syamsudin Noor), Cempaka, Martapura Kota, Karang Intan",
+    "geology_zone": "Formasi Dahor [TQd] (batupasir kuarsa lempungan) dan Kompleks Batuan Ultrabasa Pegunungan Meratus di timur.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Kuarsa Lepas & Lempung Pasiran (Lahan Intan Cempaka)",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Batupasir Kuarsa Padat Sedang & Konglomerat Kerikil",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile perkantoran Pemprov Kalsel & ruko Landasan Ulin"
+      ],
+      [
+        "8 - 16 m",
+        "Batupasir Terkompaksi Padat Formasi Dahor",
+        "150 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile terminal Bandara Syamsudin Noor"
+      ],
+      [
+        "> 16 m",
+        "Batuan Keras Formasi Dahor / Batuan Beku Meratus",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Bearing stratum tiang bor pile gedung bertingkat & jembatan"
+      ]
+    ],
+    "hazard": "Bekas lubang galian tambang intan/pasir liar dan fluktuasi muka air tanah di Landasan Ulin."
+  },
+  "jasa-sondir-tanah-bumbu": {
+    "name": "Kabupaten Tanah Bumbu (Batulicin)",
+    "slug": "jasa-sondir-tanah-bumbu",
+    "province": "Kalimantan Selatan",
+    "region_type": "Kabupaten",
+    "key_areas": "Batulicin Kota, Simpang Empat, Satui, Angsana, Kusan Hilir, Pelabuhan Samudera Batulicin",
+    "geology_zone": "Formasi Pitap [Kup] dan Formasi Tanjung [Tet] berselingan aluvium pesisir Selat Laut dan endapan delta rawa.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lumpur Lempung Pesisir Pasang Surut Lunak",
+        "6 - 20 kg/cm\u00b2",
+        "1 - 5",
+        "Dilarang fondasi telapak tanpa perbaikan tanah"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran dan Lempung Kaku Sedang",
+        "30 - 70 kg/cm\u00b2",
+        "7 - 16",
+        "Memberikan daya dukung friksi tiang pancang mini pile"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras Formasi Tanjung",
+        "130 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tumpuan tiang spun pile pabrik kelapa sawit & gudang pelabuhan"
+      ],
+      [
+        "> 20 m",
+        "Batuan Sedimen Keras Masif Formasi Pitap",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang pipa baja jetty dermaga batubara Batulicin"
+      ]
+    ],
+    "hazard": "Penurunan diferensial pelat lantai pelabuhan di atas lempung lunak dan abrasi pantai Satui."
+  },
+  "jasa-sondir-palangkaraya": {
+    "name": "Kota Palangka Raya",
+    "slug": "jasa-sondir-palangkaraya",
+    "province": "Kalimantan Tengah",
+    "region_type": "Kota",
+    "key_areas": "Pahandut, Jekan Raya, Bukit Batu, Sebangau, Sabaru, Tangkiling",
+    "geology_zone": "Endapan Aluvium Fluvial dan Rawa Gambut Sungai Kahayan [Qa] serta Formasi Kahayan dan batuan terobosan granit Tangkiling.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Rawa Lumpur Gambut Berserat (Peat Soil) Tebal",
+        "2 - 12 kg/cm\u00b2",
+        "0 - 3",
+        "Kompaktibilitas sangat tinggi; dilarang fondasi telapak"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Lanauan Lunak Kelabu Gelap",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Rentan gaya seret negatif (negative skin friction) pada tiang"
+      ],
+      [
+        "14 - 24 m",
+        "Pasir Kuarsa Halus hingga Kasar Padat Sedang",
+        "55 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Zona tumpuan tiang pancang spun pile gedung perkantoran"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Padat Masif / Batuan Beku Granit Tangkiling",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile jembatan Kahayan & mall"
+      ]
+    ],
+    "hazard": "Tanah gambut asam yang menyusut hebat saat musim kemarau dan muka air tanah sangat tinggi."
+  },
+  "jasa-sondir-pangkalan-bun": {
+    "name": "Kabupaten Kotawaringin Barat (Pangkalan Bun)",
+    "slug": "jasa-sondir-pangkalan-bun",
+    "province": "Kalimantan Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Pangkalan Bun Kota, Arut Selatan, Kumai (Pelabuhan Panglima Utar), Kolam, Kotawaringin Lama",
+    "geology_zone": "Aluvium Sungai Arut dan Teluk Kumai [Qa] berselingan Formasi Dahor dan endapan gambut pesisir.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Lunak & Gambut Kumai",
+        "5 - 18 kg/cm\u00b2",
+        "1 - 4",
+        "Wajib perbaikan subgrade / cerucuk matras kayu"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "32 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang pancang mini pile ruko niaga Pangkalan Bun"
+      ],
+      [
+        "12 - 22 m",
+        "Batupasir Kuarsa Padat & Kerikil Kuarsit Formasi Dahor",
+        "120 - 220 kg/cm\u00b2",
+        "22 - 36",
+        "Tumpuan tiang spun pile pabrik refinery kelapa sawit Kumai"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Keras Masif Rapat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Bearing stratum tiang pipa baja dermaga curah cair Pelabuhan Kumai"
+      ]
+    ],
+    "hazard": "Lempung rawa lunak jenuh air di Kumai dan fluktuasi pasang surut Sungai Arut."
+  },
+  "jasa-sondir-sampit": {
+    "name": "Kabupaten Kotawaringin Timur (Sampit)",
+    "slug": "jasa-sondir-sampit",
+    "province": "Kalimantan Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Mentawa Baru Ketapang, Baamang, Seranau, Bagendang (Pelabuhan Sampit), Cempaga",
+    "geology_zone": "Aluvium Fluvial Sungai Mentaya [Qa] dan rawa pasang surut di muara Bagendang serta Formasi Dahor.",
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lumpur Lempung Lunak Berbau Organik (Bantaran Mentaya)",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi telapak langsung; wajib tiang pancang"
+      ],
+      [
+        "4.5 - 14 m",
+        "Lempung Lanauan Sedang Kelabu Kehitaman",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 9",
+        "Daya dukung geser rendah; zona friksi lemah"
+      ],
+      [
+        "14 - 24 m",
+        "Pasir Kuarsa Kasar Padat Sedang & Lanau Pasiran",
+        "65 - 140 kg/cm\u00b2",
+        "15 - 30",
+        "Zona friksi tiang pancang spun pile gudang pupuk & ruko"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Kuarsa Keras Kompak Formasi Dahor",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile tangki timbun CPO Bagendang"
+      ]
+    ],
+    "hazard": "Penurunan konsolidasi tebal di pelabuhan Bagendang dan luapan banjir pasang Sungai Mentaya."
+  },
+  "jasa-sondir-tarakan": {
+    "name": "Kota Tarakan & Bulungan (KIPI Tanah Kuning)",
+    "slug": "jasa-sondir-tarakan",
+    "province": "Kalimantan Utara",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Tarakan Barat/Timur/Tengah, Tanjung Selor Bulungan, Kawasan Industri Hijau Indonesia (KIPI) Tanah Kuning",
+    "geology_zone": "Formasi Tarakan [Tpt] (perselingan batupasir, batulanau, serpih, batubara lignit) dan endapan delta rawa Bulungan.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Lunak & Pasir Reklamasi Pesisir",
+        "8 - 22 kg/cm\u00b2",
+        "2 - 5",
+        "Perbaikan tanah dasar timbunan bergeotekstil di KIPI"
+      ],
+      [
+        "4 - 14 m",
+        "Lanau Lempungan Kaku Sedang dengan Sisipan Lignit",
+        "30 - 70 kg/cm\u00b2",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang ruko Tarakan"
+      ],
+      [
+        "14 - 22 m",
+        "Batupasir Kuarsa Padat & Batulanau Formasi Tarakan",
+        "120 - 220 kg/cm\u00b2",
+        "22 - 36",
+        "Tumpuan tiang pancang mini pile / spun pile pergudangan"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Keras Masif Kompak Rapat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Bearing stratum tiang spun pile / bore pile smelter aluminium KIPI"
+      ]
+    ],
+    "hazard": "Lapisan batubara muda (lignit) rapuh dan lempung delta laut lunak di kawasan pelabuhan Tanah Kuning."
+  },
+  "jasa-sondir-palu": {
+    "name": "Kota Palu",
+    "slug": "jasa-sondir-palu",
+    "province": "Sulawesi Tengah",
+    "region_type": "Kota",
+    "key_areas": "Palu Timur, Palu Barat, Palu Selatan, Mantikulore, Ulujadi, Tatanga, Teluk Palu",
+    "geology_zone": "Endapan Aluvium Kipas dan Dataran Fluvial Lembah Palu [Qa] tepat di atas zona patahan aktif mendatar Sesar Palu-Koro.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Berlanau Lepas Jenuh Air (Muka Air Tanah 1-2 m)",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Sangat rawan likuifaksi gempa bumi; wajib mitigasi geoteknik"
+      ],
+      [
+        "4 - 12 m",
+        "Kerikil Pasiran Padat Sedang Kipas Aluvial",
+        "45 - 95 kg/cm\u00b2",
+        "10 - 20",
+        "Tiang pancang mini pile struktur rumah tahan gempa"
+      ],
+      [
+        "12 - 20 m",
+        "Konglomerat Kasar Padat & Pasir Kasar",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tumpuan tiang spun pile ruko komersial & jembatan Palu IV"
+      ],
+      [
+        "> 20 m",
+        "Batuan Dasar Metamorfik Keras Kompleks Palu",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile hotel & pelabuhan Pantoloan"
+      ]
+    ],
+    "hazard": "Risiko likuifaksi masif akibat gempa patahan Sesar Palu-Koro dan gelombang tsunami Teluk Palu."
+  },
+  "jasa-sondir-kendari": {
+    "name": "Kota Kendari",
+    "slug": "jasa-sondir-kendari",
+    "province": "Sulawesi Tenggara",
+    "region_type": "Kota",
+    "key_areas": "Kendari Barat, Mandonga, Poasia, Kambu, Baruga, Abeli, Pelabuhan Bungkutoko",
+    "geology_zone": "Endapan Aluvium Teluk Kendari [Qa] dan Formasi Langkowala [Tml] (batupasir konglomeratan dan batulempung).",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Marin Pasang Surut Lunak & Lumpur Teluk",
+        "8 - 24 kg/cm\u00b2",
+        "2 - 6",
+        "Dilarang fondasi telapak di bibir teluk tanpa cerucuk/tiang"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "40 - 85 kg/cm\u00b2",
+        "9 - 18",
+        "Tiang strauss pile ruko niaga Mandonga & kampus UHO"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Konglomeratan Padat Formasi Langkowala",
+        "130 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tiang pancang spun pile perkantoran gubernur & rumah sakit"
+      ],
+      [
+        "> 18 m",
+        "Konglomerat Keras Masif Tersemen Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Bearing stratum tiang pancang dermaga peti kemas Bungkutoko"
+      ]
+    ],
+    "hazard": "Sedimentasi lumpur lunak teluk di pesisir dan lereng batuan rapuh di perbukitan Mandonga."
+  },
+  "jasa-sondir-konawe": {
+    "name": "Kabupaten Konawe (Morosi / VDNI)",
+    "slug": "jasa-sondir-konawe",
+    "province": "Sulawesi Tenggara",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Smelter Morosi (VDNI & OSS), Unaaha, Wawotobi, Soropia, Bondoala",
+    "geology_zone": "Aluvium Dataran Sungai Konaweha [Qa] bersentuhan dengan Kompleks Melange Bobaris dan Batuan Ultrabasa.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Rawa Lunak & Timbunan Sirtu Industri Morosi",
+        "8 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Perbaikan tanah dasar timbunan padat untuk jalan berat smelter"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Lanauan Kaku Sedang Kelabu",
+        "25 - 65 kg/cm\u00b2",
+        "6 - 15",
+        "Memberikan friksi selimut tiang spun pile workshop pabrik"
+      ],
+      [
+        "14 - 24 m",
+        "Pasir Kasar Berkerikil Kuarsa Padat & Lanau",
+        "110 - 210 kg/cm\u00b2",
+        "20 - 35",
+        "Tumpuan tiang spun pile jalur konveyor & gudang slag nikel"
+      ],
+      [
+        "> 24 m",
+        "Batuan Dasar Ultrabasa Masif Terkompaksi Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang bor pile tungku blast furnace & PLTU captive"
+      ]
+    ],
+    "hazard": "Beban getaran ekstrem tungku smelter nikel dan genangan banjir luapan Sungai Konaweha."
+  },
+  "jasa-sondir-kolaka": {
+    "name": "Kabupaten Kolaka (Pomalaa)",
+    "slug": "jasa-sondir-kolaka",
+    "province": "Sulawesi Tenggara",
+    "region_type": "Kabupaten",
+    "key_areas": "Kolaka Kota, Kawasan Industri Nikel Pomalaa (Antam / Vale), Wundulako, Latambaga, Tanggetada",
+    "geology_zone": "Kompleks Batuan Ultrabasa (harzburgit, serpentinit pembawa limonit/saprolit nikel) dan Aluvium Pesisir Teluk Bone.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Tanah Residu Merah Kecokelatan Limonit Laterit",
+        "18 - 42 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate bangunan kantor / mess karyawan tambang"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lempung Saprolit Pasiran Berfragmen Batuan Ultrabasa",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang pancang mini pile workshop mekanik tambang Pomalaa"
+      ],
+      [
+        "10 - 18 m",
+        "Batuan Serpentinit Padat Terkekarkan Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang spun pile pabrik pengolahan nikel HPAL"
+      ],
+      [
+        "> 18 m",
+        "Batuan Beku Peridotit Masif Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile dermaga khusus ekspor feronikel"
+      ]
+    ],
+    "hazard": "Lereng bukit tambang laterit rawan longsor saat musim hujan dan korosi air laut di pesisir Pomalaa."
+  },
+  "jasa-sondir-luwuk": {
+    "name": "Kabupaten Banggai (Luwuk & DSLNG)",
+    "slug": "jasa-sondir-luwuk",
+    "province": "Sulawesi Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Luwuk Kota, Batui (Kilang Donggi-Senoro LNG), Kintom, Nambo, Toili, Bunta",
+    "geology_zone": "Formasi Kintom [Tmpk] (konglomerat, batupasir), Formasi Batugamping Poh, dan Aluvium Pesisir Selat Peleng.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Kerikil Pesisir & Lempung Residu Merah",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate bangunan perumahan / kantor standar"
+      ],
+      [
+        "3 - 9 m",
+        "Konglomerat Pasiran Padat Sedang & Tufa Gampingan",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Tiang pancang mini pile pergudangan logistik Luwuk"
+      ],
+      [
+        "9 - 17 m",
+        "Batugamping Keras & Konglomerat Formasi Kintom",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang spun pile fasilitas kilang Donggi-Senoro LNG"
+      ],
+      [
+        "> 17 m",
+        "Batugamping Masif Terumbu Sangat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile tangki LNG & jetty dermaga gas"
+      ]
+    ],
+    "hazard": "Kegempaan aktif sesar naik busur Banggai-Sula dan rongga pelarutan batugamping pesisir."
+  },
+  "jasa-sondir-gorontalo": {
+    "name": "Kota Gorontalo",
+    "slug": "jasa-sondir-gorontalo",
+    "province": "Gorontalo",
+    "region_type": "Kota",
+    "key_areas": "Kota Barat, Kota Selatan, Dumbo Raya, Dungingi, Hulonthalangi, Sipatana, Danau Limboto",
+    "geology_zone": "Endapan Aluvium Fluvio-Lakustrin Danau Limboto [Qa] dan Batuan Gunungapi Pinogu serta Diorit Bone.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Danau Lunak Jenuh Air & Lumpur Gambutan",
+        "6 - 22 kg/cm\u00b2",
+        "1 - 5",
+        "Dilarang fondasi telapak di dataran rendah Limboto"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "32 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang strauss pile / mini pile ruko niaga Gorontalo"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Tufan Padat & Breksi Gunungapi Pinogu",
+        "130 - 220 kg/cm\u00b2",
+        "22 - 36",
+        "Tiang pancang spun pile hotel & gedung perkantoran wali kota"
+      ],
+      [
+        "> 20 m",
+        "Batuan Diorit Masif Keras / Breksi Kompak",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang bor pile jembatan & pelabuhan Gorontalo"
+      ]
+    ],
+    "hazard": "Banjir luapan Danau Limboto dan potensi likuifaksi pasir danau saat diguncang gempa tektonik Gorontalo."
+  },
+  "jasa-sondir-mamuju": {
+    "name": "Kabupaten Mamuju",
+    "slug": "jasa-sondir-mamuju",
+    "province": "Sulawesi Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Mamuju Kota, Simboro, Kalukku, Tapalang, Rangas, Pelabuhan Simboro",
+    "geology_zone": "Batuan Gunungapi Terobosan Tapalang [Tmtv] dan Aluvium Pantai Selat Makassar serta Formasi Mamuju.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Pasir Pantai Berlanau & Topsoil Lempung Residu",
+        "12 - 30 kg/cm\u00b2",
+        "3 - 7",
+        "Wajib perkuatan sloof kaku tahan gempa SNI 1726"
+      ],
+      [
+        "3.5 - 9 m",
+        "Breksi Vulkanik Lapuk Sedang & Pasir Tufan",
+        "50 - 100 kg/cm\u00b2",
+        "12 - 22",
+        "Tiang strauss pile ruko niaga & rumah dinas"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Andesit Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile kantor gubernur Sulbar"
+      ],
+      [
+        "> 16 m",
+        "Batuan Beku Andesit Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan & dermaga Simboro"
+      ]
+    ],
+    "hazard": "Zona sumber gempa darat Mamuju-Majene dan risiko likuifaksi tanah aluvium pesisir Tapalang."
+  },
+  "jasa-sondir-aceh": {
+    "name": "Kota Banda Aceh",
+    "slug": "jasa-sondir-aceh",
+    "province": "Aceh",
+    "region_type": "Kota",
+    "key_areas": "Kuta Raja, Baiturrahman, Syiah Kuala, Meuraxa, Ulee Lheue, Lueng Bata, Banda Raya",
+    "geology_zone": "Endapan Aluvium Pantai dan Lembah Krueng Aceh [Qa] yang diapit Patahan Aktif Sesar Besar Sumatera (Sesar Seulimeum).",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Lepas Jenuh Air (Zona Tsunami Purba)",
+        "8 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Sangat rawan likuifaksi gempa bumi; dilarang fondasi telapak"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Aluvial Krueng Aceh",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang strauss pile / mini pile ruko niaga & gedung kampus USK"
+      ],
+      [
+        "12 - 20 m",
+        "Pasir Kasar Berkerikil Kuarsa Padat Terkompaksi",
+        "110 - 200 kg/cm\u00b2",
+        "20 - 35",
+        "Tiang pancang spun pile rumah sakit & hotel"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras & Konglomerat Formasi Seulimeum",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile Pelabuhan Ulee Lheue & jembatan"
+      ]
+    ],
+    "hazard": "Percepatan puncak gempa (PGA) tinggi jalur subduksi megathrust Aceh dan risiko likuifaksi pesisir Meuraxa."
+  },
+  "jasa-sondir-lhokseumawe": {
+    "name": "Kota Lhokseumawe (KEK Arun)",
+    "slug": "jasa-sondir-lhokseumawe",
+    "province": "Aceh",
+    "region_type": "Kota",
+    "key_areas": "Banda Sakti, Muara Satu (KEK Arun / PT PIM), Blang Mangat, Muara Dua, Pelabuhan Krueng Geukueh",
+    "geology_zone": "Aluvium Pesisir Selat Malaka [Qa] dan Formasi Idi (batupasir kuarsa dan konglomerat kerikil).",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Halus Lepas & Lempung Pasang Surut",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Perbaikan tanah dasar timbunan sirtu padat bergeotekstil"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran dan Lempung Kaku Sedang",
+        "35 - 80 kg/cm\u00b2",
+        "8 - 18",
+        "Memberikan friksi selimut tiang pancang pergudangan"
+      ],
+      [
+        "12 - 22 m",
+        "Batupasir Kuarsa Padat & Konglomerat Formasi Idi",
+        "130 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tumpuan tiang spun pile pabrik pupuk NPK & KEK Arun"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Masif Terkompaksi Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Bearing stratum tiang bor pile tangki regasifikasi LNG Arun & dermaga"
+      ]
+    ],
+    "hazard": "Muka air tanah dangkal rob di pesisir dan getaran mesin industri petrokimia pupuk/gas."
+  },
+  "jasa-sondir-deli-serdang": {
+    "name": "Kabupaten Deli Serdang & Binjai",
+    "slug": "jasa-sondir-deli-serdang",
+    "province": "Sumatera Utara",
+    "region_type": "Kabupaten & Kota",
+    "key_areas": "Kawasan Industri KIM Deli Serdang, Lubuk Pakam, Tanjung Morawa, Percut Sei Tuan, Binjai Kota, Kualanamu",
+    "geology_zone": "Formasi Medan [Qpme] (lempung pasiran tufan) dan Aluvium Fluvial Dataran Rendah Deli.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Kemerahan Tufan",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3.5 - 10 m",
+        "Pasir Lanauan Tufan Berbatuapung Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang pancang mini pile pabrik manufaktur Tanjung Morawa"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Tufan Padat & Konglomerat Formasi Medan",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang spun pile gudang logistik Bandara Kualanamu"
+      ],
+      [
+        "> 18 m",
+        "Batuan Tuf Keras Masif / Breksi Laharik",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Bearing stratum tiang bor pile jalan tol Medan-Kualanamu-Tebing Tinggi"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Percut/Ular dan lempung lunak di pesisir Percut Sei Tuan."
+  },
+  "jasa-sondir-pematangsiantar": {
+    "name": "Kota Pematangsiantar & Simalungun",
+    "slug": "jasa-sondir-pematangsiantar",
+    "province": "Sumatera Utara",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Siantar Barat/Timur/Selatan, Kawasan Ekonomi Khusus Sei Mangkei (Simalungun), Perdagangan, Tanah Jawa",
+    "geology_zone": "Tuf Toba [Qvt] (ignimbrit piroklastik batuapung tebal letusan Kaldera Toba) dan Aluvium Fluvial Bah Bolon.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Tufan Cokelat Abu-Abu",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate ruko / rumah tinggal standar"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Berfragmen Batuapung Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile / mini pile ruko niaga Siantar"
+      ],
+      [
+        "8 - 16 m",
+        "Tuf Masif Terlas Keras (Welded Tuff Toba)",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang spun pile pabrik oleokimia KEK Sei Mangkei"
+      ],
+      [
+        "> 16 m",
+        "Batuan Ignimbrit Toba Sangat Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang spun pile rel kereta api & pabrik kelapa sawit"
+      ]
+    ],
+    "hazard": "Lereng jurang curam Sungai Bah Bolon dan sifat lempung tufan yang mudah luruh jika tergenang air."
+  },
+  "jasa-sondir-asahan": {
+    "name": "Kabupaten Asahan & Tanjungbalai",
+    "slug": "jasa-sondir-asahan",
+    "province": "Sumatera Utara",
+    "region_type": "Kabupaten & Kota",
+    "key_areas": "Kisaran Kota, Pelabuhan Teluk Nibung Tanjungbalai, Sei Kepayang, Air Batu, Buntu Pane",
+    "geology_zone": "Endapan Aluvium Pesisir Selat Malaka dan Rawa Pasang Surut Sungai Asahan [Qa] serta Formasi Kualuh.",
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lumpur Lempung Lunak Sangat Lembek & Gambut Pesisir",
+        "4 - 16 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi telapak; wajib cerucuk galam / mini pile"
+      ],
+      [
+        "4.5 - 14 m",
+        "Lempung Marin Kelabu Gelap Konsolidasi Tinggi",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Penurunan konsolidasi tebal & gaya seret negatif"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat Sedang Transisi Kualuh",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Zona friksi tiang spun pile ruko Kisaran & pabrik sawit"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Kuarsa Padat Keras Formasi Kualuh",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile Pelabuhan Teluk Nibung"
+      ]
+    ],
+    "hazard": "Banjir pasang rob air laut di Tanjungbalai dan daya dukung tanah sangat rendah di pesisir Asahan."
+  },
+  "jasa-sondir-bukittinggi": {
+    "name": "Kota Bukittinggi & Agam",
+    "slug": "jasa-sondir-bukittinggi",
+    "province": "Sumatera Barat",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Guguk Panjang, Mandiangin Koto Selayan, Aur Birugo Tigo Baleh, Ngarai Sianok, Baso, Lubuk Basung",
+    "geology_zone": "Tuf Piroklastik Danau Maninjau [Qptm] dan Produk Gunungapi Marapi-Singgalang [Qvms] serta jalur Patahan Sianok.",
+    "soil_profile": [
+      [
+        "0 - 2.5 m",
+        "Tanah Humus Vulkanik Subur & Lanau Pasiran Tufan",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 8",
+        "Footplate rumah tinggal di lahan berkontur datar"
+      ],
+      [
+        "2.5 - 7 m",
+        "Tuf Pasiran Berfragmen Andesit Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang strauss pile hotel & vila Jam Gadang"
+      ],
+      [
+        "7 - 15 m",
+        "Breksi Laharik Padat & Tuf Terkompaksi Keras",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile gedung bertingkat"
+      ],
+      [
+        "> 15 m",
+        "Lava Andesit Masif / Tuf Sangat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile penahan lereng tebing & jembatan"
+      ]
+    ],
+    "hazard": "Kelongsoran tebing terjal dinding Ngarai Sianok dan aktivitas gempa darat Sesar Semangko Segmen Sianok."
+  },
+  "jasa-sondir-dumai": {
+    "name": "Kota Dumai",
+    "slug": "jasa-sondir-dumai",
+    "province": "Riau",
+    "region_type": "Kota",
+    "key_areas": "Dumai Timur/Barat/Kota, Kawasan Industri Dumai (Pelintung), Lubuk Gaung, Sungai Sembilan, Pelabuhan CPO Dumai",
+    "geology_zone": "Aluvium Pantai dan Rawa Pasang Surut Selat Rupat [Qa] berselingan tanah gambut tebal dan Formasi Minas.",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lumpur Lempung Lunak Pesisir & Gambut Berserat",
+        "3 - 12 kg/cm\u00b2",
+        "0 - 3",
+        "Kuat geser sangat rendah; dilarang fondasi telapak"
+      ],
+      [
+        "5 - 16 m",
+        "Lempung Marin Lunak Kelabu Sangat Tebal",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Penurunan konsolidasi ekstrem di bawah tangki timbun CPO"
+      ],
+      [
+        "16 - 26 m",
+        "Pasir Lanauan Padat Sedang & Lempung Kaku Transisi",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Memberikan friksi selimut tiang pancang spun pile"
+      ],
+      [
+        "> 26 m",
+        "Batupasir Kuarsa Padat Formasi Minas",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile dermaga ekspor CPO & refinery Lubuk Gaung"
+      ]
+    ],
+    "hazard": "Penurunan konsolidasi besar di kawasan industri Pelintung & Lubuk Gaung serta keasaman tanah gambut pesisir."
+  },
+  "jasa-sondir-duri": {
+    "name": "Kabupaten Bengkalis (Duri)",
+    "slug": "jasa-sondir-duri",
+    "province": "Riau",
+    "region_type": "Kabupaten",
+    "key_areas": "Mandau (Duri Kota), Pinggir, Bathin Solapan, Bengkalis Kota, Sungai Pakning",
+    "geology_zone": "Formasi Minas [Qpm] dan Formasi Petani [Tmp] (batupasir kuarsa, serpih) berselingan rawa gambut ladang migas Duri-Minas.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Gambut Berserat Tebal & Lempung Rawa Lunak",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Subgrade wajib stabilisasi timbunan bergeotekstil"
+      ],
+      [
+        "4 - 12 m",
+        "Lempung Lanauan Kaku Sedang Kelabu",
+        "28 - 65 kg/cm\u00b2",
+        "6 - 15",
+        "Memberikan friksi tiang pancang ruko Duri"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Kuarsa Padat & Lanau Formasi Minas",
+        "120 - 220 kg/cm\u00b2",
+        "22 - 36",
+        "Tiang pancang spun pile workshop migas & pergudangan"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras Kompak Formasi Petani",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang pancang fasilitas injeksi uap steam flood migas"
+      ]
+    ],
+    "hazard": "Penurunan diferensial pipa dan pondasi mesin di atas tanah gambut rawa serta kebakaran lahan gambut kering."
+  },
+  "jasa-sondir-tanjungpinang": {
+    "name": "Kota Tanjungpinang & Bintan",
+    "slug": "jasa-sondir-tanjungpinang",
+    "province": "Kepulauan Riau",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Tanjungpinang Kota/Barat/Timur, Kawasan Industri Bintan Inti Executive Industrial Estate Lobam, KEK Galang Batang, Lagoi",
+    "geology_zone": "Granit Bintan [TrJg] (batuan beku plutonik keras), tanah residu bauksit laterit, dan endapan pasir pantai.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Tanah Laterit Merah Bauksit Residu Granit",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / vila resor Lagoi"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Granitan Kasar Padat Sedang (Grus)",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 26",
+        "Tiang strauss pile ruko niaga Tanjungpinang"
+      ],
+      [
+        "8 - 15 m",
+        "Granit Lapuk Sedang hingga Sedikit Lapuk",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 45",
+        "Tiang pancang mini pile / spun pile pabrik Lobam"
+      ],
+      [
+        "> 15 m",
+        "Batuan Granit Segar Sangat Keras (Refusal Bouldery)",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Hard bearing stratum tiang bor pile smelter alumina KEK Galang Batang"
+      ]
+    ],
+    "hazard": "Bongkahan batu granit sisa lapukan (corestones) yang dapat mengecoh kedalaman tanah keras palsu."
+  },
+  "jasa-sondir-bengkulu": {
+    "name": "Kota Bengkulu",
+    "slug": "jasa-sondir-bengkulu",
+    "province": "Bengkulu",
+    "region_type": "Kota",
+    "key_areas": "Gading Cempaka, Ratu Agung, Teluk Segara, Kampung Melayu (Pelabuhan Pulau Baai), Muara Bangkahulu",
+    "geology_zone": "Aluvium Pantai dan Laguna Pulau Baai [Qa] serta Formasi Bintunan (batupasir tufan, konglomerat).",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Lepas Jenuh Air (Muka Air Tanah 1 m)",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Sangat rentan likuifaksi gempa bumi pesisir; dilarang telapak"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Tufan",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang strauss pile / mini pile ruko niaga bertulang kaku"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Tufan Padat & Kerikil Kuarsa",
+        "120 - 210 kg/cm\u00b2",
+        "22 - 35",
+        "Tiang pancang spun pile gedung perkantoran & hotel"
+      ],
+      [
+        "> 20 m",
+        "Konglomerat Keras Masif Formasi Bintunan",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang pipa baja dermaga curah batubara Pelabuhan Pulau Baai"
+      ]
+    ],
+    "hazard": "Risiko gempa bumi megathrust Enggano-Bengkulu berkekuatan besar dan sedimentasi pasir pasang di Pulau Baai."
+  },
+  "jasa-sondir-pangkalpinang": {
+    "name": "Kota Pangkalpinang & Bangka",
+    "slug": "jasa-sondir-pangkalpinang",
+    "province": "Kepulauan Bangka Belitung",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Pangkalpinang Kota, Gabek, Bukit Intan, Sungailiat Bangka, Kawasan Industri Sadai, Belinyu",
+    "geology_zone": "Granit Klabat [TrJg] (pluton granit pembawa kasiterit/timah) dan endapan aluvial kaksa pantai [Qa].",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Kuarsa Lepas & Pasir Tailings Timah",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Kerapatan rendah pada bekas kolong tambang timah"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Granitan Padat Sedang (Grus)",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko niaga Sungailiat & perumahan"
+      ],
+      [
+        "8 - 15 m",
+        "Granit Lapuk Sedang Terpadatkan Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 42",
+        "Tiang pancang mini pile / spun pile gudang smelter timah PT Timah"
+      ],
+      [
+        "> 15 m",
+        "Batuan Granit Masif Segar Sangat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile jembatan Emas & dermaga Sadai"
+      ]
+    ],
+    "hazard": "Kerapuhan lapisan tanah pasir bekas kolong (danau tailing timah) yang rentan amblas jika tanpa pemadatan."
+  },
+  "jasa-sondir-belitung": {
+    "name": "Kabupaten Belitung (Tanjung Pandan)",
+    "slug": "jasa-sondir-belitung",
+    "province": "Kepulauan Bangka Belitung",
+    "region_type": "Kabupaten",
+    "key_areas": "Tanjung Pandan Kota, Sijuk (KEK Pariwisata Tanjung Kelayang), Badau, Manggar Belitung Timur, Gantung",
+    "geology_zone": "Granit Tanjungpandan [TrJg] (batuan beku granit raksasa tor pesisir), Formasi Kelapadua, dan pasir kuarsa pantai.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Kuarsa Putih Bersih & Lempung Residu Merah",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate vila resor wisata tepi pantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Granitan Kasar Padat Sedang",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 26",
+        "Tiang pancang mini pile hotel & restoran Tanjung Pandan"
+      ],
+      [
+        "8 - 15 m",
+        "Granit Lapuk Sedang Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 45",
+        "Tumpuan tiang spun pile resor KEK Tanjung Kelayang"
+      ],
+      [
+        "> 15 m",
+        "Batuan Granit Masif Segar Utuh",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile dermaga marina & jembatan"
+      ]
+    ],
+    "hazard": "Bongkahan batu granit raksasa bawah tanah (boulders) dan bahaya amblas di area bekas galian tambang timah darat."
+  },
+  "jasa-sondir-muara-enim": {
+    "name": "Kabupaten Muara Enim & Lahat",
+    "slug": "jasa-sondir-muara-enim",
+    "province": "Sumatera Selatan",
+    "region_type": "Kabupaten",
+    "key_areas": "Muara Enim Kota, Tanjung Enim (Kawasan Tambang PTBA), Lawang Kidul, Lahat Kota, Merapi Barat",
+    "geology_zone": "Formasi Muara Enim [Tmpm] (pembawa lapisan batubara tebal Sub-Bituminus) dan Formasi Air Benakat serta Aluvium Sungai Enim/Lematang.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Kemerahan Terlapuk Tebal",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate rumah tinggal / perkantoran standar"
+      ],
+      [
+        "3.5 - 10 m",
+        "Batulempung Lanauan Kaku dengan Sisipan Lignit",
+        "45 - 90 kg/cm\u00b2",
+        "10 - 20",
+        "Tiang pancang mini pile workshop mekanik tambang"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras Formasi Muara Enim",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tumpuan tiang spun pile PLTU Mulut Tambang Sumsel-8 & conveyor"
+      ],
+      [
+        "> 18 m",
+        "Batupasir Keras Masif / Batubara Terkompaksi Padat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang bor pile silo batubara & jembatan kereta api"
+      ]
+    ],
+    "hazard": "Runtuhan lereng timbunan disposal tambang dan pelunakan lapisan batulempung kontak batubara saat musim hujan."
+  },
+  "jasa-sondir-prabumulih": {
+    "name": "Kota Prabumulih",
+    "slug": "jasa-sondir-prabumulih",
+    "province": "Sumatera Selatan",
+    "region_type": "Kota",
+    "key_areas": "Prabumulih Timur/Barat/Utara/Selatan, Cambai, RKT, Kompleks Pertamina EP Asset 2",
+    "geology_zone": "Formasi Kasai [QTk] (tufa batuapung, batupasir tufan) dan Formasi Muara Enim serta endapan aluvium Sungai Kelekar.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Pasiran (Laterit Residu Kasai)",
+        "18 - 42 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko niaga 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Berbatuapung Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Strauss pile perumahan & kantor niaga"
+      ],
+      [
+        "8 - 16 m",
+        "Batupasir Tufan Padat & Konglomerat Kerikil",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang mini pile / spun pile fasilitas workshop migas"
+      ],
+      [
+        "> 16 m",
+        "Batupasir Keras Kompak Formasi Kasai/Muara Enim",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile fasilitas kilang & pipa gas Pertamina"
+      ]
+    ],
+    "hazard": "Sifat tufa pasiran yang rentan erosi alur saat curah hujan tinggi dan getaran kompresor booster migas."
+  },
+  "jasa-sondir-lampung-selatan": {
+    "name": "Kabupaten Lampung Selatan (Bakauheni)",
+    "slug": "jasa-sondir-lampung-selatan",
+    "province": "Lampung",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Pelabuhan Bakauheni, Kalianda, Natar, Jati Agung, Ketibung, Tanjung Bintang",
+    "geology_zone": "Batuan Gunungapi Rajabasa [Qvr] (breksi vulkanik, andesit) dan Tuf Lampung [Qtl] serta Aluvium Pantai Selat Sunda.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Tufan)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berkerikil Lahar Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile / mini pile pergudangan Tanjung Bintang"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Keras & Batuan Vulkanik Terpadatkan",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang spun pile fasilitas Bakauheni Harbour City (BHC)"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang pipa baja dermaga eksekutif penyeberangan Bakauheni"
+      ]
+    ],
+    "hazard": "Risiko gempa vulkanik Kompleks Gunung Anak Krakatau, tsunami Selat Sunda, dan lereng terjal Kalianda."
+  },
+  "jasa-sondir-garut": {
+    "name": "Kabupaten Garut",
+    "slug": "jasa-sondir-garut",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Tarogong Kidul, Tarogong Kaler, Garut Kota, Leles, Kadungora, Cilawu, Samarang",
+    "geology_zone": "Produk Gunungapi Guntur-Papandayan [Qvg] (tufa, lahar, breksi andesit) dan Endapan Danau Purba Garut.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Subur (Topsoil Vulkanik)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berbatuapung Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Strauss pile hotel resor Cipanas & ruko perkotaan"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile pabrik industri sepatu/kulit Leles"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif / Breksi Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan & fasilitas geotermal Kamojang"
+      ]
+    ],
+    "hazard": "Banjir bandang luapan Sungai Cimanuk dan aliran lahar aktif lereng Gunung Guntur."
+  },
+  "jasa-sondir-tasikmalaya": {
+    "name": "Kota & Kabupaten Tasikmalaya",
+    "slug": "jasa-sondir-tasikmalaya",
+    "province": "Jawa Barat",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Cihideung, Cipedes, Indihiang, Mangkubumi, Kawalu, Singaparna, Rajapolah",
+    "geology_zone": "Endapan Letusan Gunung Galunggung [Qvg] (Perbukitan Sepuluh Ribu / Ten Thousand Hills) dan Formasi Bentang.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Berfragmen Batuapung Galunggung",
+        "18 - 42 kg/cm\u00b2",
+        "4 - 8",
+        "Footplate rumah tinggal / ruko niaga"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Lahar Kasar Padat Sedang Berkerikil Andesit",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko niaga Cihideung & sentra bordir Kawalu"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Padat & Konglomerat Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile rumah sakit & mall"
+      ],
+      [
+        "> 16 m",
+        "Batuan Lava Andesit Masif Galunggung",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile jembatan & gedung perkantoran"
+      ]
+    ],
+    "hazard": "Bongkahan batu andesit raksasa lepas (debris avalanche Galunggung) dan risiko longsor lereng perbukitan."
+  },
+  "jasa-sondir-indramayu": {
+    "name": "Kabupaten Indramayu (Kilang Balongan)",
+    "slug": "jasa-sondir-indramayu",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Kilang Minyak Pertamina RU VI Balongan, Indramayu Kota, Jatibarang, Losarang, Patrol, Kandanghaur",
+    "geology_zone": "Endapan Aluvium Pantai dan Delta Sungai Cimanuk [Qa] (lempung marin sangat tebal) dan Formasi Citalang di selatan.",
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lempung Marin Lunak Jenuh Air (Muka Air Tanah 0.8 m)",
+        "6 - 20 kg/cm\u00b2",
+        "1 - 5",
+        "Dilarang keras fondasi telapak dangkal tanpa perbaikan tanah"
+      ],
+      [
+        "4.5 - 16 m",
+        "Lempung Lanauan Sangat Lunak Kelabu Gelap",
+        "12 - 30 kg/cm\u00b2",
+        "2 - 7",
+        "Rentan penurunan konsolidasi diferensial di bawah tangki BBM"
+      ],
+      [
+        "16 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Memberikan friksi selimut tiang pancang spun pile"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Keras & Lempung Kompak Formasi Citalang",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang pipa baja kilang Pertamina Balongan"
+      ]
+    ],
+    "hazard": "Banjir rob pasang surut air laut dan tanah lempung marin super lunak yang sangat kompresibel."
+  },
+  "jasa-sondir-majalengka": {
+    "name": "Kabupaten Majalengka (BIJB Kertajati)",
+    "slug": "jasa-sondir-majalengka",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Bandara Internasional Kertajati (BIJB), Kawasan Aerocity, Jatitujuh, Dawuan, Jatiwangi, Majalengka Kota",
+    "geology_zone": "Formasi Citalang [Qpc] (batupasir konglomeratan) dan Aluvium Fluvial Dataran Banjir Sungai Cimanuk [Qa].",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Hitam Plastisitas Sangat Tinggi (Expansive Soil)",
+        "12 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Wajib stabilisasi tanah dasar timbunan kapur/semen"
+      ],
+      [
+        "3 - 10 m",
+        "Lempung Lanauan Kaku Abu-Abu Kecokelatan",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Memberikan daya dukung friksi tiang pancang gudang logistik"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Konglomeratan Padat Formasi Citalang",
+        "130 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tiang pancang spun pile apron bandara & ruko Kertajati"
+      ],
+      [
+        "> 18 m",
+        "Konglomerat Keras Tersemen Kuat Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile hotel & hanggar pesawat"
+      ]
+    ],
+    "hazard": "Kembang-susut tanah lempung ekspansif yang menyebabkan gelombang pada perkerasan jalan dan lantai gudang."
+  },
+  "jasa-sondir-sumedang": {
+    "name": "Kabupaten Sumedang",
+    "slug": "jasa-sondir-sumedang",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Sumedang Utara/Selatan, Jatinangor (Kawasan Kampus Unpad/ITB), Tanjungsari, Cimalaka, Paseh, Koridor Tol Cisumdawu",
+    "geology_zone": "Produk Gunungapi Tampomas [Qvt] dan Formasi Subang [Tms] (batulempung serpih) bersentuhan dengan Aluvium Danau.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan Lapukan Vulkanik",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 9 m",
+        "Pasir Tufan Berkerikil Andesit Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile apartemen mahasiswa Jatinangor & ruko niaga"
+      ],
+      [
+        "9 - 17 m",
+        "Breksi Laharik Tampomas Padat Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile fasilitas umum & jembatan tol"
+      ],
+      [
+        "> 17 m",
+        "Batuan Beku Andesit Masif Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile pilar jalan tol Cisumdawu"
+      ]
+    ],
+    "hazard": "Pergerakan lereng terjal di trase Cisumdawu dan lempung formasi Subang yang licin saat jenuh air."
+  },
+  "jasa-sondir-pekalongan": {
+    "name": "Kota & Kabupaten Pekalongan",
+    "slug": "jasa-sondir-pekalongan",
+    "province": "Jawa Tengah",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Pekalongan Barat/Timur/Utara/Selatan, Tirto, Wiradesa, Kedungwuni, Kajen, Buaran",
+    "geology_zone": "Aluvium Dataran Rendah Pantai Utara [Qa] (endapan lempung marin) dan Formasi Damar serta Vulkanik Rogojembangan.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Sangat Lunak Jenuh Air (Zona Rob Pesisir)",
+        "5 - 18 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi telapak di Pekalongan Utara; wajib cerucuk/tiang"
+      ],
+      [
+        "4 - 15 m",
+        "Lempung Marin Lunak Kelabu Tua (Soft Clay)",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Rentan amblas dan penurunan muka tanah (land subsidence) tinggi"
+      ],
+      [
+        "15 - 24 m",
+        "Lanau Pasiran Padat Sedang Transisi",
+        "55 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Zona friksi tiang pancang spun pile pabrik tekstil/batik"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Konglomeratan Keras Formasi Damar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile ruko & gudang logistik"
+      ]
+    ],
+    "hazard": "Penurunan muka tanah (land subsidence) hingga belasan cm/tahun dan banjir rob kronis di pesisir utara."
+  },
+  "jasa-sondir-brebes": {
+    "name": "Kabupaten Brebes",
+    "slug": "jasa-sondir-brebes",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Brebes (KIB), Brebes Kota, Bulakamba, Tanjung, Wanasari, Ketanggungan, Bumiayu",
+    "geology_zone": "Aluvium Delta Kali Pemali dan Cisanggarung [Qa] di utara serta Formasi Kalibiuk dan Kumbang di perbukitan Bumiayu.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Delta Lunak Kelabu (Muka Air Tanah Dangkal)",
+        "8 - 22 kg/cm\u00b2",
+        "2 - 5",
+        "Dilarang fondasi telapak; wajib tiang pancang mini pile"
+      ],
+      [
+        "4 - 14 m",
+        "Lanau Lempungan Kaku Sedang",
+        "30 - 70 kg/cm\u00b2",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang pabrik KIB"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat & Kerikil Kuarsa",
+        "90 - 180 kg/cm\u00b2",
+        "20 - 34",
+        "Tumpuan tiang pancang pabrik manufaktur garmen & alas kaki"
+      ],
+      [
+        "> 22 m",
+        "Batulempung Keras Kompak Formasi Kalibiuk",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Banjir limpasan Sungai Pemali di kawasan pertanian/industri dan daya dukung tanah permukaan yang rendah."
+  },
+  "jasa-sondir-jepara": {
+    "name": "Kabupaten Jepara",
+    "slug": "jasa-sondir-jepara",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Jepara Kota, Tahunan (Sentra Mebel), Kalinyamatan, Keling, Bangsri, Mlonggo, Kawasan PLTU Tanjung Jati B",
+    "geology_zone": "Batuan Gunungapi Muria [Qvm] (breksi lahar, lava leusit andesit) dan Aluvium Pesisir Pantai Jepara.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Lapukan Vulkanik Muria)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Vulkanik Berkerikil Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile showroom mebel & gudang ekspor"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Padat Terkompaksi Kuat",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang pancang spun pile pabrik garmen Kalinyamatan"
+      ],
+      [
+        "> 16 m",
+        "Batuan Beku Andesit Masif Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile turbin PLTU Tanjung Jati B & dermaga batubara"
+      ]
+    ],
+    "hazard": "Abrasi pantai pesisir utara dan korosi sulfat air laut pada pondasi dermaga pembangkit listrik."
+  },
+  "jasa-sondir-pati": {
+    "name": "Kabupaten Pati & Rembang",
+    "slug": "jasa-sondir-pati",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Pati Kota, Juwana (Pelabuhan Kapal), Margorejo, Rembang Kota, Gunem (Pabrik Semen Gresik Rembang), Lasem",
+    "geology_zone": "Formasi Paciran [Tpp] (batugamping karstik Pegunungan Kendeng Utara) dan Aluvium Fluvial Lembah Juwana [Qa].",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Rawa Lembah Juwana Lunak Jenuh Air",
+        "6 - 20 kg/cm\u00b2",
+        "1 - 5",
+        "Rentan banjir luapan; wajib tiang pancang mini pile / cerucuk"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang mini pile ruko niaga Pati & bengkel galangan kapal Juwana"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Gampingan Padat Keras Formasi Ngrayong",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang spun pile gudang perikanan & pabrik kacang"
+      ],
+      [
+        "> 20 m",
+        "Batugamping Masif Keras Formasi Paciran",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile silo pabrik semen Gunem Rembang"
+      ]
+    ],
+    "hazard": "Banjir berkepanjangan Sungai Juwana saat musim hujan dan rekahan rongga karst di Gunem Rembang."
+  },
+  "jasa-sondir-blora": {
+    "name": "Kabupaten Blora (Cepu)",
+    "slug": "jasa-sondir-blora",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Cepu Kota, Blora Kota, Sambong, Jepon, Randublatung, Kawasan Migas Blok Cepu Pertamina & ExxonMobil",
+    "geology_zone": "Formasi Ledok [Tml], Wonocolo, dan Ngrayong (antiklin perbukitan batupasir kuarsa dan batugamping pembawa minyak bumi antiklin Cepu).",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kaku (Laterit Lapukan)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Batupasir Gampingan Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile perumahan pekerja migas Cepu"
+      ],
+      [
+        "8 - 16 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras Formasi Ledok",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile fasilitas workshop migas & PPSDM"
+      ],
+      [
+        "> 16 m",
+        "Batupasir Keras Masif Rapat Formasi Ngrayong",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Bearing stratum tiang bor pile stasiun pengumpul migas & jembatan Bengawan Solo"
+      ]
+    ],
+    "hazard": "Kembang susut lempung napalan formasi Wonocolo saat kemarau dan rembesan gas dangkal di area tambang minyak tua."
+  },
+  "jasa-sondir-boyolali": {
+    "name": "Kabupaten Boyolali & Klaten",
+    "slug": "jasa-sondir-boyolali",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Mojosongo Boyolali, Kawasan Industri Mojosongo, Ampel, Klaten Utara, Delanggu, Ceper (Sentra Pengecoran Logam), Prambanan",
+    "geology_zone": "Endapan Letusan Vulkanik Gunung Merapi dan Merbabu [Qvm] (pasir laharik, breksi andesit) dan Formasi Notopuro.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Tufan Cokelat (Endapan Lahar Subur)",
+        "22 - 48 kg/cm\u00b2",
+        "5 - 10",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Vulkanik Berkerikil Andesit Padat Sedang",
+        "65 - 130 kg/cm\u00b2",
+        "15 - 28",
+        "Strauss pile / mini pile industri cor logam Ceper & ruko Klaten"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Merapi Padat Terkompaksi Kuat",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik garmen & susu olahan Boyolali"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif / Konglomerat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan jalan tol Solo-Jogja & flyover"
+      ]
+    ],
+    "hazard": "Aliran lahar dingin jika berada di dekat bantaran kali Merapi dan getaran gempa darat Sesar Opak di Klaten selatan."
+  },
+  "jasa-sondir-sukoharjo": {
+    "name": "Kabupaten Sukoharjo & Karanganyar",
+    "slug": "jasa-sondir-sukoharjo",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Bisnis Solo Baru, Grogol, Kartasura, Palur, Karanganyar Kota, Jaten, Gondangrejo",
+    "geology_zone": "Aluvium Lembah Fluvial Bengawan Solo [Qa] dan Produk Vulkanik Gunung Lawu [Qvl] serta Formasi Notopuro.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Gelap Plastisitas Sedang",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 8",
+        "Footplate ruko Solo Baru / rumah tinggal"
+      ],
+      [
+        "3.5 - 9 m",
+        "Pasir Lanauan Tufan Berkerikil Padat Sedang Lawu",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang strauss pile ruko niaga Kartasura & hotel Solo Baru"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Laharik Lawu Padat Keras",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile pabrik tekstil Sritex/Jaten"
+      ],
+      [
+        "> 16 m",
+        "Batuan Andesit Masif / Konglomerat Notopuro",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile mall Pakuwon Solo Baru & apartemen"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Bengawan Solo di kawasan Grogol/Palur dan penurunan tanah timbunan baru Solo Baru."
+  },
+  "jasa-sondir-magelang": {
+    "name": "Kabupaten Magelang",
+    "slug": "jasa-sondir-magelang",
+    "province": "Jawa Tengah",
+    "region_type": "Kabupaten & Kota",
+    "key_areas": "Magelang Kota, Muntilan, Mertoyudan, Borobudur, Mungkid, Secang, Grabag",
+    "geology_zone": "Batuan Gunungapi Kuarter Merapi, Merbabu, Sumbing, Sindoro [Qv] (piroklastik tufa pasiran, breksi andesit) dan batuan terobosan Menoreh.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Tufan Cokelat Subur asal Lahar Merapi",
+        "22 - 46 kg/cm\u00b2",
+        "5 - 10",
+        "Footplate rumah tinggal / vila Muntilan/Borobudur"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Tufan Berfragmen Andesit Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko Mertoyudan & hotel kawasan Borobudur"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Padat Terkompaksi Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile gedung Artos Mall & kampus Unimma"
+      ],
+      [
+        "> 16 m",
+        "Lava Andesit Masif Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile pilar jembatan Progo & hotel resor"
+      ]
+    ],
+    "hazard": "Banjir lahar hujan Sungai Pabelan/Krasak dari puncak Merapi dan gempa vulkanik lokal."
+  },
+  "jasa-sondir-kulon-progo": {
+    "name": "Kabupaten Kulon Progo (Bandara YIA)",
+    "slug": "jasa-sondir-kulon-progo",
+    "province": "DI Yogyakarta",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Bandara Internasional Yogyakarta (YIA) Temon, Wates Kota, Pengasih, Sentolo, Galur",
+    "geology_zone": "Endapan Pasir Pantai Gumuk Pasir Glagah [Qa] di selatan dan Formasi Sentolo serta Formasi Andesit Tua (OAF) di utara.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Halus-Sedang Lepas Jenuh Air (Muka Air Tanah 1 m)",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Sangat rentan likuifaksi gempa bumi; wajib pemadatan dinamik"
+      ],
+      [
+        "4 - 12 m",
+        "Pasir Kasar Padat Sedang & Lanau Pasiran",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Zona perkuatan stone column / tiang pancang spun pile ruko Temon"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Gampingan Padat Formasi Sentolo",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang spun pile terminal bandara YIA & hotel transit"
+      ],
+      [
+        "> 20 m",
+        "Breksi Andesit Keras Formasi Andesit Tua (OAF)",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile landasan pacu runway & jembatan YIA"
+      ]
+    ],
+    "hazard": "Risiko gempa megathrust selatan Jawa, likuifaksi pasir pantai Temon, dan bahaya tsunami Samudera Hindia."
+  },
+  "jasa-sondir-lamongan": {
+    "name": "Kabupaten Lamongan",
+    "slug": "jasa-sondir-lamongan",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Lamongan Kota, Babat, Paciran (Kawasan Industri Maritim Lamongan Integrated Shorebase), Brondong, Deket",
+    "geology_zone": "Aluvium Fluvial Delta Bengawan Solo [Qa] (lempung rawa sangat lunak) di selatan dan Batugamping Karst Paciran di utara.",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Rawa Lunak Jenuh Air (Dataran Banjir Bengawan Solo)",
+        "4 - 16 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi dangkal; wajib cerucuk / tiang mini pile"
+      ],
+      [
+        "5 - 15 m",
+        "Lempung Lanauan Kelabu Berkonsolidasi Lambat",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Penurunan konsolidasi tebal di Babat/Deket"
+      ],
+      [
+        "15 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi Pucangan",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile pergudangan"
+      ],
+      [
+        "> 24 m",
+        "Batugamping Keras Formasi Paciran / Batupasir Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile dermaga LIS & industri maritim Paciran"
+      ]
+    ],
+    "hazard": "Banjir luapan tahunan Bengawan Solo di pedalaman dan abrasi serta korosi air laut di pesisir Paciran."
+  },
+  "jasa-sondir-bojonegoro": {
+    "name": "Kabupaten Bojonegoro (Blok Cepu Banyu Urip)",
+    "slug": "jasa-sondir-bojonegoro",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Bojonegoro Kota, Gayam (Kawasan Migas ExxonMobil Banyu Urip), Dander, Kapas, Kalitidu, Padangan",
+    "geology_zone": "Formasi Lidah [Tpl] (batulempung lunak plastisitas tinggi) dan Aluvium Lembah Bengawan Solo [Qa].",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Hitam Plastisitas Sangat Tinggi (Expansive Clay)",
+        "10 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Kembang susut ekstrem; perbaikan subgrade sirtu padat"
+      ],
+      [
+        "3.5 - 12 m",
+        "Lempung Napalan Kaku Abu-Abu Formasi Lidah",
+        "30 - 70 kg/cm\u00b2",
+        "7 - 16",
+        "Memberikan friksi tiang pancang ruko Bojonegoro"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Padat Sedang & Batulanau Keras Formasi Mundu",
+        "120 - 220 kg/cm\u00b2",
+        "22 - 36",
+        "Tiang pancang spun pile workshop migas & pergudangan"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras Kompak Rapat Tersemen Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang bor pile fasilitas central processing facility (CPF) Banyu Urip"
+      ]
+    ],
+    "hazard": "Tanah lempung ekspansif dengan potensi kembang-susut ekstrem dan banjir limpasan Sungai Bengawan Solo."
+  },
+  "jasa-sondir-madiun": {
+    "name": "Kota & Kabupaten Madiun",
+    "slug": "jasa-sondir-madiun",
+    "province": "Jawa Timur",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Madiun Kota, Kartoharjo, Mangunharjo, PT INKA (Industri Kereta Api), Mejayan (Caruban), Jiwan, Wungu",
+    "geology_zone": "Endapan Aluvium Lembah Madiun [Qa] dan Batuan Vulkanik Gunung Wilis di timur serta Lawu di barat.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Topsoil Aluvial)",
+        "18 - 42 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Lanauan Berkerikil Andesit Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko niaga & workshop mekanik Madiun"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Wilis Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik perakitan kereta PT INKA & gudang"
+      ],
+      [
+        "> 16 m",
+        "Batuan Andesit Keras Masif / Breksi Kompak",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan kereta api & jalan tol Madiun"
+      ]
+    ],
+    "hazard": "Beban gandar dinamis tinggi pada lintasan rel kereta pabrik INKA dan banjir luapan Kali Madiun."
+  },
+  "jasa-sondir-jombang": {
+    "name": "Kabupaten Jombang",
+    "slug": "jasa-sondir-jombang",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Jombang Kota, Tembelang, Ploso, Peterongan, Mojoagung, Diwek, Ngoro Jombang",
+    "geology_zone": "Aluvium Lembah Fluvial Sungai Brantas [Qa] dan Formasi Kabuh serta lapukan batuan Gunung Anjasmoro.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Gelap Plastisitas Sedang",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3.5 - 9 m",
+        "Pasir Lanauan Padat Sedang & Lanau Berpasir",
+        "50 - 100 kg/cm\u00b2",
+        "12 - 22",
+        "Tiang strauss pile pondok pesantren & ruko niaga"
+      ],
+      [
+        "9 - 17 m",
+        "Konglomerat Aneka Bahan & Batupasir Formasi Kabuh",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang mini pile / spun pile pabrik industri Ploso"
+      ],
+      [
+        "> 17 m",
+        "Konglomerat Keras Masif Tersemen Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile jembatan Ploso & flyover tol"
+      ]
+    ],
+    "hazard": "Muka air tanah dangkal di bantaran Sungai Brantas dan lempung kompresibel di Ploso."
+  },
+  "jasa-sondir-probolinggo": {
+    "name": "Kota & Kabupaten Probolinggo",
+    "slug": "jasa-sondir-probolinggo",
+    "province": "Jawa Timur",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Mayangan, Kanigaran, Wonoasih, Kawasan Pelabuhan Tanjung Tembaga, Paiton (PLTU Paiton), Kraksaan, Dringu",
+    "geology_zone": "Batuan Gunungapi Bromo-Tengger [Qpvt] dan Endapan Aluvium Pantai Selat Madura serta Basalt Paiton.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Pasir Pantai & Lempung Lanauan Vulkanik Cokelat",
+        "15 - 38 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate ruko / rumah tinggal di lahan datar"
+      ],
+      [
+        "3.5 - 9 m",
+        "Pasir Kasar Tufan Berfragmen Andesit Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile pergudangan & bengkel kapal Mayangan"
+      ],
+      [
+        "9 - 17 m",
+        "Breksi Laharik Bromo Padat & Konglomerat",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile kawasan industri Paiton & pabrik kertas Kraksaan"
+      ],
+      [
+        "> 17 m",
+        "Batuan Lava Basalt Masif Keras Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang pipa baja dermaga batubara PLTU Paiton"
+      ]
+    ],
+    "hazard": "Banjir rob pasang surut di Dringu dan hembusan abu vulkanik aktif Gunung Bromo."
+  },
+  "jasa-sondir-jember": {
+    "name": "Kabupaten Jember",
+    "slug": "jasa-sondir-jember",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Kaliwates, Patrang, Sumbersari, Tanggul, Rambipuji, Puger (Pabrik Semen Imasco Puger), Balung",
+    "geology_zone": "Batuan Gunungapi Argopuro-Raung [Qpva] dan Formasi Puger (batugamping terumbu karstik masif) di pantai selatan.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Subur (Topsoil Vulkanik)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko kampus UNEJ"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berkerikil Andesit Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko niaga Kaliwates & hotel perkotaan"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang spun pile pabrik tembakau / gudang logistik"
+      ],
+      [
+        "> 16 m",
+        "Batugamping Masif Keras Formasi Puger / Andesit",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile pabrik semen Imasco Puger & silo semen"
+      ]
+    ],
+    "hazard": "Risiko gempa megathrust selatan Jawa Timur dan bahaya likuifaksi pasir pesisir Puger."
+  },
+  "jasa-sondir-madura": {
+    "name": "Pulau Madura (Bangkalan & Sampang)",
+    "slug": "jasa-sondir-madura",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Bangkalan Kota, Kamal (Akses Jembatan Suramadu), Socah, Arosbaya, Sampang Kota, Pamekasan, Sumenep",
+    "geology_zone": "Formasi Madura [Tpm] (batugamping terumbu berongga / karstik) dan Aluvium Pantai Selat Madura [Qa].",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Residu Merah Kapur (Terra Rossa) & Pasir Pantai",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate rumah tinggal / ruko Suramadu"
+      ],
+      [
+        "3.5 - 9 m",
+        "Batugamping Karstik Lapuk Sedang dengan Rongga Pelarutan",
+        "Fluktuatif (60 - 200 kg/cm\u00b2)",
+        "14 - 35",
+        "Jebakan rongga bawah tanah (voids); butuh uji sondir detail"
+      ],
+      [
+        "9 - 17 m",
+        "Batugamping Keras Kompak Formasi Madura",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile pergudangan Suramadu"
+      ],
+      [
+        "> 17 m",
+        "Batugamping Terumbu Kristalin Masif Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile jembatan, dermaga, & galangan kapal Socah"
+      ]
+    ],
+    "hazard": "Rongga pelarutan karst bawah tanah pada formasi batugamping Madura dan korosi air laut tinggi."
+  },
+  "jasa-sondir-labuan-bajo": {
+    "name": "Kabupaten Manggarai Barat (Labuan Bajo)",
+    "slug": "jasa-sondir-labuan-bajo",
+    "province": "Nusa Tenggara Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Labuan Bajo Kota, Komodo, Kawasan Marina Puncak Waringin, Pantai Pede, Waecicu, Golomori (Kawasan KTT ASEAN)",
+    "geology_zone": "Batuan Gunungapi Tersier Flores [Tmv] (breksi andesit, tufa) dan Batugamping Terumbu Koral Pantai serta batuan terobosan granodiorit.",
+    "soil_profile": [
+      [
+        "0 - 2.5 m",
+        "Tanah Residu Lempung Berpasir Kerikil Lereng Tebing",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 7",
+        "Wajib perkuatan lereng retaining wall pada vila tebing"
+      ],
+      [
+        "2.5 - 7 m",
+        "Breksi Andesit Lapuk Sedang Berfragmen Batu Keras",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Mikropile penahan vila tepi jurang laut Waecicu"
+      ],
+      [
+        "7 - 14 m",
+        "Breksi Vulkanik Padat Terkompaksi Keras",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang spun pile hotel resor bintang lima"
+      ],
+      [
+        "> 14 m",
+        "Batuan Beku Andesit Masif Segar Utuh",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile dermaga kapal pesiar marina & hotel tebing"
+      ]
+    ],
+    "hazard": "Kelongsoran lereng terjal tebing tepi pantai saat hujan lebat dan beban gempa sesar naik busur belakang Flores."
+  },
+  "jasa-sondir-kupang": {
+    "name": "Kota & Kabupaten Kupang",
+    "slug": "jasa-sondir-kupang",
+    "province": "Nusa Tenggara Timur",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Oebobo, Kelapa Lima, Alak (Kawasan Industri Semen Kupang), Maulafa, Tenau (Pelabuhan Tenau), Bolok",
+    "geology_zone": "Batugamping Koral Kuarter [Qcl] (karst berundak bertingkat) dan Kompleks Melange Bobonaro (lempung bersisik sangat ekspansif).",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Bersisik Hitam Plastisitas Sangat Tinggi (Bobonaro Clay)",
+        "8 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Kembang susut paling ekstrem di Indonesia; dilarang fondasi dangkal"
+      ],
+      [
+        "3 - 8 m",
+        "Batugamping Karstik Lapuk Berongga Pelarutan",
+        "50 - 140 kg/cm\u00b2",
+        "12 - 28",
+        "Tiang strauss pile ruko niaga Oebobo & perumahan"
+      ],
+      [
+        "8 - 16 m",
+        "Batugamping Koral Masif Keras Terumbu",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang spun pile pabrik Semen Kupang di Alak"
+      ],
+      [
+        "> 16 m",
+        "Batugamping Kristalin Sangat Rapat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang pipa baja dermaga Pelabuhan Tenau & Bolok"
+      ]
+    ],
+    "hazard": "Kembang susut lempung formasi Bobonaro yang meremukkan fondasi rumah dan rongga karst bawah tanah."
+  },
+  "jasa-sondir-ambon": {
+    "name": "Kota Ambon",
+    "slug": "jasa-sondir-ambon",
+    "province": "Maluku",
+    "region_type": "Kota",
+    "key_areas": "Sirimau, Nusaniwe, Teluk Ambon, Baguala, Leitimur Selatan, Pelabuhan Yos Sudarso, Jembatan Merah Putih",
+    "geology_zone": "Batuan Ultrabasa Ambon (peridotit, serpentinit) dan Batugamping Koral Kuarter serta Aluvium Teluk Ambon.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Marin Pasang Surut & Kerikil Pasiran Pantai Teluk",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Dilarang fondasi telapak di bibir teluk tanpa tiang pancang"
+      ],
+      [
+        "3.5 - 9 m",
+        "Breksi Vulkanik Lapuk Sedang & Batugamping Koral",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang strauss pile ruko niaga Sirimau & perumahan"
+      ],
+      [
+        "9 - 17 m",
+        "Batugamping Terumbu Keras & Serpentinit Padat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile hotel & gedung perkantoran"
+      ],
+      [
+        "> 17 m",
+        "Batuan Dasar Ultrabasa Masif Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile pilar Jembatan Merah Putih & dermaga laut"
+      ]
+    ],
+    "hazard": "Percepatan gempa tektonik tinggi pertemuan lempeng Laut Banda dan likuifaksi pasir pesisir Teluk Ambon."
+  },
+  "jasa-sondir-ternate": {
+    "name": "Kota Ternate & Halmahera (Weda Bay / IWIP)",
+    "slug": "jasa-sondir-ternate",
+    "province": "Maluku Utara",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Ternate Tengah/Selatan, Kawasan Industri Nikel Weda Bay (IWIP Halmahera Tengah), Pulau Obi (Harita Nickel), Tobelo",
+    "geology_zone": "Batuan Gunungapi Gamalama [Qvg] di Ternate dan Kompleks Ofiolit Ultrabasa Penghasil Nikel Laterit di Weda Bay/Obi.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Tanah Merah Laterit Limonit Residu Nikel (Weda Bay)",
+        "16 - 38 kg/cm\u00b2",
+        "3 - 8",
+        "Perbaikan tanah dasar timbunan padat untuk jalan angkut berat"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lempung Saprolit Berfragmen Serpentinit Padat Sedang",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang pancang mini pile workshop smelter & mess karyawan"
+      ],
+      [
+        "10 - 18 m",
+        "Batuan Serpentinit Keras Terkekarkan Rapat",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang spun pile rotary kiln electric furnace (RKEF) smelter IWIP"
+      ],
+      [
+        "> 18 m",
+        "Batuan Beku Peridotit Masif Utuh Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Hard bearing stratum tiang bor pile PLTU captive batubara & dermaga curah IWIP"
+      ]
+    ],
+    "hazard": "Beban dinamis ekstrem mesin smelter nikel dan letusan abu vulkanik aktif Gunung Gamalama di Ternate."
+  },
+  "jasa-sondir-jayapura": {
+    "name": "Kota Jayapura",
+    "slug": "jasa-sondir-jayapura",
+    "province": "Papua",
+    "region_type": "Kota",
+    "key_areas": "Jayapura Utara, Jayapura Selatan, Abepura, Heram, Muara Tami, Kawasan Teluk Youtefa, Sentani",
+    "geology_zone": "Kompleks Ofiolit Pegunungan Cyclops (serpentinit, gabro, sekis) dan Aluvium Fluvio-Lakustrin Danau Sentani [Qa].",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Kemerahan & Pasir Pantai Teluk",
+        "12 - 30 kg/cm\u00b2",
+        "3 - 7",
+        "Wajib perkuatan sloof kaku tahan gempa SNI 1726"
+      ],
+      [
+        "3.5 - 9 m",
+        "Lanau Pasiran Padat Sedang Berkerikil Sekis",
+        "50 - 105 kg/cm\u00b2",
+        "12 - 22",
+        "Tiang strauss pile ruko Abepura & perkantoran"
+      ],
+      [
+        "9 - 17 m",
+        "Batuan Metamorfik Sekis / Gabro Padat Keras",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang spun pile mall Jayapura & rumah sakit"
+      ],
+      [
+        "> 17 m",
+        "Batuan Dasar Ofiolit Masif Segar Sangat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile pilar Jembatan Youtefa & dermaga"
+      ]
+    ],
+    "hazard": "Aktivitas sesar naik aktif darat Jayapura yang dangkal dan potensi likuifaksi pesisir pantai Muara Tami."
+  },
+  "jasa-sondir-timika": {
+    "name": "Kabupaten Mimika (Timika & Freeport)",
+    "slug": "jasa-sondir-timika",
+    "province": "Papua Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Mimika Baru (Timika Kota), Kuala Kencana, Tembagapura (Tambang Freeport Grasberg), Pelabuhan Amamapare, Iwaka",
+    "geology_zone": "Endapan Aluvium Fluvial Kuarter Dataran Rendah Mimika [Qa] (pasir kerikil limpasan es purba dan tailing) serta batuan terobosan Grasberg di hulu.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lumpur Lempung Rawa Tropis Lunak & Pasir Halus Tailing",
+        "6 - 22 kg/cm\u00b2",
+        "1 - 5",
+        "Kompaktibilitas tinggi; dilarang telapak tanpa perbaikan tanah"
+      ],
+      [
+        "4 - 12 m",
+        "Pasir Kasar Berkerikil Kuarsa Padat Sedang Limpasan Sungai",
+        "55 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Tiang strauss pile / mini pile ruko niaga Timika & perumahan Kuala Kencana"
+      ],
+      [
+        "12 - 22 m",
+        "Konglomerat Kerikil Padat & Batupasir Terkompaksi",
+        "150 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile gudang logistik Freeport & bandara Mozes Kilangin"
+      ],
+      [
+        "> 22 m",
+        "Batuan Sedimen Keras Masif / Konglomerat Sangat Rapat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Bearing stratum tiang pipa baja dermaga pengapalan konsentrat tembaga Amamapare"
+      ]
+    ],
+    "hazard": "Curah hujan ekstrem tertinggi di Indonesia, rawa gambut jenuh air, dan sedimentasi material tailing Sungai Ajkwa."
+  },
+  "jasa-sondir-sorong": {
+    "name": "Kota & Kabupaten Sorong",
+    "slug": "jasa-sondir-sorong",
+    "province": "Papua Barat Daya",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Sorong Timur/Barat/Manoi, Kawasan Ekonomi Khusus (KEK) Sorong Mayamuk, Pelabuhan Samudera Sorong, Aimas",
+    "geology_zone": "Formasi Klasaman [Tpk] (batupasir, batulempung) dan Aluvium Pantai Selat Dampier serta Patahan Aktif Sesar Sorong.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Pasang Surut Lunak & Lumpur Pesisir",
+        "8 - 24 kg/cm\u00b2",
+        "2 - 6",
+        "Perbaikan tanah dasar timbunan sirtu bergeotekstil di KEK Sorong"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Tiang pancang mini pile ruko niaga & workshop logistik migas"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Padat & Konglomerat Formasi Klasaman",
+        "130 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tumpuan tiang spun pile pabrik industri KEK Sorong"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras Masif Tersemen Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile dermaga peti kemas Pelabuhan Sorong"
+      ]
+    ],
+    "hazard": "Aktivitas pergerakan mendatar Patahan Aktif Sesar Sorong dan korosi air asin pada struktur pelabuhan."
+  },
+  "jasa-sondir-jakarta": {
+    "name": "DKI Jakarta",
+    "slug": "jasa-sondir-jakarta",
+    "province": "DKI Jakarta",
+    "region_type": "Provinsi / Kota",
+    "key_areas": "Jakarta Pusat, Jakarta Selatan, Jakarta Barat, Jakarta Timur, Jakarta Utara, PIK, Kelapa Gading, Puri Indah, TB Simatupang",
+    "geology_zone": "Aluvium Dataran Pantai Jakarta [Qa] di utara (lempung marin sangat tebal) dan Kipas Aluvium Vulkanik [Qav] di selatan.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu Jenuh Air (Pesisir Utara)",
+        "8 - 22 kg/cm\u00b2",
+        "2 - 5",
+        "Dilarang fondasi telapak dangkal tanpa perbaikan tanah"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Marin Sangat Lunak (Very Soft Clay)",
+        "12 - 32 kg/cm\u00b2",
+        "2 - 7",
+        "Rentan penurunan konsolidasi diferensial jangka panjang"
+      ],
+      [
+        "14 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile gedung komersial"
+      ],
+      [
+        "> 24 m",
+        "Konglomerat Kuarsa Keras / Batupasir Masif Rapat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang bore pile gedung pencakar langit"
+      ]
+    ],
+    "hazard": "Penurunan muka tanah (land subsidence) akibat ekstraksi air tanah dan lempung marin tebal di Jakarta Utara."
+  },
+  "jasa-sondir-tangerang": {
+    "name": "Kota Tangerang",
+    "slug": "jasa-sondir-tangerang",
+    "province": "Banten",
+    "region_type": "Kota",
+    "key_areas": "Batuceper, Benda, Cibodas, Ciledug, Cipondoh, Jatiuwung, Karawaci, Neglasari, Periuk, Pinang, Tangerang Kota",
+    "geology_zone": "Endapan Tuf Banten [QTvb] berselingan Kipas Aluvial Vulkanik dan Aluvium Fluvial Sungai Cisadane.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Tufan)",
+        "18 - 42 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Berbatuapung Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Strauss pile ruko niaga Karawaci / Ciledug"
+      ],
+      [
+        "8 - 16 m",
+        "Batupasir Tufan Padat & Konglomerat Kerikil",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile pabrik industri Jatake"
+      ],
+      [
+        "> 16 m",
+        "Konglomerat Masif Tersemen Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile jembatan & pergudangan"
+      ]
+    ],
+    "hazard": "Muka air tanah dangkal di bantaran Kali Cisadane dan lempung kaku yang mudah melunak jika tergenang air."
+  },
+  "jasa-sondir-bekasi": {
+    "name": "Kota Bekasi",
+    "slug": "jasa-sondir-bekasi",
+    "province": "Jawa Barat",
+    "region_type": "Kota",
+    "key_areas": "Bekasi Barat, Bekasi Timur, Bekasi Selatan, Bekasi Utara, Medan Satria, Pondok Gede, Jatiasih, Rawalumbu, Mustikajaya",
+    "geology_zone": "Endapan Aluvium Fluvial Dataran Banjir Kali Bekasi [Qa] dan Kipas Aluvium Pasiran Formasi Tambun.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Gelap Plastisitas Tinggi",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3.5 - 9 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "45 - 95 kg/cm\u00b2",
+        "10 - 20",
+        "Tiang strauss pile ruko Summarecon Bekasi & perumahan"
+      ],
+      [
+        "9 - 18 m",
+        "Batupasir Padat & Konglomerat Kerikil Kuarsa",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang spun pile mall & apartemen Ahmad Yani"
+      ],
+      [
+        "> 18 m",
+        "Batulempung Kompak Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Bearing stratum tiang bor pile flyover & gedung perkantoran"
+      ]
+    ],
+    "hazard": "Banjir limpasan Kali Bekasi dan lempung plastisitas tinggi yang menyusut saat musim kemarau."
+  },
+  "jasa-sondir-bogor": {
+    "name": "Kota & Kabupaten Bogor",
+    "slug": "jasa-sondir-bogor",
+    "province": "Jawa Barat",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Bogor Tengah/Barat/Selatan/Utara, Sentul City, Cibinong, Gunung Putri, Cileungsi, Parung, Babakan Madang",
+    "geology_zone": "Kipas Aluvial Vulkanik Gunung Salak dan Pangrango [Qav] serta Formasi Bojongmanik dan Klapanunggal (batugamping karst) di timur.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Vulkanik Subur)",
+        "22 - 45 kg/cm\u00b2",
+        "5 - 10",
+        "Footplate rumah tinggal / vila Sentul"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Tufan Berkerikil Andesit Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko niaga Pajajaran & Cibinong"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Salak Padat Terkompaksi Kuat",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik semen Indocement & gudang"
+      ],
+      [
+        "> 15 m",
+        "Lava Andesit Masif Segar / Batugamping Keras Klapanunggal",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan tol Jagorawi & gedung tinggi"
+      ]
+    ],
+    "hazard": "Pergerakan tanah lereng perbukitan Sentul/Babakan Madang dan rongga karst di Klapanunggal Cileungsi."
+  },
+  "jasa-sondir-cikarang": {
+    "name": "Cikarang (Kabupaten Bekasi)",
+    "slug": "jasa-sondir-cikarang",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri Jababeka, MM2100, GIIC Deltamas, EJIP, Delta Silicon, Lippo Cikarang, Cibatu, Cikarang Pusat",
+    "geology_zone": "Endapan Aluvium Fluvial dan Dataran Kipas Pantai [Qa] berselingan Lempung Danau Tambun plastisitas sangat tinggi.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Hitam Ekspansif (Expansive Black Clay)",
+        "12 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Wajib penggantian tanah sirtu padat / subgrade treatment"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lempung Lanauan Kaku Abu-Abu Kecokelatan",
+        "35 - 75 kg/cm\u00b2",
+        "8 - 18",
+        "Memberikan friksi selimut tiang spun pile pabrik"
+      ],
+      [
+        "10 - 18 m",
+        "Batupasir Tufan Padat & Konglomerat Kerikil",
+        "130 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tiang pancang spun pile pabrik otomotif & gudang Jababeka"
+      ],
+      [
+        "> 18 m",
+        "Konglomerat Masif Tersemen Sangat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang spun pile dia 500-600 mm"
+      ]
+    ],
+    "hazard": "Perilaku kembang-susut tanah lempung ekspansif yang menyebabkan retak struktur pelat lantai pabrik (floor slab cracking)."
+  },
+  "jasa-sondir-karawang": {
+    "name": "Kabupaten Karawang",
+    "slug": "jasa-sondir-karawang",
+    "province": "Jawa Barat",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri KIIC, Suryacipta, KNIC, Telukjambe Timur/Barat, Klari, Cikampek, Rengasdengklok",
+    "geology_zone": "Aluvium Dataran Pantai dan Fluvial Sungai Citarum [Qa] berselingan Formasi Subang (batulempung ekspansif).",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lanauan Lunak Kelabu Berplastisitas Sangat Tinggi",
+        "10 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Dilarang fondasi telapak di kawasan industri; wajib spun pile"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Lempungan Kaku Sedang",
+        "30 - 70 kg/cm\u00b2",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang pabrik KIIC"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Tufan Padat & Kerikil Kuarsa",
+        "120 - 220 kg/cm\u00b2",
+        "22 - 36",
+        "Tumpuan tiang pancang spun pile pabrik perakitan mobil"
+      ],
+      [
+        "> 20 m",
+        "Batulempung Keras Kompak Formasi Subang",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Penurunan diferensial pelat lantai gudang bentang lebar dan banjir luapan Sungai Citarum."
+  },
+  "jasa-sondir-bandung": {
+    "name": "Bandung Raya & Cimahi",
+    "slug": "jasa-sondir-bandung",
+    "province": "Jawa Barat",
+    "region_type": "Kota & Kabupaten",
+    "key_areas": "Kota Bandung, Cimahi, Gedebage, Buahbatu, Arcamanik, Cibiru, Padalarang, Soreang, Dayeuhkolot",
+    "geology_zone": "Endapan Danau Purba Bandung [Ql] (lempung sangat lunak tebal hingga 20-30 meter) dan Batuan Vulkanik Tangkuban Parahu di utara.",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Danau Sangat Lunak Jenuh Air (Gedebage/Dayeuhkolot)",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Sangat rawan amblas; wajib tiang pancang / cerucuk"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Marin Danau Lunak Kelabu Tua (Soft Clay)",
+        "12 - 30 kg/cm\u00b2",
+        "2 - 7",
+        "Penurunan konsolidasi jangka panjang & gaya seret negatif"
+      ],
+      [
+        "18 - 26 m",
+        "Lanau Pasiran Tufan Kaku Transisi",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Zona friksi tiang pancang spun pile gedung komersial"
+      ],
+      [
+        "> 26 m",
+        "Batupasir Tufan Padat & Breksi Lahar Tangkuban Parahu",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile stasiun KCIC Tegalluar & apartemen"
+      ]
+    ],
+    "hazard": "Amblesan tanah dan banjir genangan kronis di Gedebage/Dayeuhkolot serta getaran Patahan Sesar Lembang di utara."
+  },
+  "jasa-sondir-cilegon": {
+    "name": "Kota Cilegon",
+    "slug": "jasa-sondir-cilegon",
+    "province": "Banten",
+    "region_type": "Kota",
+    "key_areas": "Kawasan Industri Krakatau Steel, Ciwandan (Pelabuhan Cigading), Pulomerak, Grogol, Cibeber, Citangkil",
+    "geology_zone": "Endapan Piroklastik Kompleks Gunungapi Krakatau [Qvk] dan Rawa Pantai Ciwandan bersentuhan Batuan Beku Basal Pinang.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lumpur Lempung Pasang Surut Lunak & Pasir Reklamasi Pesisir",
+        "8 - 22 kg/cm\u00b2",
+        "2 - 5",
+        "Perbaikan tanah dasar timbunan sirtu padat bergeotekstil"
+      ],
+      [
+        "4 - 12 m",
+        "Tuf Pasiran Padat Sedang & Lanau Gampingan",
+        "45 - 90 kg/cm\u00b2",
+        "10 - 20",
+        "Tiang pancang mini pile workshop pabrik kimia/baja"
+      ],
+      [
+        "12 - 20 m",
+        "Breksi Vulkanik Padat & Batupasir Keras",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tumpuan tiang spun pile pabrik peleburan baja & tangki kimia"
+      ],
+      [
+        "> 20 m",
+        "Batuan Basal / Andesit Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang pipa baja dermaga laut Pelabuhan Cigading"
+      ]
+    ],
+    "hazard": "Beban dinamis mesin industri berat pabrik baja/petrokimia dan korosi air laut Selat Sunda."
+  },
+  "jasa-sondir-semarang": {
+    "name": "Kota Semarang",
+    "slug": "jasa-sondir-semarang",
+    "province": "Jawa Tengah",
+    "region_type": "Kota",
+    "key_areas": "Semarang Barat/Timur/Utara/Selatan, Candisari, Banyumanik, BSB City, Genuk, Terboyo, Wijayakusuma",
+    "geology_zone": "Aluvium Dataran Pantai Semarang [Qa] di utara (lempung marin sangat tebal) dan Formasi Damar [QTd] di perbukitan selatan (BSB City/Candi).",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Marin Lunak Jenuh Air (Zona Rob Pantura Genuk/Terboyo)",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang keras fondasi telapak di pesisir; wajib spun pile"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Marin Kelabu Sangat Lunak (Very Soft Clay)",
+        "10 - 28 kg/cm\u00b2",
+        "2 - 6",
+        "Penurunan tanah (land subsidence) hingga 10-15 cm/tahun"
+      ],
+      [
+        "18 - 28 m",
+        "Lanau Pasiran Padat Sedang Transisi Formasi Kaligesik",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Zona friksi tiang pancang pabrik Kawasan Industri Wijayakusuma"
+      ],
+      [
+        "> 28 m",
+        "Batupasir Konglomeratan Keras Formasi Damar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile pergudangan & pelabuhan Tanjung Emas"
+      ]
+    ],
+    "hazard": "Penurunan muka tanah (land subsidence) ekstrem dan banjir rob di utara serta kelongsoran lereng di perbukitan Candi."
+  },
+  "jasa-sondir-solo": {
+    "name": "Kota Solo (Surakarta)",
+    "slug": "jasa-sondir-solo",
+    "province": "Jawa Tengah",
+    "region_type": "Kota",
+    "key_areas": "Banjarsari, Jebres, Laweyan, Pasar Kliwon, Serengan, Manahan, Purwosari, Gilingan",
+    "geology_zone": "Endapan Fluviatil Lembah Bengawan Solo [Qa] dan Batuan Vulkanik Lahar Gunung Merapi dan Lawu.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Pasiran (Endapan Fluvial)",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 8",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3.5 - 9 m",
+        "Pasir Lanauan Tufan Berkerikil Padat Sedang",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Strauss pile ruko niaga Slamet Riyadi & Manahan"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Laharik Merapi-Lawu Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm\u00b2",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile hotel & rumah sakit Solo"
+      ],
+      [
+        "> 16 m",
+        "Konglomerat Keras Masif / Breksi Kompak",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile mall & flyover"
+      ]
+    ],
+    "hazard": "Bantaran Sungai Bengawan Solo rawan banjir luapan dan tanah timbunan lepas di area bekas rawa kota."
+  },
+  "jasa-sondir-jogja": {
+    "name": "DI Yogyakarta (Jogja & Sleman)",
+    "slug": "jasa-sondir-jogja",
+    "province": "DI Yogyakarta",
+    "region_type": "Provinsi / Kota",
+    "key_areas": "Malioboro, Depok Sleman, Mlati, Umbulharjo, Kotagede, Bantul, Gondokusuman, Kasihan",
+    "geology_zone": "Endapan Fluviovulkanik Gunung Merapi [Qvm] (pasir pasiran tebal berkerikil) di utara dan Graben Bantul bersentuhan Sesar Opak di selatan.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Tufan Cokelat asal Lahar Merapi",
+        "22 - 48 kg/cm\u00b2",
+        "5 - 10",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Tufan Berkerikil Pumis Padat Sedang",
+        "65 - 130 kg/cm\u00b2",
+        "15 - 28",
+        "Strauss pile kos mahasiswa Pogung/Seturan & hotel Malioboro"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Merapi Padat Terkompaksi Kuat",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile kampus UGM/UNY & rumah sakit"
+      ],
+      [
+        "> 15 m",
+        "Konglomerat Vulkanik Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile hotel berbintang & apartemen"
+      ]
+    ],
+    "hazard": "Aktivitas patahan aktif gempa bumi darat Sesar Opak dan potensi likuifaksi pasir lepas Merapi di Bantul."
+  },
+  "jasa-sondir-surabaya": {
+    "name": "Kota Surabaya",
+    "slug": "jasa-sondir-surabaya",
+    "province": "Jawa Timur",
+    "region_type": "Kota",
+    "key_areas": "Rungkut Sier, Margomulyo, Tanjung Perak, Tandes, Gubeng, Kenjeran, Wiyung, Surabaya Barat",
+    "geology_zone": "Aluvium Dataran Pantai dan Delta Sungai Brantas [Qa] (lempung marin sangat tebal) dan Formasi Lidah di perbukitan barat.",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Marin Lunak Jenuh Air (Pesisir Rungkut/Perak)",
+        "5 - 18 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi telapak di kawasan industri; wajib spun pile"
+      ],
+      [
+        "5 - 16 m",
+        "Lempung Delta Lunak Kelabu Tua (Soft Clay)",
+        "12 - 30 kg/cm\u00b2",
+        "2 - 7",
+        "Penurunan konsolidasi berkepanjangan & dragload tiang"
+      ],
+      [
+        "16 - 24 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile pabrik SIER/Margomulyo"
+      ],
+      [
+        "> 24 m",
+        "Batupasir Keras & Batulempung Kompak Formasi Pucangan",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile dermaga Perak & apartemen Surabaya Barat"
+      ]
+    ],
+    "hazard": "Konsolidasi lempung lunak delta Brantas yang tebal dan rob pasang air laut di Surabaya Utara."
+  },
+  "jasa-sondir-sidoarjo": {
+    "name": "Kabupaten Sidoarjo",
+    "slug": "jasa-sondir-sidoarjo",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Waru, Gedangan, Buduran, Candi, Safe n Lock Eco Industrial Park, Porong, Krian, Taman",
+    "geology_zone": "Endapan Aluvium Delta Sungai Brantas [Qa] (lapisan lempung dan lumpur marin sangat tebal) dan Formasi Pucangan.",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lumpur Lempung Rawa Tambak Lunak Sangat Lembek",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi telapak; wajib tiang pancang mini pile / cerucuk"
+      ],
+      [
+        "5 - 17 m",
+        "Lempung Lanauan Kelabu Jenuh Air Sangat Tebal",
+        "12 - 30 kg/cm\u00b2",
+        "2 - 7",
+        "Rentan penurunan diferensial pada pelat lantai pabrik"
+      ],
+      [
+        "17 - 25 m",
+        "Pasir Lanauan Padat Sedang Transisi Brantas",
+        "55 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Zona friksi tiang pancang spun pile pergudangan Safe n Lock"
+      ],
+      [
+        "> 25 m",
+        "Batupasir Padat Masif Formasi Pucangan",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Tanah aluvial super lunak bekas tambak dan penurunan muka tanah di koridor Porong."
+  },
+  "jasa-sondir-gresik": {
+    "name": "Kabupaten Gresik",
+    "slug": "jasa-sondir-gresik",
+    "province": "Jawa Timur",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri JIIPE Manyar, Maspion Industrial Estate, Kebomas, Driyorejo, Menganti, Cerme",
+    "geology_zone": "Aluvium Dataran Pantai Selat Madura [Qa] di Manyar vs Formasi Paciran (batugamping karst) di perbukitan Kebomas.",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Pasang Surut Lunak & Pasir Reklamasi JIIPE",
+        "8 - 25 kg/cm\u00b2",
+        "2 - 6",
+        "Preloading timbunan & perbaikan tanah dasar geotekstil"
+      ],
+      [
+        "4 - 15 m",
+        "Lempung Marin Kelabu Lunak (Soft Marine Clay)",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Rentan konsolidasi diferensial di bawah tangki industri"
+      ],
+      [
+        "15 - 22 m",
+        "Batugamping Karstik Lapuk Sedang & Lanau Pasiran",
+        "60 - 140 kg/cm\u00b2",
+        "15 - 30",
+        "Zona friksi tiang pancang pabrik smelter tembaga Freeport JIIPE"
+      ],
+      [
+        "> 22 m",
+        "Batugamping Masif Keras Formasi Paciran",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang spun pile smelter & dermaga pelabuhan Manyar"
+      ]
+    ],
+    "hazard": "Konsolidasi timbunan reklamasi pantai JIIPE dan rongga karst bawah tanah di perbukitan kapur Kebomas."
+  },
+  "jasa-sondir-medan": {
+    "name": "Kota Medan",
+    "slug": "jasa-sondir-medan",
+    "province": "Sumatera Utara",
+    "region_type": "Kota",
+    "key_areas": "Medan Barat, Medan Timur, Medan Amplas, Belawan (Pelabuhan Belawan), Medan Sunggal, Helvetia, Petisah",
+    "geology_zone": "Formasi Medan [Qpme] (lempung pasiran tufan) dan Endapan Aluvium Fluvial Rawa Pesisir Belawan [Qa].",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Pasang Surut Lunak Jenuh Air (Pesisir Belawan)",
+        "6 - 20 kg/cm\u00b2",
+        "1 - 5",
+        "Dilarang fondasi telapak di Belawan; wajib tiang pancang"
+      ],
+      [
+        "4 - 12 m",
+        "Lempung Lanauan Kaku Sedang Cokelat Tufan",
+        "30 - 70 kg/cm\u00b2",
+        "7 - 16",
+        "Memberikan friksi selimut tiang pancang ruko Medan Kota"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Tufan Padat & Kerikil Lahar Formasi Medan",
+        "130 - 230 kg/cm\u00b2",
+        "24 - 38",
+        "Tumpuan tiang pancang spun pile hotel & mall Podomoro City"
+      ],
+      [
+        "> 20 m",
+        "Batuan Tuf Keras Masif / Konglomerat Kompak",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 42",
+        "Hard bearing stratum tiang bor pile Pelabuhan Belawan & gedung tinggi"
+      ]
+    ],
+    "hazard": "Banjir rob pasang surut di Belawan dan muka air tanah dangkal di bantaran Sungai Deli."
+  },
+  "jasa-sondir-batam": {
+    "name": "Kota Batam",
+    "slug": "jasa-sondir-batam",
+    "province": "Kepulauan Riau",
+    "region_type": "Kota",
+    "key_areas": "Batam Center, Nagoya, Batu Ampar, Muka Kuning, Kabil Industrial Estate, Sekupang, Nongsa",
+    "geology_zone": "Granit Batam [TrJg] (batuan beku intrusif keras) dan tanah residu laterit merah berkerikil kuarsa.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Tanah Residu Lempung Laterit Kemerahan Berpasir",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Granitan Kasar Padat Sedang (Grus)",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile / mini pile ruko niaga Nagoya & Batam Center"
+      ],
+      [
+        "8 - 15 m",
+        "Granit Lapuk Sedang Keras Terkompaksi",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 45",
+        "Tumpuan tiang pancang spun pile pabrik semikonduktor Muka Kuning"
+      ],
+      [
+        "> 15 m",
+        "Batuan Granit Segar Masif Sangat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile galangan kapal shipyard Kabil & Batu Ampar"
+      ]
+    ],
+    "hazard": "Bongkahan batu granit raksasa lepas (boulders) bawah tanah dan pemotongan lereng cut-and-fill perbukitan Batam."
+  },
+  "jasa-sondir-palembang": {
+    "name": "Kota Palembang",
+    "slug": "jasa-sondir-palembang",
+    "province": "Sumatera Selatan",
+    "region_type": "Kota",
+    "key_areas": "Kawasan Pelabuhan Tanjung Api-Api, Seberang Ulu, Ilir Barat, Jakabaring, Plaju (Kilang Pertamina), Sukarami",
+    "geology_zone": "Aluvium Rawa dan Dataran Fluvial Sungai Musi [Qa] serta Formasi Kasai dan Muara Enim.",
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lumpur Lempung Rawa Lunak Jenuh Air (Bantaran Sungai Musi)",
+        "4 - 15 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi telapak; tradisi tiang pancang / cerucuk"
+      ],
+      [
+        "4.5 - 14 m",
+        "Lempung Lanauan Kelabu Berkonsolidasi Tinggi",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Penurunan konsolidasi diferensial di Jakabaring"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile ruko & mall Palembang"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Kuarsa Padat Keras Formasi Kasai",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 38",
+        "Hard bearing stratum tiang spun pile pilar Jembatan Ampera & LRT Sumsel"
+      ]
+    ],
+    "hazard": "Tanah rawa gambut jenuh air bantaran Sungai Musi dan korosi tinggi pada tiang jembatan/dermaga."
+  },
+  "jasa-sondir-pekanbaru": {
+    "name": "Kota Pekanbaru",
+    "slug": "jasa-sondir-pekanbaru",
+    "province": "Riau",
+    "region_type": "Kota",
+    "key_areas": "Kawasan Tenayan Raya (Kawasan Industri Tenayan), Rumbai, Marpoyan Damai, Tampan, Payung Sekaki, Bukit Raya",
+    "geology_zone": "Formasi Minas [Qpm] (batupasir kuarsa, kerikil) dan Formasi Telisa serta endapan rawa Sungai Siak.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Residu)",
+        "18 - 40 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3.5 - 9 m",
+        "Pasir Lanauan Kuarsa Padat Sedang & Lanau",
+        "55 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang strauss pile ruko niaga Sudirman & perumahan"
+      ],
+      [
+        "9 - 17 m",
+        "Batupasir Kuarsa Padat Formasi Minas",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang spun pile pabrik industri Tenayan Raya"
+      ],
+      [
+        "> 17 m",
+        "Batupasir Keras Masif Tersemen Kuat",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile jembatan Siak IV & PLTU Tenayan"
+      ]
+    ],
+    "hazard": "Lempung rawa lunak jenuh air di bantaran Sungai Siak dan penurunan pelat lantai di kawasan Tenayan Raya."
+  },
+  "jasa-sondir-lampung": {
+    "name": "Kota Bandar Lampung",
+    "slug": "jasa-sondir-lampung",
+    "province": "Lampung",
+    "region_type": "Kota",
+    "key_areas": "Kawasan Industri Tanjungkarang, Pelabuhan Panjang, Telukbetung Selatan/Utara, Kedaton, Sukarame, Rajabasa",
+    "geology_zone": "Formasi Tuf Lampung [Qtl] (tufa batuapung, batupasir tufan) dan Aluvium Teluk Lampung di Panjang.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Laterit Tufan)",
+        "20 - 45 kg/cm\u00b2",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Tuf Pasiran Berbatuapung Padat Sedang",
+        "60 - 120 kg/cm\u00b2",
+        "14 - 26",
+        "Strauss pile ruko niaga Telukbetung & kampus Unila"
+      ],
+      [
+        "8 - 16 m",
+        "Batupasir Tufan Padat Keras & Breksi Laharik",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang spun pile gudang logistik Pelabuhan Panjang"
+      ],
+      [
+        "> 16 m",
+        "Batuan Tuf Masif Keras / Batuan Beku Andesit",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang pipa baja dermaga peti kemas Pelabuhan Panjang"
+      ]
+    ],
+    "hazard": "Perbukitan berlereng rawan longsor di Telukbetung dan sedimentasi lumpur lunak di bibir teluk pelabuhan."
+  },
+  "jasa-sondir-balikpapan": {
+    "name": "Kota Balikpapan",
+    "slug": "jasa-sondir-balikpapan",
+    "province": "Kalimantan Timur",
+    "region_type": "Kota",
+    "key_areas": "Kariangau (KIK), Kilang Minyak Pertamina RU V, Balikpapan Selatan, Sepinggan, Balikpapan Utara, Prapatan",
+    "geology_zone": "Formasi Balikpapan [Tmbp] (batupasir kuarsa, batulanau, lempung serpih/clay shale) dan Aluvium Teluk Balikpapan di Kariangau.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Pasiran Terlapuk Tebal",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Footplate rumah tinggal di lahan berkontur datar"
+      ],
+      [
+        "3.5 - 9 m",
+        "Lanau Lempungan Kaku dengan Sisipan Serpih Clay Shale",
+        "45 - 90 kg/cm\u00b2",
+        "10 - 20",
+        "Tiang strauss pile ruko niaga Sudirman & perumahan"
+      ],
+      [
+        "9 - 17 m",
+        "Batupasir Kuarsa Padat & Batulanau Keras Formasi Balikpapan",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang spun pile pabrik manufaktur Kariangau"
+      ],
+      [
+        "> 17 m",
+        "Batupasir Kuarsa Masif Sangat Rapat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45",
+        "Hard bearing stratum tiang spun pile dermaga peti kemas KIK & RDMP kilang Pertamina"
+      ]
+    ],
+    "hazard": "Perilaku clay shale yang melunak jika terkena air dan lereng bukit curam rawan longsor di Balikpapan Kota."
+  },
+  "jasa-sondir-samarinda": {
+    "name": "Kota Samarinda",
+    "slug": "jasa-sondir-samarinda",
+    "province": "Kalimantan Timur",
+    "region_type": "Kota",
+    "key_areas": "Palaran (Pelabuhan Peti Kemas Palaran), Sungai Kunjang, Samarinda Seberang, Samarinda Ulu, Samarinda Utara",
+    "geology_zone": "Endapan Aluvium Fluvial Sungai Mahakam [Qa] (lempung lunak jenuh air sangat tebal) dan Formasi Kampungbaru serta Balikpapan.",
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lumpur Lempung Rawa Mahakam Lunak Sangat Lembek",
+        "4 - 16 kg/cm\u00b2",
+        "1 - 4",
+        "Dilarang fondasi telapak di bantaran Mahakam; wajib cerucuk galam/tiang"
+      ],
+      [
+        "4.5 - 14 m",
+        "Lempung Lanauan Kelabu Jenuh Air Sangat Tebal",
+        "12 - 30 kg/cm\u00b2",
+        "2 - 7",
+        "Penurunan konsolidasi jangka panjang & gaya seret negatif"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Kuarsa Padat Sedang & Sisipan Batubara Lignit",
+        "60 - 130 kg/cm\u00b2",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile ruko niaga & gudang"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Keras Kompak Formasi Kampungbaru",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 40",
+        "Hard bearing stratum tiang spun pile jembatan Mahakam IV & dermaga Palaran"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Mahakam dan penurunan konsolidasi tebal pada tanah lempung lunak pesisir sungai."
+  },
+  "jasa-sondir-banjarmasin": {
+    "name": "Kota Banjarmasin",
+    "slug": "jasa-sondir-banjarmasin",
+    "province": "Kalimantan Selatan",
+    "region_type": "Kota",
+    "key_areas": "Banjarmasin Barat, Banjarmasin Selatan, Pelabuhan Trisakti, Kuin, Alalak, Banjarmasin Tengah/Timur",
+    "geology_zone": "Aluvium Rawa Pasang Surut Delta Sungai Barito dan Martapura [Qa] (lapisan lempung dan gambut super lunak hingga 20-30 m).",
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lumpur Lempung Rawa Pasang Surut Super Lembek & Gambut",
+        "2 - 10 kg/cm\u00b2",
+        "0 - 2",
+        "Kuat geser sangat rendah; tradisi cerucuk galam matras kayu"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Delta Lunak Kelabu Tua (Very Soft Marine Clay)",
+        "8 - 25 kg/cm\u00b2",
+        "1 - 5",
+        "Penurunan konsolidasi ekstrem & gaya seret negatif pada tiang"
+      ],
+      [
+        "18 - 28 m",
+        "Lanau Pasiran Padat Sedang Transisi Formasi Dahor",
+        "35 - 90 kg/cm\u00b2",
+        "8 - 20",
+        "Zona friksi tiang pancang spun pile gedung komersial"
+      ],
+      [
+        "> 28 m",
+        "Batupasir Kuarsa Padat Keras Terkompaksi",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "\u2265 36",
+        "Hard bearing stratum tiang pipa baja dermaga Trisakti & jembatan Barito"
+      ]
+    ],
+    "hazard": "Daya dukung tanah terlemah di Indonesia dengan lapisan lempung delta super lunak mencapai kedalaman 25 meter."
+  },
+  "jasa-sondir-makassar": {
+    "name": "Kota Makassar",
+    "slug": "jasa-sondir-makassar",
+    "province": "Sulawesi Selatan",
+    "region_type": "Kota",
+    "key_areas": "Kawasan Industri Makassar (KIMA Daya), Panakkukang, Tamalanrea, Pelabuhan Makassar New Port (MNP), Ujung Pandang, Mariso",
+    "geology_zone": "Aluvium Dataran Rendah Pesisir Selat Makassar [Qa] dan Batuan Gunungapi Formasi Camba [Tmc] (breksi, tufa, lava andesit).",
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Marin Pasang Surut Lunak & Pasir Reklamasi MNP",
+        "8 - 24 kg/cm\u00b2",
+        "2 - 6",
+        "Dilarang fondasi telapak di pesisir; butuh perbaikan tanah dasar"
+      ],
+      [
+        "4 - 12 m",
+        "Tuf Pasiran Padat Sedang & Lanau Kaku",
+        "40 - 85 kg/cm\u00b2",
+        "9 - 18",
+        "Tiang pancang mini pile workshop KIMA Daya & ruko Panakkukang"
+      ],
+      [
+        "12 - 20 m",
+        "Breksi Vulkanik Padat & Konglomerat Formasi Camba",
+        "140 - 230 kg/cm\u00b2",
+        "25 - 40",
+        "Tiang pancang spun pile pergudangan logistik & rumah sakit"
+      ],
+      [
+        "> 20 m",
+        "Batuan Lava Andesit Keras Masif",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile dermaga peti kemas Makassar New Port"
+      ]
+    ],
+    "hazard": "Sedimentasi lumpur lunak pesisir pantai dan pasang air laut di utara kawasan pelabuhan."
+  },
+  "jasa-sondir-morowali": {
+    "name": "Kabupaten Morowali (IMIP)",
+    "slug": "jasa-sondir-morowali",
+    "province": "Sulawesi Tengah",
+    "region_type": "Kabupaten",
+    "key_areas": "Kawasan Industri IMIP Bahodopi, Bungku Tengah, Fatufia, Labota, Keurea, Kolonodale",
+    "geology_zone": "Kompleks Batuan Ultrabasa (harzburgit, dunit, serpentinit pembawa nikel laterit) dan Aluvium Dataran Pesisir Teluk Tolo.",
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Tanah Merah Laterit Limonit Residu Nikel (Topsoil)",
+        "16 - 38 kg/cm\u00b2",
+        "3 - 8",
+        "Perbaikan tanah dasar timbunan padat untuk jalur angkut berat"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lempung Saprolit Pasiran Berfragmen Serpentinit Padat Sedang",
+        "50 - 110 kg/cm\u00b2",
+        "12 - 24",
+        "Tiang pancang mini pile workshop mekanik smelter & mess"
+      ],
+      [
+        "10 - 18 m",
+        "Batuan Serpentinit Padat Terkekarkan Rapat",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tumpuan tiang spun pile tungku blast furnace RKEF smelter nikel IMIP"
+      ],
+      [
+        "> 18 m",
+        "Batuan Beku Peridotit Masif Utuh Sangat Keras",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 50 (Rock)",
+        "Hard bearing stratum tiang bor pile PLTU captive batubara & jetty dermaga curah"
+      ]
+    ],
+    "hazard": "Beban getaran dinamis ekstrem dari tungku rotary kiln electric furnace dan abrasi pesisir Bahodopi."
+  },
+  "jasa-sondir-bali": {
+    "name": "Pulau Bali",
+    "slug": "jasa-sondir-bali",
+    "province": "Bali",
+    "region_type": "Provinsi / Kabupaten",
+    "key_areas": "Denpasar, Badung (Canggu, Kuta, Seminyak, Jimbaran, Nusa Dua, Uluwatu), Gianyar (Ubud), Tabanan, Buleleng",
+    "geology_zone": "Formasi Selatan [Tps] (Batugamping Karst Berongga Semenanjung Bukit Uluwatu), Batuan Gunungapi Buyan-Bratan-Batur (Tuf Subur Ubud), dan Pasir Pantai Canggu/Sanur.",
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Residu Merah Kapur (Terra Rossa) / Pasir Pantai Halus Canggu",
+        "15 - 35 kg/cm\u00b2",
+        "3 - 8",
+        "Wajib perkuatan lereng retaining wall pada vila tebing"
+      ],
+      [
+        "3 - 8 m",
+        "Batugamping Karstik Berongga Pelarutan (Cavities) Bukit / Tuf Vulkanik Padat",
+        "Fluktuatif (60 - 200 kg/cm\u00b2)",
+        "14 - 35",
+        "Jebakan rongga karst bawah tanah; butuh coring intan"
+      ],
+      [
+        "8 - 15 m",
+        "Batugamping Terumbu Keras Formasi Selatan / Breksi Vulkanik Keras",
+        "160 - 240 kg/cm\u00b2",
+        "28 - 42",
+        "Tiang pancang mini pile / spun pile hotel resor bintang lima"
+      ],
+      [
+        "> 15 m",
+        "Batugamping Kristalin Masif Sangat Keras / Batuan Beku Andesit Segar",
+        "Refusal (\u2265 250 kg/cm\u00b2)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan tebing & hotel resor tebing jurang"
+      ]
+    ],
+    "hazard": "Jebakan rongga karst pelarutan (sinkholes) di tebing Uluwatu/Jimbaran dan likuifaksi pasir jenuh air di pesisir Canggu/Kuta."
+  }
+}

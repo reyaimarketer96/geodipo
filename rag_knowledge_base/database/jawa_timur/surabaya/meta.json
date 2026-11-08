@@ -1,0 +1,16 @@
+{
+  "region_id": "surabaya",
+  "name": "Kota Surabaya",
+  "province": "Jawa Timur",
+  "cat_esdm": "CAT Surabaya (No. 42/CAT)",
+  "bbws": "BBWS Brantas",
+  "geological_sheet": "Lembar Surabaya (1608-4) Skala 1:100.000",
+  "coordinates": {
+    "lat": -7.2575,
+    "lng": 112.7521
+  },
+  "industrial_zones": [
+    "Surabaya Industrial Estate Rungkut (SIER)",
+    "Kawasan Industri Margomulyo Tandes"
+  ]
+}

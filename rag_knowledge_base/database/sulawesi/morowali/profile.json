@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Kompleks Batuan Ultramafik Ofiolit Sulawesi [Ku] (serpentinit keras, dunit, harzburgit), Batugamping Formasi Tokala, dan Aluvium Pantai [Qa].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 15 m",
+      "water_quality": "Tawar terbatas di aluvium pantai, kandungan besi (Fe) dan mineral terlarut laterit tinggi."
+    },
+    "aquifer_confined": {
+      "depth": "70 - 150 m",
+      "lithology": "Akuifer rekahan tektonik (*fractured bedrock aquifer*) batuan serpentinit dan dunit tersesarkan kuat",
+      "recommended_casing": "Pipa Baja Seamless ASTM A106 Grade B tebal 7.11 mm (rig DTH Hammer pneumatic kompresor 25 bar wajib digunakan untuk penetrasi batuan beku keras).",
+      "safe_yield": "8 - 16 Liter/detik",
+      "sipa_advice": "Wajib rekomendasi teknis BWS Sulawesi III dan izin SIPA dari DPMPTSP / Dinas ESDM Provinsi Sulawesi Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Tanah Merah Laterit Limonit Residu Nikel (Topsoil)",
+        "16 - 38 kg/cm²",
+        "3 - 8",
+        "Perbaikan tanah dasar timbunan padat untuk jalur angkut berat"
+      ],
+      [
+        "3.5 - 10 m",
+        "Lempung Saprolit Pasiran Berfragmen Serpentinit Padat Sedang",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Tiang pancang mini pile workshop mekanik smelter & mess"
+      ],
+      [
+        "10 - 18 m",
+        "Batuan Serpentinit Padat Terkekarkan Rapat",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tumpuan tiang spun pile tungku blast furnace RKEF smelter nikel IMIP"
+      ],
+      [
+        "> 18 m",
+        "Batuan Beku Peridotit Masif Utuh Sangat Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50 (Rock)",
+        "Hard bearing stratum tiang bor pile PLTU captive batubara & jetty dermaga curah"
+      ]
+    ],
+    "hazard": "Beban getaran dinamis ekstrem dari tungku rotary kiln electric furnace dan abrasi pesisir Bahodopi."
+  }
+}

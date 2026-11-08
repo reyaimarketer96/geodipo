@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batuan Gunungapi Ijen-Raung [Qvi] dan Formasi Meru Betiri serta Aluvium Pesisir Selat Bali.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Banyuwangi."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Pantai & Lempung Lanauan Cokelat",
+        "18 - 40 kg/cm²",
+        "4 - 8",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 9 m",
+        "Pasir Lanauan Padat Sedang Berkerikil Andesit",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Strauss pile / mini pile pabrik pengolahan ikan Muncar"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Vulkanik Keras Terpadatkan Kuat",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang spun pile pergudangan Pelabuhan Ketapang"
+      ],
+      [
+        "> 16 m",
+        "Batuan Andesit Keras Masif Formasi Ijen",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang bor pile dermaga feri Ketapang"
+      ]
+    ],
+    "hazard": "Beban getaran gempa subduksi megathrust Selat Bali dan muka air tanah dangkal di pesisir Muncar."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "region_id": "pangkalpinang",
+  "name": "Kota Pangkalpinang & Bangka",
+  "province": "Kepulauan Bangka Belitung",
+  "cat_esdm": "CAT Pangkalpinang (CAT Sumatera)",
+  "bbws": "BWS Sumatera / Balai Geologi Sumber Daya Air Sumatera",
+  "geological_sheet": "Peta Geologi Lembar Pangkalpinang Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

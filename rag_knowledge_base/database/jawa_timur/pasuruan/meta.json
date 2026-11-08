@@ -1,0 +1,15 @@
+{
+  "region_id": "pasuruan",
+  "name": "Kota & Kabupaten Pasuruan (PIER)",
+  "province": "Jawa Timur",
+  "cat_esdm": "CAT Pasuruan (CAT Jawa Timur)",
+  "bbws": "BBWS Brantas & Bengawan Solo / Dinas ESDM Jawa Timur",
+  "geological_sheet": "Peta Geologi Lembar Pasuruan Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "pier-pasuruan"
+  ]
+}

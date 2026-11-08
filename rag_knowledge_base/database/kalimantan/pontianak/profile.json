@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Rawa Delta Sungai Kapuas [Qa] dan tanah gambut sangat tebal di pedalaman.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Pontianak."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lempung Rawa Lumpur Gambut Sangat Lembek (Delta Kapuas)",
+        "3 - 10 kg/cm²",
+        "0 - 2",
+        "Kuat geser sangat rendah; tradisi matras kayu cerucuk"
+      ],
+      [
+        "5 - 18 m",
+        "Lempung Delta Lunak Kelabu Kehitaman",
+        "8 - 25 kg/cm²",
+        "1 - 5",
+        "Penurunan konsolidasi berkepanjangan & dragload tiang"
+      ],
+      [
+        "18 - 28 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku Transisi",
+        "35 - 85 kg/cm²",
+        "8 - 18",
+        "Memberikan friksi selimut tiang pancang spun pile"
+      ],
+      [
+        "> 28 m",
+        "Batupasir Kuarsa Padat & Granit Lapuk Kuat",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 36",
+        "Hard bearing stratum tiang spun pile dermaga & ruko 3-4 lantai"
+      ]
+    ],
+    "hazard": "Tanah gambut asam dan lempung delta Kapuas super lunak hingga kedalaman 25 meter."
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Paciran [Tpp] (batugamping terumbu karstik berongga) dan Formasi Ngrayong (batupasir kuarsa).",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Tuban (Kilang & Semen)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Tanah Residu Lempung Merah Terra Rossa di atas Batu Kapur",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Footplate rumah tinggal di lahan datar"
+      ],
+      [
+        "3 - 8 m",
+        "Batugamping Karstik Lapuk Sedang dengan Rongga Pelarutan",
+        "Fluktuatif (70 - 240 kg/cm²)",
+        "16 - 38",
+        "Jebakan rongga karst (cavities); butuh coring intan"
+      ],
+      [
+        "8 - 16 m",
+        "Batugamping Masif Keras Formasi Paciran",
+        "≥ 250 kg/cm²",
+        "≥ 42",
+        "Tumpuan tiang pancang spun pile berujung sepatu baja"
+      ],
+      [
+        "> 16 m",
+        "Batupasir Kuarsa Keras Masif Formasi Ngrayong",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50 (Rock)",
+        "Hard bearing stratum tiang bor pile kilang GRR & silo semen"
+      ]
+    ],
+    "hazard": "Rongga karst bawah permukaan (sinkholes) pada batugamping Paciran dan abrasi pantai Jenu."
+  }
+}

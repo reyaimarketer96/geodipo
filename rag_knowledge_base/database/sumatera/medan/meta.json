@@ -1,0 +1,13 @@
+{
+  "region_id": "medan",
+  "name": "Kabupaten Sumedang",
+  "province": "Jawa Barat",
+  "cat_esdm": "CAT Medan (CAT Sumatera)",
+  "bbws": "BWS Sumatera / Balai Geologi Sumber Daya Air Sumatera",
+  "geological_sheet": "Peta Geologi Lembar Medan Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Fluvial Sungai Brantas [Qa] dan produk piroklastik Gunung Kelud [Qvk].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Kediri."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Tufan Lepas asal Lahar Kelud",
+        "15 - 35 kg/cm²",
+        "3 - 7",
+        "Rentan amblas seketika; butuh perbaikan tanah dasar"
+      ],
+      [
+        "3 - 9 m",
+        "Pasir Kasar Berkerikil Pumis Padat Sedang",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Tiang strauss pile ruko & gudang logistik Bandara Dhoho"
+      ],
+      [
+        "9 - 18 m",
+        "Breksi Laharik Keras & Pasir Terpadatkan",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik rokok Gudang Garam"
+      ],
+      [
+        "> 18 m",
+        "Konglomerat Lahar Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile terminal bandara & jembatan"
+      ]
+    ],
+    "hazard": "Potensi likuifaksi pasir Kelud jenuh air di bantaran Sungai Brantas saat gempa bumi."
+  }
+}

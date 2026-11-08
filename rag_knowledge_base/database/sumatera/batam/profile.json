@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Granit Batam [TrJg] (batuan beku intrusif keras) dan tanah residu laterit merah berkerikil kuarsa.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Batam."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kepulauan Riau."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Tanah Residu Lempung Laterit Kemerahan Berpasir",
+        "20 - 45 kg/cm²",
+        "4 - 9",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Granitan Kasar Padat Sedang (Grus)",
+        "60 - 130 kg/cm²",
+        "14 - 26",
+        "Strauss pile / mini pile ruko niaga Nagoya & Batam Center"
+      ],
+      [
+        "8 - 15 m",
+        "Granit Lapuk Sedang Keras Terkompaksi",
+        "160 - 240 kg/cm²",
+        "28 - 45",
+        "Tumpuan tiang pancang spun pile pabrik semikonduktor Muka Kuning"
+      ],
+      [
+        "> 15 m",
+        "Batuan Granit Segar Masif Sangat Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 50 (Rock)",
+        "Bearing stratum tiang bor pile galangan kapal shipyard Kabil & Batu Ampar"
+      ]
+    ],
+    "hazard": "Bongkahan batu granit raksasa lepas (boulders) bawah tanah dan pemotongan lereng cut-and-fill perbukitan Batam."
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "region_id": "gresik",
+  "name": "Kabupaten Gresik",
+  "province": "Jawa Timur",
+  "cat_esdm": "CAT Surabaya & CAT Gresik",
+  "bbws": "BBWS Brantas & Bengawan Solo",
+  "geological_sheet": "Lembar Surabaya & Mojokerto (1608-4 & 1508-6)",
+  "coordinates": {
+    "lat": -7.1566,
+    "lng": 112.6555
+  },
+  "industrial_zones": [
+    "Java Integrated Industrial and Port Estate (JIIPE) Manyar",
+    "Kawasan Industri Maspion Manyar Gresik"
+  ]
+}

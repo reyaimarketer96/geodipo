@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Lembah Fluvial Bengawan Solo [Qa] dan Produk Vulkanik Gunung Lawu [Qvl] serta Formasi Notopuro.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Sukoharjo & Karanganyar."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Gelap Plastisitas Sedang",
+        "18 - 40 kg/cm²",
+        "4 - 8",
+        "Footplate ruko Solo Baru / rumah tinggal"
+      ],
+      [
+        "3.5 - 9 m",
+        "Pasir Lanauan Tufan Berkerikil Padat Sedang Lawu",
+        "55 - 110 kg/cm²",
+        "12 - 24",
+        "Tiang strauss pile ruko niaga Kartasura & hotel Solo Baru"
+      ],
+      [
+        "9 - 16 m",
+        "Breksi Laharik Lawu Padat Keras",
+        "150 - 240 kg/cm²",
+        "26 - 40",
+        "Tiang pancang mini pile / spun pile pabrik tekstil Sritex/Jaten"
+      ],
+      [
+        "> 16 m",
+        "Batuan Andesit Masif / Konglomerat Notopuro",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45",
+        "Hard bearing stratum tiang bor pile mall Pakuwon Solo Baru & apartemen"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Bengawan Solo di kawasan Grogol/Palur dan penurunan tanah timbunan baru Solo Baru."
+  }
+}

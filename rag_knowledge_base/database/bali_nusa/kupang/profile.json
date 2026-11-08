@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Batugamping Koral Kuarter [Qcl] (karst berundak bertingkat) dan Kompleks Melange Bobonaro (lempung bersisik sangat ekspansif).",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Kupang."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Nusa Tenggara Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Bersisik Hitam Plastisitas Sangat Tinggi (Bobonaro Clay)",
+        "8 - 25 kg/cm²",
+        "2 - 6",
+        "Kembang susut paling ekstrem di Indonesia; dilarang fondasi dangkal"
+      ],
+      [
+        "3 - 8 m",
+        "Batugamping Karstik Lapuk Berongga Pelarutan",
+        "50 - 140 kg/cm²",
+        "12 - 28",
+        "Tiang strauss pile ruko niaga Oebobo & perumahan"
+      ],
+      [
+        "8 - 16 m",
+        "Batugamping Koral Masif Keras Terumbu",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tumpuan tiang spun pile pabrik Semen Kupang di Alak"
+      ],
+      [
+        "> 16 m",
+        "Batugamping Kristalin Sangat Rapat Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Hard bearing stratum tiang pipa baja dermaga Pelabuhan Tenau & Bolok"
+      ]
+    ],
+    "hazard": "Kembang susut lempung formasi Bobonaro yang meremukkan fondasi rumah dan rongga karst bawah tanah."
+  }
+}

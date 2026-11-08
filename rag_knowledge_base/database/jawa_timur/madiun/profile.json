@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Lembah Madiun [Qa] dan Batuan Vulkanik Gunung Wilis di timur serta Lawu di barat.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota & Kabupaten Madiun."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Lempung Lanauan Cokelat Kemerahan (Topsoil Aluvial)",
+        "18 - 42 kg/cm²",
+        "4 - 9",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Lanauan Berkerikil Andesit Padat Sedang",
+        "60 - 120 kg/cm²",
+        "14 - 26",
+        "Strauss pile ruko niaga & workshop mekanik Madiun"
+      ],
+      [
+        "8 - 16 m",
+        "Breksi Laharik Wilis Padat Terkompaksi Kuat",
+        "150 - 240 kg/cm²",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik perakitan kereta PT INKA & gudang"
+      ],
+      [
+        "> 16 m",
+        "Batuan Andesit Keras Masif / Breksi Kompak",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan kereta api & jalan tol Madiun"
+      ]
+    ],
+    "hazard": "Beban gandar dinamis tinggi pada lintasan rel kereta pabrik INKA dan banjir luapan Kali Madiun."
+  }
+}

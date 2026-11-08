@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Letusan Vulkanik Gunung Merapi dan Merbabu [Qvm] (pasir laharik, breksi andesit) dan Formasi Notopuro.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Boyolali & Klaten."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Tengah."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3 m",
+        "Pasir Lanauan Tufan Cokelat (Endapan Lahar Subur)",
+        "22 - 48 kg/cm²",
+        "5 - 10",
+        "Footplate rumah tinggal / ruko 1-2 lantai"
+      ],
+      [
+        "3 - 8 m",
+        "Pasir Kasar Vulkanik Berkerikil Andesit Padat Sedang",
+        "65 - 130 kg/cm²",
+        "15 - 28",
+        "Strauss pile / mini pile industri cor logam Ceper & ruko Klaten"
+      ],
+      [
+        "8 - 15 m",
+        "Breksi Laharik Merapi Padat Terkompaksi Kuat",
+        "160 - 240 kg/cm²",
+        "28 - 42",
+        "Tiang pancang spun pile pabrik garmen & susu olahan Boyolali"
+      ],
+      [
+        "> 15 m",
+        "Batuan Beku Andesit Masif / Konglomerat Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "> 45 (Rock)",
+        "Bearing stratum tiang bor pile jembatan jalan tol Solo-Jogja & flyover"
+      ]
+    ],
+    "hazard": "Aliran lahar dingin jika berada di dekat bantaran kali Merapi dan getaran gempa darat Sesar Opak di Klaten selatan."
+  }
+}

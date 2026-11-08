@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Delta Sungai Brantas [Qa] (lapisan lempung dan lumpur marin sangat tebal) dan Formasi Pucangan.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Sidoarjo."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jawa Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 5 m",
+        "Lumpur Lempung Rawa Tambak Lunak Sangat Lembek",
+        "4 - 15 kg/cm²",
+        "1 - 4",
+        "Dilarang fondasi telapak; wajib tiang pancang mini pile / cerucuk"
+      ],
+      [
+        "5 - 17 m",
+        "Lempung Lanauan Kelabu Jenuh Air Sangat Tebal",
+        "12 - 30 kg/cm²",
+        "2 - 7",
+        "Rentan penurunan diferensial pada pelat lantai pabrik"
+      ],
+      [
+        "17 - 25 m",
+        "Pasir Lanauan Padat Sedang Transisi Brantas",
+        "55 - 120 kg/cm²",
+        "14 - 26",
+        "Zona friksi tiang pancang spun pile pergudangan Safe n Lock"
+      ],
+      [
+        "> 25 m",
+        "Batupasir Padat Masif Formasi Pucangan",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile (dia 400-600 mm)"
+      ]
+    ],
+    "hazard": "Tanah aluvial super lunak bekas tambak dan penurunan muka tanah di koridor Porong."
+  }
+}

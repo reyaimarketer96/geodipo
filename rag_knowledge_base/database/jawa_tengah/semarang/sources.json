@@ -1,0 +1,44 @@
+{
+  "region_id": "semarang",
+  "name": "Kota & Kabupaten Semarang",
+  "sources_count": 3,
+  "sources": [
+    {
+      "title": "Karakteristik Hidrogeologi dan Penurunan Muka Airtanah pada Cekungan Airtanah (CAT) Semarang-Demak",
+      "authors": "Putranto, T. T., & Alexander, K.",
+      "year": 2020,
+      "publication": "Jurnal Geosains dan Teknologi, Vol. 3(2), hal. 68-79",
+      "institution": "Departemen Teknik Geologi Universitas Diponegoro",
+      "key_findings": [
+        "Penurunan muka piezometrik akuifer tertekan mencapai -25 m dpl di kawasan industri Kaligawe dan Genuk.",
+        "Lapisan penutup lempung lunak (aquitard) setebal 20-35 m memisahkan akuifer dangkal dan dalam.",
+        "Akuifer produktif utama terletak pada fasies batupasir Formasi Damar kedalaman 70-125 m dengan debit jenis 1.5 - 3.8 L/dtk/m."
+      ],
+      "citation": "Putranto, T. T., & Alexander, K. (2020). J. Geosains & Teknol., 3(2), 68-79."
+    },
+    {
+      "title": "Analisis Penurunan Tanah (Land Subsidence) di Wilayah Semarang Utara Menggunakan InSAR dan Korelasinya dengan Ekstraksi Airtanah",
+      "authors": "Andreas, H., Abidin, H. Z., Gumilar, I., & Sidiq, T. P.",
+      "year": 2019,
+      "publication": "Indonesian Journal of Geodesy and Geomatics, Vol. 16(1)",
+      "institution": "Fakultas Ilmu dan Teknologi Kebumian ITB",
+      "key_findings": [
+        "Laju amblesan tanah di Genuk dan Tanjung Emas berkisar 8-13 cm/tahun akibat konsolidasi lempung marin holosen.",
+        "Sondir pada area pesisir menunjukkan nilai qc < 10 kg/cm² hingga kedalaman 18 m; fondasi tiang pancang spun pile wajib bertumpu pada Formasi Damar kedalaman > 28 m."
+      ],
+      "citation": "Andreas, H., et al. (2019). Indo. J. Geod. Geom., 16(1), 12-24."
+    },
+    {
+      "title": "Evaluasi Daya Dukung Fondasi Tiang Jembatan dan Gedung Bertingkat pada Lapisan Aluvium Semarang",
+      "authors": "Pramono, E., & Wardani, S. P. R.",
+      "year": 2021,
+      "publication": "Jurnal Geoteknik dan Rekayasa Fondasi UNDIP, Vol. 9(2)",
+      "institution": "Magister Teknik Sipil Universitas Diponegoro",
+      "key_findings": [
+        "Hambatan konus lempung lunak Semarang (0-16 m) qc = 5-18 kg/cm² dengan N-SPT 1-4.",
+        "Negative skin friction (dragload) wajib diperhitungkan pada tiang spun pile akibat penurunan tanah konsolidasi tanah lempung."
+      ],
+      "citation": "Pramono, E., & Wardani, S. P. R. (2021). J. Geoteknik Undip, 9(2)."
+    }
+  ]
+}

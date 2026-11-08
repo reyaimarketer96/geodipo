@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Rawa dan Dataran Fluvial Sungai Musi [Qa] serta Formasi Kasai dan Muara Enim.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Palembang."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Sumatera Selatan."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4.5 m",
+        "Lumpur Lempung Rawa Lunak Jenuh Air (Bantaran Sungai Musi)",
+        "4 - 15 kg/cm²",
+        "1 - 4",
+        "Dilarang fondasi telapak; tradisi tiang pancang / cerucuk"
+      ],
+      [
+        "4.5 - 14 m",
+        "Lempung Lanauan Kelabu Berkonsolidasi Tinggi",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Penurunan konsolidasi diferensial di Jakabaring"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "60 - 130 kg/cm²",
+        "14 - 28",
+        "Zona friksi tiang pancang spun pile ruko & mall Palembang"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Kuarsa Padat Keras Formasi Kasai",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile pilar Jembatan Ampera & LRT Sumsel"
+      ]
+    ],
+    "hazard": "Tanah rawa gambut jenuh air bantaran Sungai Musi dan korosi tinggi pada tiang jembatan/dermaga."
+  }
+}

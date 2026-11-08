@@ -1,0 +1,33 @@
+{
+  "region_id": "morowali",
+  "name": "Kabupaten Morowali",
+  "sources_count": 2,
+  "sources": [
+    {
+      "title": "Karakteristik Kompleks Batuan Ultramafik Daerah Bahodopi Morowali dan Pengaruhnya terhadap Konstruksi Berat Smelter",
+      "authors": "Kadir, A., Surono, & Sukarna, D.",
+      "year": 2018,
+      "publication": "Buletin Sumber Daya Geologi ESDM, Vol. 13(2), hal. 112-126",
+      "institution": "Pusat Survei Geologi Badan Geologi Bandung",
+      "key_findings": [
+        "Formasi batuan dasar didominasi peridotit dan serpentinit masif dengan kekuatan batuan utuh UCS > 120 MPa.",
+        "Lapisan pelapukan laterit nikel setebal 4-12 m di atas batuan segar memiliki kuat dukung rendah dan sangat licin saat basah.",
+        "Fondasi smelter RKEF dan tungku peleburan wajib bertumpu pada batuan serpentinit segar dengan fondasi tiang bor pile intan (core drill)."
+      ],
+      "citation": "Kadir, A., dkk. (2018). Bul. Sumber Daya Geologi, 13(2), 112-126."
+    },
+    {
+      "title": "Potensi Airtanah Rekahan Batuan Beku Ultramafik di Kawasan Industri Logam Terpadu IMIP Bahodopi",
+      "authors": "Rustam, M., & Hidayat, N.",
+      "year": 2021,
+      "publication": "Jurnal Geosains Terapan Universitas Hasanuddin, Vol. 7(1)",
+      "institution": "Departemen Teknik Geologi Universitas Hasanuddin (UNHAS)",
+      "key_findings": [
+        "Airtanah tidak mengalir pada ruang pori pasir melainkan pada jalur kekar dan sesar geser gesek (*shear fracture*).",
+        "Metode geolistrik resistivitas 2D Wenner-Schlumberger efektif mendeteksi rekahan basah dengan kontras tahanan jenis 15-60 Ωm di antara matriks batuan segar > 500 Ωm.",
+        "Pengeboran air tanah konvensional rotari gagal menembus batuan ultramafik; mutlak memerlukan sistem DTH Hammer kompresor tekanan tinggi."
+      ],
+      "citation": "Rustam, M., & Hidayat, N. (2021). J. Geosains Terapan UNHAS, 7(1)."
+    }
+  ]
+}

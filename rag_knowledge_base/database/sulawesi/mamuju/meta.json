@@ -1,0 +1,13 @@
+{
+  "region_id": "mamuju",
+  "name": "Kabupaten Mamuju",
+  "province": "Sulawesi Barat",
+  "cat_esdm": "CAT Mamuju (CAT Sulawesi)",
+  "bbws": "BWS Sulawesi / Dinas ESDM Wilayah Sulawesi",
+  "geological_sheet": "Peta Geologi Lembar Mamuju Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": []
+}

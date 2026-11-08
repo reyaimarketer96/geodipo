@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Batanghari [Qa] dan Formasi Kasai [QTk] berselingan lempung rawa gambut.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Jambi."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Jambi."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Rawa Lunak & Gambut Berserat (Bantaran Batanghari)",
+        "4 - 15 kg/cm²",
+        "1 - 4",
+        "Sangat kompresibel; wajib cerucuk galam/mini pile"
+      ],
+      [
+        "4 - 14 m",
+        "Lempung Lanauan Lunak Kelabu Gelap",
+        "12 - 32 kg/cm²",
+        "2 - 7",
+        "Penurunan konsolidasi jangka panjang & dragload tiang"
+      ],
+      [
+        "14 - 22 m",
+        "Pasir Lanauan Padat Sedang Transisi",
+        "50 - 110 kg/cm²",
+        "12 - 24",
+        "Zona friksi selimut tiang pancang pabrik karet/sawit"
+      ],
+      [
+        "> 22 m",
+        "Batupasir Kasar Padat Formasi Kasai",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 38",
+        "Hard bearing stratum tiang spun pile gedung komersial & jembatan"
+      ]
+    ],
+    "hazard": "Banjir luapan Sungai Batanghari dan lempung rawa lunak berkadar air ekstrem."
+  }
+}

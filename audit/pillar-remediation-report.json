@@ -1,0 +1,60 @@
+[
+  {
+    "id": 2758,
+    "name": "Jasa Geolistrik",
+    "title": "Jasa Geolistrik Indonesia: Ahli Survei Geofisika",
+    "has_ai_remaining": false,
+    "has_new_asset": true,
+    "status": "success"
+  },
+  {
+    "id": 6872,
+    "name": "Jasa Sondir Tanah CPT",
+    "title": "Jasa Sondir Tanah (CPT)",
+    "has_ai_remaining": false,
+    "has_new_asset": true,
+    "status": "success"
+  },
+  {
+    "id": 6874,
+    "name": "Jasa Georadar GPR",
+    "title": "Jasa Georadar untuk Mencari Pipa dan Kabel",
+    "has_ai_remaining": false,
+    "has_new_asset": true,
+    "status": "success"
+  },
+  {
+    "id": 6875,
+    "name": "Jasa Penyelidikan Tanah",
+    "title": "Jasa Penyelidikan Tanah untuk Fondasi",
+    "has_ai_remaining": false,
+    "has_new_asset": true,
+    "status": "success"
+  },
+  {
+    "id": 6876,
+    "name": "Uji Laboratorium Tanah",
+    "title": "Jasa Uji Laboratorium Tanah",
+    "has_ai_remaining": false,
+    "has_new_asset": true,
+    "status": "success"
+  },
+  {
+    "id": 6877,
+    "name": "Jasa Uji CBR",
+    "title": "Jasa Uji CBR Tanah untuk Jalan",
+    "has_ai_remaining": false,
+    "has_new_asset": true,
+    "status": "success"
+  },
+  {
+    "id": 2757,
+    "name": "Jasa Sumur Bor",
+    "status": "enhanced_with_real_rig_asset"
+  },
+  {
+    "id": 2759,
+    "name": "Pengurusan SIPA",
+    "status": "enhanced_with_real_pumping_test_asset"
+  }
+]

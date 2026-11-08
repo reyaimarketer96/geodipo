@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Endapan Aluvium Pantai Samudera Hindia [Qa] dan Batuan Vulkanik Bukit Barisan [Qv].",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Padang."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Sumatera Barat."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Lepas Jenuh Air (Muka Air Tanah 1 m)",
+        "10 - 28 kg/cm²",
+        "2 - 6",
+        "Rentan likuifaksi gempa; dilarang fondasi telapak"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Aluvial",
+        "35 - 75 kg/cm²",
+        "8 - 18",
+        "Tiang strauss pile ruko niaga bertulang kaku"
+      ],
+      [
+        "12 - 20 m",
+        "Pasir Kasar Berkerikil Kuarsa Padat",
+        "90 - 180 kg/cm²",
+        "20 - 34",
+        "Tiang pancang mini pile / spun pile gedung 3-5 lantai"
+      ],
+      [
+        "> 20 m",
+        "Breksi Vulkanik Masif & Batuan Beku Keras",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 42",
+        "Hard bearing stratum tiang spun pile Pelabuhan Teluk Bayur"
+      ]
+    ],
+    "hazard": "Risiko gempa megathrust Mentawai, likuifaksi pasir pesisir, dan tsunami Samudera Hindia."
+  }
+}

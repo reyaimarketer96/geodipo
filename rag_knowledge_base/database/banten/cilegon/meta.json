@@ -1,0 +1,15 @@
+{
+  "region_id": "cilegon",
+  "name": "Kota Cilegon",
+  "province": "Banten",
+  "cat_esdm": "CAT Cilegon (CAT Banten)",
+  "bbws": "BBWS Cidanau Ciujung Cidurian / Balai ESDM Banten",
+  "geological_sheet": "Peta Geologi Lembar Cilegon Skala 1:100.000 (P3G / Badan Geologi ESDM)",
+  "coordinates": {
+    "lat": -7.0,
+    "lng": 110.0
+  },
+  "industrial_zones": [
+    "kiec-cilegon"
+  ]
+}

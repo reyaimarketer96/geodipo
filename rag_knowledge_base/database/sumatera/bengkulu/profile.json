@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Aluvium Pantai dan Laguna Pulau Baai [Qa] serta Formasi Bintunan (batupasir tufan, konglomerat).",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kota Bengkulu."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Bengkulu."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Pasir Pantai Lepas Jenuh Air (Muka Air Tanah 1 m)",
+        "10 - 28 kg/cm²",
+        "2 - 6",
+        "Sangat rentan likuifaksi gempa bumi pesisir; dilarang telapak"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Pasiran Padat Sedang & Lempung Tufan",
+        "35 - 75 kg/cm²",
+        "8 - 18",
+        "Tiang strauss pile / mini pile ruko niaga bertulang kaku"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Tufan Padat & Kerikil Kuarsa",
+        "120 - 210 kg/cm²",
+        "22 - 35",
+        "Tiang pancang spun pile gedung perkantoran & hotel"
+      ],
+      [
+        "> 20 m",
+        "Konglomerat Keras Masif Formasi Bintunan",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang pipa baja dermaga curah batubara Pelabuhan Pulau Baai"
+      ]
+    ],
+    "hazard": "Risiko gempa bumi megathrust Enggano-Bengkulu berkekuatan besar dan sedimentasi pasir pasang di Pulau Baai."
+  }
+}

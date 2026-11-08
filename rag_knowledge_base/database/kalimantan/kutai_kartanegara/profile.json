@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Kampungbaru [Tpk] dan Formasi Balikpapan [Tmbp] berselingan aluvium limpasan Sungai Mahakam.",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Fluktuatif mengikuti curah hujan lokal; rawan kekeruhan dan kontaminasi permukaan di Kabupaten Kutai Kartanegara (Tenggarong)."
+    },
+    "aquifer_confined": {
+      "depth": "60 - 120 m",
+      "lithology": "Perselingan batupasir tufaan berbutir sedang-kasar dan konglomerat berporositas baik",
+      "recommended_casing": "Pipa PVC AW High Pressure / Baja Galvanis 4 - 6 inch, continuous slot screen stainless steel 1.0 mm.",
+      "safe_yield": "8 - 18 Liter/detik",
+      "sipa_advice": "Pengajuan izin SIPA melalui DPMPTSP dan Balai ESDM Wilayah Kalimantan Timur."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 4 m",
+        "Lempung Lunak Jenuh Air Endapan Aluvial Mahakam",
+        "6 - 20 kg/cm²",
+        "1 - 5",
+        "Dilarang fondasi dangkal; wajib cerucuk galam / mini pile"
+      ],
+      [
+        "4 - 12 m",
+        "Lanau Lempungan Kaku Sedang Kelabu",
+        "28 - 65 kg/cm²",
+        "6 - 15",
+        "Memberikan friksi selimut tiang pancang ruko"
+      ],
+      [
+        "12 - 20 m",
+        "Batupasir Kuarsa Padat Sedang & Sisipan Batubara Lignit",
+        "90 - 180 kg/cm²",
+        "18 - 32",
+        "Tumpuan tiang pancang dermaga jetty batubara"
+      ],
+      [
+        "> 20 m",
+        "Batupasir Keras Kompak Formasi Kampungbaru",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 40",
+        "Hard bearing stratum tiang spun pile jembatan & fasilitas tambang"
+      ]
+    ],
+    "hazard": "Bantaran sungai Mahakam rawan penurunan konsolidasi dan runtuhan lereng galian tambang."
+  }
+}

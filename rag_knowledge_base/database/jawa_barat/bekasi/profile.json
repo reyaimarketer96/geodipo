@@ -1,0 +1,49 @@
+{
+  "geology_zone": "Formasi Kipas Aluvial Citalahab/Banten [Qav], Aluvium Dataran Pantai [Qa], dan Formasi Subang [Tms] (batulempung abu-abu).",
+  "hydrogeology": {
+    "aquifer_shallow": {
+      "depth": "0 - 20 m",
+      "water_quality": "Banyak tercemar kontaminan permukaan di perkotaan dan rawan intrusi air payau di Muaragembong / Tarumajaya."
+    },
+    "aquifer_confined": {
+      "depth": "80 - 160 m",
+      "lithology": "Batupasir kasar kuarsaan Formasi Kipas Aluvial dan konglomerat selingan tuf",
+      "recommended_casing": "Pipa Baja Galvanis Medium A / PVC AW 6 - 8 inch, pipa saringan stainless steel continuous slot 1.0 mm, kedap cement grouting 0-50 m.",
+      "safe_yield": "10 - 22 Liter/detik",
+      "sipa_advice": "Kawasan pengawasan ketat Dinas ESDM Jabar; debit ekstraksi air tanah industri dibatasi sesuai kuota debit aman SIPA dan wajib sumur resapan."
+    }
+  },
+  "geotechnical": {
+    "soil_profile": [
+      [
+        "0 - 3.5 m",
+        "Lempung Lanauan Cokelat Gelap Plastisitas Tinggi",
+        "15 - 35 kg/cm²",
+        "3 - 8",
+        "Footplate ruko / rumah tinggal 1-2 lantai"
+      ],
+      [
+        "3.5 - 9 m",
+        "Lanau Pasiran Padat Sedang & Lempung Kaku",
+        "45 - 95 kg/cm²",
+        "10 - 20",
+        "Tiang strauss pile ruko Summarecon Bekasi & perumahan"
+      ],
+      [
+        "9 - 18 m",
+        "Batupasir Padat & Konglomerat Kerikil Kuarsa",
+        "140 - 230 kg/cm²",
+        "25 - 40",
+        "Tiang pancang spun pile mall & apartemen Ahmad Yani"
+      ],
+      [
+        "> 18 m",
+        "Batulempung Kompak Keras Masif",
+        "Refusal (≥ 250 kg/cm²)",
+        "≥ 42",
+        "Bearing stratum tiang bor pile flyover & gedung perkantoran"
+      ]
+    ],
+    "hazard": "Banjir limpasan Kali Bekasi dan lempung plastisitas tinggi yang menyusut saat musim kemarau."
+  }
+}
